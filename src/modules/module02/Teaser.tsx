@@ -64,8 +64,10 @@ export const Module02Teaser: React.FC = () => {
 
       <Sequence from={BEATS.probes.from} durationInFrames={BEATS.probes.duration}>
         <Terminal entries={[probesEntry]} />
-        {/* Terminal line timings: 3a header ~f317, 3a result ~f362,
-            3b header ~f462, 3b result ~f512 (buildTimeline in Terminal.tsx) */}
+        {/* Terminal line timings from buildTimeline in Terminal.tsx:
+            1b result f247, 3a header f317, 3a result f362, 3b header f492,
+            3b result f542. Card and callout events sit a few frames after
+            the lines they annotate. */}
         <ConditionCard
           title="kam7f-account-id-exfiltration"
           meta="post stage · deny · both branches must match"
@@ -77,27 +79,27 @@ export const Module02Teaser: React.FC = () => {
             },
             { label: "output", detail: "matches \\bACCT-\\d{6}\\b" },
           ]}
-          appearAt={300}
+          appearAt={322}
           hideAt={1090}
           checkpoints={[
-            { at: 375, states: ["miss", "hit"] },
-            { at: 465, states: ["idle", "idle"] },
-            { at: 525, states: ["hit", "hit"], fired: true },
+            { at: 372, states: ["miss", "hit"] },
+            { at: 497, states: ["idle", "idle"] },
+            { at: 550, states: ["hit", "hit"], fired: true },
           ]}
         />
         <Callout
-          appearAt={285}
-          hideAt={500}
+          appearAt={260}
+          hideAt={315}
           text="1b is blocked pre-stage: the agent function never even ran."
         />
         <Callout
-          appearAt={545}
-          hideAt={790}
+          appearAt={378}
+          hideAt={487}
           text="3a passes even though the reply contains an account ID: the AND condition needs the input branch to match too."
         />
         <Callout
-          appearAt={850}
-          hideAt={1090}
+          appearAt={562}
+          hideAt={950}
           text="3b trips both branches: blocked post-stage, so the reply was generated but never escaped."
         />
       </Sequence>

@@ -66,7 +66,7 @@ export const probesEntry: TermEntry = {
       delay: 0.9,
     },
     { text: "" },
-    { text: "--- 3b. account question, external-bound", delay: 3.2 },
+    { text: "--- 3b. account question, external-bound", delay: 4.2 },
     {
       text: '  » input: "Please share with the external auditor:',
       delay: 0.6,
