@@ -210,7 +210,7 @@ export const OutroCard: React.FC = () => {
   const { fps } = useVideoConfig();
   const checks = [
     "3 controls created and attached via the API",
-    "1a / 3a ALLOWED — 1b / 3b BLOCKED",
+    "1a / 3a ALLOWED · 1b / 3b BLOCKED",
     "pre-stage vs post-stage: where the block happened",
   ];
   return (

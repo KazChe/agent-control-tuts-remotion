@@ -68,7 +68,7 @@ export const ControlStore: React.FC<{
               fontSize: 22,
             }}
           >
-            localhost:8000 — Control Store
+            localhost:8000 - Control Store
           </div>
         </div>
         <div style={{ background: "#0f1524", padding: "40px 48px 56px" }}>

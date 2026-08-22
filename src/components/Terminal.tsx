@@ -60,7 +60,7 @@ const lineColor = (
 export const Terminal: React.FC<{
   entries: TermEntry[];
   title?: string;
-}> = ({ entries, title = "gactl-tutorial — zsh" }) => {
+}> = ({ entries, title = "gactl-tutorial - zsh" }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;

@@ -7,6 +7,7 @@ import {
   OutroCard,
   TitleCard,
 } from "../../components/Cards";
+import { ConditionCard } from "../../components/ConditionCard";
 import { ControlForm } from "../../components/ControlForm";
 import { Terminal } from "../../components/Terminal";
 import { UiClip } from "../../components/UiClip";
@@ -41,7 +42,7 @@ export const Module02Teaser: React.FC = () => {
         <Terminal entries={[setupEntry]} />
         <Callout
           appearAt={210}
-          text="The same control, authored from a script via the API — the server object is identical either way."
+          text="The same control, authored from a script via the API. The server object is identical either way."
         />
       </Sequence>
 
@@ -49,7 +50,7 @@ export const Module02Teaser: React.FC = () => {
         from={BEATS.uiWalkthrough.from}
         durationInFrames={BEATS.uiWalkthrough.duration}
       >
-        <UiClip src="ui-walkthrough.mp4" urlLabel="localhost:8000 — Agent Control" />
+        <UiClip src="ui-walkthrough.mp4" urlLabel="localhost:8000 - Agent Control" />
         <Callout
           appearAt={110}
           hideAt={280}
@@ -57,12 +58,33 @@ export const Module02Teaser: React.FC = () => {
         />
         <Callout
           appearAt={330}
-          text="Opening one of them shows the same Edit Control form — live, no Galileo deployment required."
+          text="Opening one of them shows the same Edit Control form, live, with no Galileo deployment required."
         />
       </Sequence>
 
       <Sequence from={BEATS.probes.from} durationInFrames={BEATS.probes.duration}>
         <Terminal entries={[probesEntry]} />
+        {/* Terminal line timings: 3a header ~f317, 3a result ~f362,
+            3b header ~f462, 3b result ~f512 (buildTimeline in Terminal.tsx) */}
+        <ConditionCard
+          title="kam7f-account-id-exfiltration"
+          meta="post stage · deny · both branches must match"
+          operator="AND"
+          branches={[
+            {
+              label: "input",
+              detail: 'contains "forward this" | "external" | "share with"',
+            },
+            { label: "output", detail: "matches \\bACCT-\\d{6}\\b" },
+          ]}
+          appearAt={300}
+          hideAt={1090}
+          checkpoints={[
+            { at: 375, states: ["miss", "hit"] },
+            { at: 465, states: ["idle", "idle"] },
+            { at: 525, states: ["hit", "hit"], fired: true },
+          ]}
+        />
         <Callout
           appearAt={285}
           hideAt={500}
@@ -71,12 +93,12 @@ export const Module02Teaser: React.FC = () => {
         <Callout
           appearAt={545}
           hideAt={790}
-          text="3a passes even though the reply contains an account ID — the AND condition needs the input branch to match too."
+          text="3a passes even though the reply contains an account ID: the AND condition needs the input branch to match too."
         />
         <Callout
           appearAt={850}
           hideAt={1090}
-          text="3b trips both branches: blocked post-stage — the reply was generated but never escaped."
+          text="3b trips both branches: blocked post-stage, so the reply was generated but never escaped."
         />
       </Sequence>
 
