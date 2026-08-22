@@ -9,11 +9,16 @@ export type TermLine = {
 };
 
 export type TermEntry = {
-  command: string;
+  /** Omit to continue output without typing a new command. */
+  command?: string;
   lines: TermLine[];
   /** Seconds of idle prompt before typing starts. */
   prePause?: number;
 };
+
+/** A line rendered instantly at frame 0, before any animated entries.
+    Lets a beat pick up where the previous beat's terminal left off. */
+export type HistoryLine = { kind: "cmd" | "out"; text: string };
 
 const CHARS_PER_SEC = 28;
 const CMD_PAUSE = 0.6;
@@ -32,9 +37,16 @@ const buildTimeline = (entries: TermEntry[]): TimedItem[] => {
   let t = 0.5;
   for (const entry of entries) {
     t += entry.prePause ?? 0.4;
-    const typeDur = entry.command.length / CHARS_PER_SEC;
-    items.push({ kind: "cmd", text: entry.command, start: t, end: t + typeDur });
-    t += typeDur + CMD_PAUSE;
+    if (entry.command !== undefined) {
+      const typeDur = entry.command.length / CHARS_PER_SEC;
+      items.push({
+        kind: "cmd",
+        text: entry.command,
+        start: t,
+        end: t + typeDur,
+      });
+      t += typeDur + CMD_PAUSE;
+    }
     for (const line of entry.lines) {
       t += line.delay ?? DEFAULT_LINE_GAP;
       items.push({ kind: "out", text: line.text, at: t });
@@ -59,8 +71,9 @@ const lineColor = (
 
 export const Terminal: React.FC<{
   entries: TermEntry[];
+  history?: HistoryLine[];
   title?: string;
-}> = ({ entries, title = "gactl-tutorial - zsh" }) => {
+}> = ({ entries, history = [], title = "gactl-tutorial - zsh" }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -69,6 +82,34 @@ export const Terminal: React.FC<{
   const rendered: React.ReactNode[] = [];
   let lineCount = 0;
   let anyTyping = false;
+
+  history.forEach((line, i) => {
+    lineCount++;
+    if (line.kind === "cmd") {
+      rendered.push(
+        <div key={`h${i}`} style={{ height: LINE_HEIGHT, whiteSpace: "pre" }}>
+          <span style={{ color: theme.accent, fontWeight: 700 }}>{"❯ "}</span>
+          <span style={{ color: theme.text }}>{line.text}</span>
+        </div>,
+      );
+    } else {
+      const { color, bold, italic } = lineColor(line.text);
+      rendered.push(
+        <div
+          key={`h${i}`}
+          style={{
+            height: LINE_HEIGHT,
+            whiteSpace: "pre",
+            color,
+            fontWeight: bold ? 700 : 400,
+            fontStyle: italic ? "italic" : "normal",
+          }}
+        >
+          {line.text || " "}
+        </div>,
+      );
+    }
+  });
 
   timeline.forEach((item, i) => {
     if (item.kind === "cmd") {

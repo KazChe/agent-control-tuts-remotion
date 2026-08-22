@@ -1,6 +1,28 @@
 import React from "react";
 import { AbsoluteFill, Sequence } from "remotion";
-import { BEATS, exampleControl, probesEntry, setupEntry } from "./data";
+import {
+  BEATS,
+  exampleControl,
+  probes1Entry,
+  probes3aEntry,
+  probes3aHistory,
+  probes3bEntry,
+  probes3bHistory,
+  setupEntry,
+} from "./data";
+
+const exfilCard = {
+  title: "kam7f-account-id-exfiltration",
+  meta: "post stage · deny · both branches must match",
+  operator: "AND",
+  branches: [
+    {
+      label: "input",
+      detail: 'contains "forward this" | "external" | "share with"',
+    },
+    { label: "output", detail: "matches \\bACCT-\\d{6}\\b" },
+  ],
+};
 import {
   Callout,
   ConceptSlide,
@@ -62,44 +84,56 @@ export const Module02Teaser: React.FC = () => {
         />
       </Sequence>
 
-      <Sequence from={BEATS.probes.from} durationInFrames={BEATS.probes.duration}>
-        <Terminal entries={[probesEntry]} />
-        {/* Terminal line timings from buildTimeline in Terminal.tsx:
-            1b result f247, 3a header f317, 3a result f362, 3b header f492,
-            3b result f542. Card and callout events sit a few frames after
-            the lines they annotate. */}
-        <ConditionCard
-          title="kam7f-account-id-exfiltration"
-          meta="post stage · deny · both branches must match"
-          operator="AND"
-          branches={[
-            {
-              label: "input",
-              detail: 'contains "forward this" | "external" | "share with"',
-            },
-            { label: "output", detail: "matches \\bACCT-\\d{6}\\b" },
-          ]}
-          appearAt={322}
-          hideAt={1090}
-          checkpoints={[
-            { at: 372, states: ["miss", "hit"] },
-            { at: 497, states: ["idle", "idle"] },
-            { at: 550, states: ["hit", "hit"], fired: true },
-          ]}
-        />
+      {/* The probe run is three beats, one per teaching moment. Each
+          beat's card/callout timings are local to that beat's frame 0,
+          so they cannot drift against a long scrolling timeline. Later
+          beats receive the earlier lines as instantly rendered history.
+          Local line timings per beat come from buildTimeline: with a
+          command, output starts ~f68; without one, ~f31. */}
+      <Sequence from={BEATS.probes1.from} durationInFrames={BEATS.probes1.duration}>
+        <Terminal entries={[probes1Entry]} />
+        {/* 1b BLOCKED prints at ~f247 */}
         <Callout
-          appearAt={260}
-          hideAt={315}
+          appearAt={255}
+          hideAt={348}
           text="1b is blocked pre-stage: the agent function never even ran."
         />
-        <Callout
-          appearAt={378}
-          hideAt={487}
-          text="3a passes even though the reply contains an account ID: the AND condition needs the input branch to match too."
+      </Sequence>
+
+      <Sequence
+        from={BEATS.probes3a.from}
+        durationInFrames={BEATS.probes3a.duration}
+      >
+        <Terminal history={probes3aHistory} entries={[probes3aEntry]} />
+        {/* 3a header ~f49, ALLOWED ~f94 */}
+        <ConditionCard
+          {...exfilCard}
+          appearAt={49}
+          hideAt={318}
+          checkpoints={[{ at: 104, states: ["miss", "hit"] }]}
         />
         <Callout
-          appearAt={562}
-          hideAt={950}
+          appearAt={112}
+          hideAt={318}
+          text="3a passes even though the reply contains an account ID: the AND condition needs the input branch to match too."
+        />
+      </Sequence>
+
+      <Sequence
+        from={BEATS.probes3b.from}
+        durationInFrames={BEATS.probes3b.duration}
+      >
+        <Terminal history={probes3bHistory} entries={[probes3bEntry]} />
+        {/* 3b header ~f49, BLOCKED ~f98 */}
+        <ConditionCard
+          {...exfilCard}
+          appearAt={8}
+          hideAt={408}
+          checkpoints={[{ at: 108, states: ["hit", "hit"], fired: true }]}
+        />
+        <Callout
+          appearAt={118}
+          hideAt={408}
           text="3b trips both branches: blocked post-stage, so the reply was generated but never escaped."
         />
       </Sequence>
