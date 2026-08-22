@@ -103,7 +103,9 @@ export const Terminal: React.FC<{
     }
   });
 
-  const scroll = Math.max(0, lineCount - MAX_LINES) * LINE_HEIGHT;
+  const showIdlePrompt = !anyTyping && lineCount > 0;
+  const totalLines = lineCount + (showIdlePrompt ? 1 : 0);
+  const scroll = Math.max(0, totalLines - MAX_LINES) * LINE_HEIGHT;
 
   return (
     <AbsoluteFill
@@ -154,21 +156,25 @@ export const Terminal: React.FC<{
         <div
           style={{
             background: theme.panel,
-            height: MAX_LINES * LINE_HEIGHT + 48,
             padding: "24px 36px",
             fontFamily: theme.fontMono,
             fontSize: FONT_SIZE,
-            overflow: "hidden",
           }}
         >
-          <div style={{ transform: `translateY(${-scroll}px)` }}>
-            {rendered}
-            {!anyTyping && lineCount > 0 && (
-              <div style={{ height: LINE_HEIGHT }}>
-                <span style={{ color: theme.accent, fontWeight: 700 }}>{"❯ "}</span>
-                <Cursor />
-              </div>
-            )}
+          {/* Viewport clips at the content box, so a scrolled-off line can
+              never bleed into the padding area above it. */}
+          <div style={{ height: MAX_LINES * LINE_HEIGHT, overflow: "hidden" }}>
+            <div style={{ transform: `translateY(${-scroll}px)` }}>
+              {rendered}
+              {showIdlePrompt && (
+                <div style={{ height: LINE_HEIGHT }}>
+                  <span style={{ color: theme.accent, fontWeight: 700 }}>
+                    {"❯ "}
+                  </span>
+                  <Cursor />
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
