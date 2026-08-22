@@ -1,0 +1,28 @@
+====================================================================
+  LOCAL (open-source) PATH  -  standalone Agent Control server
+====================================================================
+This verifies a server you are running yourself, with NO Galileo
+deployment behind it. On this path you get the enforcement half of
+Agent Control: controls, evaluators, and the observe/deny/steer
+actions, authored through the API.
+
+This server ships its own console at the same address, and it
+records every control execution, so you are not flying blind.
+
+What you do NOT get is the Galileo platform: decisions recorded
+as spans inside your agent's traces, log streams to bind policy
+to, projects and RBAC, and Luna scorers. So modules 01, 04 and
+06 are not runnable here (see LOCAL.md).
+
+Checking a Galileo cluster instead? Stop and run verify_setup.py.
+====================================================================
+
+[PASS] Pointed at a local server - AGENT_CONTROL_URL=http://localhost:8000
+[PASS] Environment variables - prefix='kam7f'
+[PASS] Local server health - http://localhost:8000/health -> 200 {'status': 'healthy', 'version': '8.4.0'}
+[PASS] SDK handshake - registered and read back kam7f-verify-agent
+
+Local path verified. Runnable here: modules 02, 03 and 05.
+Skip modules 01, 04 and 06: they need a Galileo deployment.
+
+Start with module 02: module-02-evaluators/README.md

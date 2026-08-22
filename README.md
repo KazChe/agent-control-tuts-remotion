@@ -1,54 +1,76 @@
-# Remotion video
+# agent-control-tuts-remotion
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Programmatic tutorial videos for the [Agent Control tutorials](https://github.com/agentcontrol/agent-control)
+learning path, built with [Remotion](https://www.remotion.dev/). Videos are React
+components driven by real, captured CLI output, so when the course content changes
+you update the data and re-render instead of re-recording a screencast.
 
-Welcome to your Remotion project!
+The first deliverable is a ~2 minute teaser for module 02 (evaluators, selectors
+and conditions), covering the modules that run against the open-source Agent
+Control server locally: modules 02, 03 and 05.
+
+## Why code-driven video
+
+The tutorials use deterministic stand-in functions instead of live LLM calls, so
+every run produces byte-identical output. That output is captured once and fed
+into the compositions as props. Crisp text, no typos, and a `git diff` shows
+exactly what changed between versions of a video.
+
+## Prerequisites
+
+- Node.js 18+ (LTS recommended)
+- For regenerating transcripts: a local Agent Control OSS server (8.4.0) and the
+  gactl-tutorial repo. See "Regenerating the source data" below.
 
 ## Commands
 
-**Install Dependencies**
-
 ```console
-npm i
+npm install
+npm run dev                                            # Remotion Studio (preview, scrub the timeline)
+npx remotion render Module02Teaser out/module02-teaser.mp4
 ```
 
-**Start Preview**
+## Project structure
 
-```console
-npm run dev
+```
+src/
+  Root.tsx                  # composition registry (1920x1080 @ 30fps)
+  theme.ts                  # shared colors and fonts
+  components/               # shared, module-agnostic building blocks
+    Terminal.tsx            # simulated terminal: typed commands, timed output, auto-scroll
+    Cards.tsx               # title card, concept slide, callout lower-third, outro
+    ControlStore.tsx        # stylized Control Store table (swap for a screen recording later)
+  modules/
+    module02/
+      data.ts               # captured CLI output + beat timeline (the "script")
+      Teaser.tsx            # beat-by-beat assembly of the module 02 teaser
+transcripts/
+  module02/                 # raw captured stdout the data files are built from
+  module03/                 # captured, video not built yet
+  module05/                 # captured, video not built yet
 ```
 
-**Render video**
+To add a module: drop its captured stdout under `transcripts/moduleXX/`, create
+`src/modules/moduleXX/{data.ts,Teaser.tsx}` from the module02 pair, and register
+the composition in `Root.tsx`. Components stay shared and take everything
+module-specific as props.
 
-```console
-npx remotion render
-```
+## Regenerating the source data
 
-**Upgrade Remotion**
+The transcript data in `src/data/` comes from real runs against a local
+Agent Control 8.4.0 server:
 
-```console
-npx remotion upgrade
-```
+1. In the agent-control clone: `git checkout v8.4.0 && docker compose up -d`
+   (pin the server image to `galileoai/agent-control-server:8.4.0`).
+2. In the gactl-tutorial repo: create a Python 3.12 venv, install
+   `agent-control-sdk==8.4.0`, copy `.env.local.example` to `.env.local`, set a
+   prefix, then run the module scripts and capture stdout with `tee`.
 
-## Docs
+The captured prefix in the current data is `kam7f`. If you re-capture with a
+different prefix, update the names in `src/data/module02.ts` to match.
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## Roadmap
 
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- Real screen recording of the Control Store UI in place of the stylized table
+- Full-length videos for modules 02, 03 and 05 from a parameterized composition
+- Narration variants (captions first, voiceover later)

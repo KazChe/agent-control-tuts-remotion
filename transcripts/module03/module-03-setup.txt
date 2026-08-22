@@ -1,0 +1,9 @@
+agent registered: kam7f-banking-agent
+created control: kam7f-audit-new-recipient (4)
+  attached to kam7f-banking-agent
+created control: kam7f-deny-sanctioned-countries (5)
+  attached to kam7f-banking-agent
+created control: kam7f-steer-large-transfer-2fa (6)
+  attached to kam7f-banking-agent
+
+Setup complete. Now run: python banking_agent.py

@@ -1,0 +1,21 @@
+
+--- 1a. neutral question
+  ALLOWED: Happy to help with that.
+
+--- 1b. competitor mention
+  BLOCKED by control: kam7f-block-competitor-talk
+
+--- 2a. small refund
+  ALLOWED: Refunded $250.00 for order ORD-1.
+
+--- 2b. oversized refund
+  BLOCKED by control: kam7f-refund-amount-limit
+
+--- 3a. account question, internal
+  ALLOWED: That belongs to account ACCT-482913. Anything else?
+
+--- 3b. account question, external-bound
+  BLOCKED by control: kam7f-account-id-exfiltration
+
+Done. Check the traces: 1b and 2b blocked pre-stage (the function
+never ran); 3b blocked post-stage (reply generated, never escaped).

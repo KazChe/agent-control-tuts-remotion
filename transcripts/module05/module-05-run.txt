@@ -1,0 +1,10 @@
+created control: kam7f-reply-length-cap (7)
+attached to kam7f-verbose-agent
+
+--- summarize('concise')
+  ALLOWED (23 chars)
+
+--- summarize('verbose')
+  BLOCKED by control: kam7f-reply-length-cap
+
+Done. Your own Python code just made an allow/block decision.

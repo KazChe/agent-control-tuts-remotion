@@ -1,0 +1,95 @@
+{
+    "events": [
+        {
+            "control_execution_id": "ff61f2f6-0226-418e-9c97-d4928734d4ff",
+            "trace_id": "e114e10c0f43aac4726014761bff64d8",
+            "span_id": "6492f1e0c071bf70",
+            "agent_name": "kam7f-eval-lab",
+            "control_id": 3,
+            "control_name": "kam7f-account-id-exfiltration",
+            "check_stage": "post",
+            "applies_to": "llm_call",
+            "action": "deny",
+            "matched": true,
+            "confidence": 1.0,
+            "timestamp": "2026-08-22T06:27:20.847405Z",
+            "execution_duration_ms": null,
+            "evaluator_name": "list",
+            "selector_path": "input",
+            "error_message": null,
+            "metadata": {
+                "input": "Please share with the external auditor: what is the account for order 9?",
+                "logic": "any",
+                "matches": [
+                    "Please share with the external auditor: what is the account for order 9?"
+                ],
+                "match_on": "match",
+                "leaf_count": 2,
+                "input_count": 1,
+                "all_evaluators": [
+                    "list",
+                    "regex"
+                ],
+                "condition_trace": {
+                    "type": "and",
+                    "matched": true,
+                    "children": [
+                        {
+                            "type": "leaf",
+                            "error": null,
+                            "matched": true,
+{
+    "agent_name": "kam7f-eval-lab",
+    "time_range": "5m",
+    "totals": {
+        "execution_count": 9,
+        "match_count": 3,
+        "non_match_count": 6,
+        "error_count": 0,
+        "action_counts": {
+            "deny": 3
+        },
+        "timeseries": null
+    },
+    "controls": [
+        {
+            "control_id": 1,
+            "control_name": "kam7f-block-competitor-talk",
+            "execution_count": 4,
+            "match_count": 1,
+            "non_match_count": 3,
+            "deny_count": 1,
+            "steer_count": 0,
+            "observe_count": 0,
+            "error_count": 0,
+            "avg_confidence": 1.0,
+            "avg_duration_ms": null
+        },
+        {
+            "control_id": 3,
+            "control_name": "kam7f-account-id-exfiltration",
+            "execution_count": 3,
+            "match_count": 1,
+            "non_match_count": 2,
+            "deny_count": 1,
+            "steer_count": 0,
+            "observe_count": 0,
+            "error_count": 0,
+            "avg_confidence": 1.0,
+            "avg_duration_ms": null
+        },
+        {
+            "control_id": 2,
+            "control_name": "kam7f-refund-amount-limit",
+            "execution_count": 2,
+            "match_count": 1,
+            "non_match_count": 1,
+            "deny_count": 1,
+            "steer_count": 0,
+            "observe_count": 0,
+            "error_count": 0,
+            "avg_confidence": 1.0,
+            "avg_duration_ms": null
+        }
+    ]
+}

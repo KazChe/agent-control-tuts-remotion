@@ -1,0 +1,9 @@
+agent registered: kam7f-eval-lab
+created control: kam7f-block-competitor-talk (1)
+  attached to kam7f-eval-lab
+created control: kam7f-refund-amount-limit (2)
+  attached to kam7f-eval-lab
+created control: kam7f-account-id-exfiltration (3)
+  attached to kam7f-eval-lab
+
+Setup complete. Now run: python probe_agent.py

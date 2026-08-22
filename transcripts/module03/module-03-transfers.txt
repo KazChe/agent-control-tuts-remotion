@@ -1,0 +1,18 @@
+
+--- transfer: $500.00 to Carlos Rivera in United States
+  COMPLETED: {'status': 'completed', 'amount': 500.0, 'recipient': 'Carlos Rivera', 'destination': 'United States'}
+
+--- transfer: $5,000.00 to Unknown in North Korea
+  DENIED by control: kam7f-deny-sanctioned-countries
+    reason: Control triggered. Logic: any, MatchOn: match. Matched: North Korea
+
+--- transfer: $15,000.00 to Jane Smith in United Kingdom
+  STEERED by control: kam7f-steer-large-transfer-2fa (attempt 1)
+    reason: Transfers of $10,000 or more require identity verification via 2FA
+    required actions: ['verify_2fa']
+    enter your 6-digit 2FA code (or 'cancel'):     2FA verified, retrying with corrected request...
+  COMPLETED: {'status': 'completed', 'amount': 15000.0, 'recipient': 'Jane Smith', 'destination': 'United Kingdom'}
+
+Done. Three transfers, three different control outcomes.
+Open your log stream to compare their traces; that is the next
+tutorial: module-04-observability.
