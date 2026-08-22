@@ -22,6 +22,7 @@ const exfilCard = {
     },
     { label: "output", detail: "matches \\bACCT-\\d{6}\\b" },
   ],
+  firedText: "both matched → deny fires",
 };
 import {
   Callout,
@@ -33,6 +34,7 @@ import { ConditionCard } from "../../components/ConditionCard";
 import { ControlForm } from "../../components/ControlForm";
 import { Terminal } from "../../components/Terminal";
 import { UiClip } from "../../components/UiClip";
+import { theme } from "../../theme";
 
 export const Module02Teaser: React.FC = () => {
   return (
@@ -46,7 +48,16 @@ export const Module02Teaser: React.FC = () => {
       </Sequence>
 
       <Sequence from={BEATS.concept.from} durationInFrames={BEATS.concept.duration}>
-        <ConceptSlide />
+        <ConceptSlide
+          heading="Anatomy of a control condition"
+          boxes={[
+            { label: "SELECTOR", desc: "which data", color: theme.cyan },
+            { label: "EVALUATOR", desc: "what judgment", color: theme.purple },
+            { label: "COMPOSITION", desc: "AND / OR", color: theme.amber },
+          ]}
+          formulaPlain="selector + evaluator (+ composition)"
+          formulaAccent="= one condition, enforced server-side"
+        />
       </Sequence>
 
       <Sequence
@@ -139,7 +150,14 @@ export const Module02Teaser: React.FC = () => {
       </Sequence>
 
       <Sequence from={BEATS.outro.from} durationInFrames={BEATS.outro.duration}>
-        <OutroCard />
+        <OutroCard
+          checks={[
+            "3 controls created and attached via the API",
+            "1a / 3a ALLOWED · 1b / 3b BLOCKED",
+            "pre-stage vs post-stage: where the block happened",
+          ]}
+          footer="gactl-tutorial · module-02-evaluators"
+        />
       </Sequence>
     </AbsoluteFill>
   );

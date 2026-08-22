@@ -33,7 +33,20 @@ export const ConditionCard: React.FC<{
   appearAt: number;
   hideAt?: number;
   checkpoints: Checkpoint[];
-}> = ({ title, meta, operator, branches, appearAt, hideAt, checkpoints }) => {
+  /** Footer + border when a checkpoint has fired: true. */
+  firedText: string;
+  firedColor?: string;
+}> = ({
+  title,
+  meta,
+  operator,
+  branches,
+  appearAt,
+  hideAt,
+  checkpoints,
+  firedText,
+  firedColor = theme.red,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -65,7 +78,7 @@ export const ConditionCard: React.FC<{
         opacity: inS * out,
         transform: `translateY(${(1 - inS) * 24}px)`,
         background: "rgba(13, 17, 23, 0.94)",
-        border: `2px solid ${fired ? theme.red : theme.panelBorder}`,
+        border: `2px solid ${fired ? firedColor : theme.panelBorder}`,
         borderRadius: 14,
         padding: "22px 28px",
         fontFamily: theme.fontMono,
@@ -124,12 +137,12 @@ export const ConditionCard: React.FC<{
         <div
           style={{
             marginTop: 16,
-            color: theme.red,
+            color: firedColor,
             fontSize: 21,
             fontWeight: 700,
           }}
         >
-          both matched → deny fires
+          {firedText}
         </div>
       )}
     </div>

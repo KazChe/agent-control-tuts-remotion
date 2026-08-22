@@ -58,8 +58,12 @@ const buildTimeline = (entries: TermEntry[]): TimedItem[] => {
 const lineColor = (
   text: string,
 ): { color: string; bold?: boolean; italic?: boolean } => {
-  if (text.trimStart().startsWith("»")) return { color: theme.dim, italic: true };
-  if (text.includes("ALLOWED")) return { color: theme.green };
+  const lead = text.trimStart();
+  if (lead.startsWith("»")) return { color: theme.dim, italic: true };
+  if (lead.startsWith("reason:") || lead.startsWith("required actions:"))
+    return { color: theme.dim };
+  if (text.includes("ALLOWED") || text.includes("COMPLETED"))
+    return { color: theme.green };
   if (text.includes("BLOCKED") || text.includes("DENIED"))
     return { color: theme.red, bold: true };
   if (text.includes("STEERED")) return { color: theme.amber, bold: true };

@@ -44,6 +44,7 @@ src/
     module02/
       data.ts               # captured CLI output + beat timeline (the "script")
       Teaser.tsx            # beat-by-beat assembly of the module 02 teaser
+    module03/               # same pair for the actions module (observe/deny/steer)
 transcripts/
   module02/                 # raw captured stdout the data files are built from
   module03/                 # captured, video not built yet

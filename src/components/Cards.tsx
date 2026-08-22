@@ -77,14 +77,16 @@ export const TitleCard: React.FC<{
   );
 };
 
-export const ConceptSlide: React.FC = () => {
+export type ConceptBox = { label: string; desc: string; color: string };
+
+export const ConceptSlide: React.FC<{
+  heading: string;
+  boxes: ConceptBox[];
+  formulaPlain: string;
+  formulaAccent: string;
+}> = ({ heading, boxes, formulaPlain, formulaAccent }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const boxes = [
-    { label: "SELECTOR", desc: "which data", color: theme.cyan },
-    { label: "EVALUATOR", desc: "what judgment", color: theme.purple },
-    { label: "COMPOSITION", desc: "AND / OR", color: theme.amber },
-  ];
   const formula = spring({
     frame: frame - 75,
     fps,
@@ -94,7 +96,7 @@ export const ConceptSlide: React.FC = () => {
   return (
     <Page>
       <div style={{ fontSize: 52, fontWeight: 700, marginBottom: 70 }}>
-        Anatomy of a control condition
+        {heading}
       </div>
       <div style={{ display: "flex", gap: 48 }}>
         {boxes.map((b, i) => {
@@ -144,8 +146,8 @@ export const ConceptSlide: React.FC = () => {
           opacity: formula,
         }}
       >
-        selector + evaluator (+ composition){" "}
-        <span style={{ color: theme.green }}>= one condition, enforced server-side</span>
+        {formulaPlain}{" "}
+        <span style={{ color: theme.green }}>{formulaAccent}</span>
       </div>
     </Page>
   );
@@ -205,14 +207,12 @@ export const Callout: React.FC<{ text: string; appearAt?: number; hideAt?: numbe
   );
 };
 
-export const OutroCard: React.FC = () => {
+export const OutroCard: React.FC<{ checks: string[]; footer: string }> = ({
+  checks,
+  footer,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const checks = [
-    "3 controls created and attached via the API",
-    "1a / 3a ALLOWED · 1b / 3b BLOCKED",
-    "pre-stage vs post-stage: where the block happened",
-  ];
   return (
     <Page>
       <div style={{ fontSize: 56, fontWeight: 800, marginBottom: 56 }}>
@@ -258,7 +258,7 @@ export const OutroCard: React.FC = () => {
           }),
         }}
       >
-        gactl-tutorial · module-02-evaluators
+        {footer}
       </div>
     </Page>
   );
