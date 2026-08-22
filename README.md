@@ -55,6 +55,24 @@ To add a module: drop its captured stdout under `transcripts/moduleXX/`, create
 the composition in `Root.tsx`. Components stay shared and take everything
 module-specific as props.
 
+## UI walkthrough recording
+
+The console footage in the video is not a manual screen recording: it is a
+scripted Playwright session against the local server, so it reproduces exactly
+and can be re-captured whenever the UI changes.
+
+```console
+node scripts/record-ui.mjs
+ffmpeg -y -ss 1.5 -i recordings/ui-walkthrough.webm \
+  -c:v libx264 -pix_fmt yuv420p -crf 18 -an public/ui-walkthrough.mp4
+```
+
+The script injects a visible cursor dot (Playwright recordings have no OS
+pointer), switches the console to dark mode, then walks: agents overview,
+kam7f-eval-lab, Controls tab, and opens the Edit Control modal. The trim
+(`-ss 1.5`) cuts the light-to-dark flash at startup. If the recording length
+changes, update the `uiWalkthrough` beat in `src/modules/module02/data.ts`.
+
 ## Regenerating the source data
 
 The transcript data in `src/data/` comes from real runs against a local

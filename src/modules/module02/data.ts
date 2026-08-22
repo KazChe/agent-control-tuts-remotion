@@ -102,8 +102,10 @@ export const BEATS = {
   concept: { from: sec(7), duration: sec(15) },
   controlForm: { from: sec(22), duration: sec(16) },
   setup: { from: sec(38), duration: sec(20) },
-  controlStore: { from: sec(58), duration: sec(19) },
-  probes: { from: sec(77), duration: sec(50) },
-  outro: { from: sec(127), duration: sec(15) },
-  total: sec(142),
+  // public/ui-walkthrough.mp4 is 14.4s; regenerate with
+  // scripts/record-ui.mjs (see README) and update if the length changes.
+  uiWalkthrough: { from: sec(58), duration: sec(14.4) },
+  probes: { from: sec(72.4), duration: sec(50) },
+  outro: { from: sec(122.4), duration: sec(15) },
+  total: sec(137.4),
 };

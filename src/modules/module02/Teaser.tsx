@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Sequence } from "remotion";
-import { BEATS, controls, exampleControl, probesEntry, setupEntry } from "./data";
+import { BEATS, exampleControl, probesEntry, setupEntry } from "./data";
 import {
   Callout,
   ConceptSlide,
@@ -8,8 +8,8 @@ import {
   TitleCard,
 } from "../../components/Cards";
 import { ControlForm } from "../../components/ControlForm";
-import { ControlStore } from "../../components/ControlStore";
 import { Terminal } from "../../components/Terminal";
+import { UiClip } from "../../components/UiClip";
 
 export const Module02Teaser: React.FC = () => {
   return (
@@ -33,7 +33,7 @@ export const Module02Teaser: React.FC = () => {
         <ControlForm control={exampleControl} />
         <Callout
           appearAt={140}
-          text="This is one control: select the input, judge it against a list, deny on match. The setup script creates three of these."
+          text="The Agent Control UI's Edit Control form: select the input, judge it against a list, deny on match. The setup script creates three of these."
         />
       </Sequence>
 
@@ -46,17 +46,18 @@ export const Module02Teaser: React.FC = () => {
       </Sequence>
 
       <Sequence
-        from={BEATS.controlStore.from}
-        durationInFrames={BEATS.controlStore.duration}
+        from={BEATS.uiWalkthrough.from}
+        durationInFrames={BEATS.uiWalkthrough.duration}
       >
-        <ControlStore
-          heading="Controls · kam7f-eval-lab"
-          subtitle="Authored by setup_controls.py, the same objects the console form edits"
-          controls={controls}
+        <UiClip src="ui-walkthrough.mp4" urlLabel="localhost:8000 — Agent Control" />
+        <Callout
+          appearAt={110}
+          hideAt={280}
+          text="The real console: our agent, with the three controls the script just created."
         />
         <Callout
-          appearAt={150}
-          text="The local Control Store at localhost:8000 shows all three controls — no Galileo deployment required."
+          appearAt={330}
+          text="Opening one of them shows the same Edit Control form — live, no Galileo deployment required."
         />
       </Sequence>
 
