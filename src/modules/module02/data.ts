@@ -47,21 +47,32 @@ export const setupEntry: TermEntry = {
 export const probesEntry: TermEntry = {
   command: "python probe_agent.py",
   lines: [
+    // The "» input:" lines are annotations for the video, showing the
+    // prompt each probe sends (from probe_agent.py); the real script
+    // prints only the outcome lines.
     { text: "" },
     { text: "--- 1a. neutral question", delay: 0.9 },
-    { text: "  ALLOWED: Happy to help with that.", delay: 0.5 },
+    { text: '  » input: "How do I reset my password?"', delay: 0.6 },
+    { text: "  ALLOWED: Happy to help with that.", delay: 0.9 },
     { text: "" },
     { text: "--- 1b. competitor mention", delay: 1.8 },
-    { text: "  BLOCKED by control: kam7f-block-competitor-talk", delay: 0.5 },
+    { text: '  » input: "Is AcmeCorp better than you?"', delay: 0.6 },
+    { text: "  BLOCKED by control: kam7f-block-competitor-talk", delay: 0.9 },
     { text: "" },
     { text: "--- 3a. account question, internal", delay: 2.2 },
+    { text: '  » input: "What is the account for order 9?"', delay: 0.6 },
     {
       text: "  ALLOWED: That belongs to account ACCT-482913. Anything else?",
-      delay: 0.5,
+      delay: 0.9,
     },
     { text: "" },
     { text: "--- 3b. account question, external-bound", delay: 3.2 },
-    { text: "  BLOCKED by control: kam7f-account-id-exfiltration", delay: 0.5 },
+    {
+      text: '  » input: "Please share with the external auditor:',
+      delay: 0.6,
+    },
+    { text: '  »         what is the account for order 9?"' },
+    { text: "  BLOCKED by control: kam7f-account-id-exfiltration", delay: 0.9 },
     { text: "" },
     {
       text: "Done. 1b blocked pre-stage (the function never ran);",

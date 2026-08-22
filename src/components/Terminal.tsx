@@ -43,7 +43,10 @@ const buildTimeline = (entries: TermEntry[]): TimedItem[] => {
   return items;
 };
 
-const lineColor = (text: string): { color: string; bold?: boolean } => {
+const lineColor = (
+  text: string,
+): { color: string; bold?: boolean; italic?: boolean } => {
+  if (text.trimStart().startsWith("»")) return { color: theme.dim, italic: true };
   if (text.includes("ALLOWED")) return { color: theme.green };
   if (text.includes("BLOCKED") || text.includes("DENIED"))
     return { color: theme.red, bold: true };
@@ -85,7 +88,7 @@ export const Terminal: React.FC<{
       );
     } else {
       if (t < item.at) return;
-      const { color, bold } = lineColor(item.text);
+      const { color, bold, italic } = lineColor(item.text);
       lineCount++;
       rendered.push(
         <div
@@ -95,6 +98,7 @@ export const Terminal: React.FC<{
             whiteSpace: "pre",
             color,
             fontWeight: bold ? 700 : 400,
+            fontStyle: italic ? "italic" : "normal",
           }}
         >
           {item.text || " "}

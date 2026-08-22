@@ -64,18 +64,18 @@ export const Module02Teaser: React.FC = () => {
       <Sequence from={BEATS.probes.from} durationInFrames={BEATS.probes.duration}>
         <Terminal entries={[probesEntry]} />
         <Callout
-          appearAt={225}
-          hideAt={420}
+          appearAt={285}
+          hideAt={500}
           text="1b is blocked pre-stage: the agent function never even ran."
         />
         <Callout
-          appearAt={450}
-          hideAt={690}
+          appearAt={545}
+          hideAt={790}
           text="3a passes even though the reply contains an account ID — the AND condition needs the input branch to match too."
         />
         <Callout
-          appearAt={720}
-          hideAt={960}
+          appearAt={850}
+          hideAt={1090}
           text="3b trips both branches: blocked post-stage — the reply was generated but never escaped."
         />
       </Sequence>
