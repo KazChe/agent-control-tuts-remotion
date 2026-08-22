@@ -4,6 +4,30 @@
 
 import type { TermEntry } from "../../components/Terminal";
 import type { ControlRow } from "../../components/ControlStore";
+import type { ControlFormData } from "../../components/ControlForm";
+
+// Field values from module-02-evaluators/setup_controls.py, control 1.
+export const exampleControl: ControlFormData = {
+  name: "kam7f-block-competitor-talk",
+  description: "Refuse to discuss competitor products",
+  stages: "Pre (before execution)",
+  selectorPath: "input",
+  action: "Deny",
+  execution: "Server",
+  stepTypes: "llm",
+  evaluatorJson: [
+    "{",
+    '  "name": "list",',
+    '  "config": {',
+    '    "values": ["acmecorp", "competitorx"],',
+    '    "logic": "any",',
+    '    "match_on": "match",',
+    '    "match_mode": "contains",',
+    '    "case_sensitive": false',
+    "  }",
+    "}",
+  ],
+};
 
 export const setupEntry: TermEntry = {
   command: "python setup_controls.py",
@@ -76,9 +100,10 @@ export const BEATS = {
   fps: FPS,
   title: { from: 0, duration: sec(7) },
   concept: { from: sec(7), duration: sec(15) },
-  setup: { from: sec(22), duration: sec(20) },
-  controlStore: { from: sec(42), duration: sec(19) },
-  probes: { from: sec(61), duration: sec(50) },
-  outro: { from: sec(111), duration: sec(15) },
-  total: sec(126),
+  controlForm: { from: sec(22), duration: sec(16) },
+  setup: { from: sec(38), duration: sec(20) },
+  controlStore: { from: sec(58), duration: sec(19) },
+  probes: { from: sec(77), duration: sec(50) },
+  outro: { from: sec(127), duration: sec(15) },
+  total: sec(142),
 };

@@ -1,12 +1,13 @@
 import React from "react";
 import { AbsoluteFill, Sequence } from "remotion";
-import { BEATS, controls, probesEntry, setupEntry } from "./data";
+import { BEATS, controls, exampleControl, probesEntry, setupEntry } from "./data";
 import {
   Callout,
   ConceptSlide,
   OutroCard,
   TitleCard,
 } from "../../components/Cards";
+import { ControlForm } from "../../components/ControlForm";
 import { ControlStore } from "../../components/ControlStore";
 import { Terminal } from "../../components/Terminal";
 
@@ -25,11 +26,22 @@ export const Module02Teaser: React.FC = () => {
         <ConceptSlide />
       </Sequence>
 
+      <Sequence
+        from={BEATS.controlForm.from}
+        durationInFrames={BEATS.controlForm.duration}
+      >
+        <ControlForm control={exampleControl} />
+        <Callout
+          appearAt={140}
+          text="This is one control: select the input, judge it against a list, deny on match. The setup script creates three of these."
+        />
+      </Sequence>
+
       <Sequence from={BEATS.setup.from} durationInFrames={BEATS.setup.duration}>
         <Terminal entries={[setupEntry]} />
         <Callout
           appearAt={210}
-          text="Policy is authored from a script, via the API — the server object is the same one the console edits."
+          text="The same control, authored from a script via the API — the server object is identical either way."
         />
       </Sequence>
 
