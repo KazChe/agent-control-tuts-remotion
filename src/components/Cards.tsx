@@ -207,6 +207,64 @@ export const Callout: React.FC<{ text: string; appearAt?: number; hideAt?: numbe
   );
 };
 
+export const CtaCard: React.FC<{
+  headline: string;
+  sub: string;
+  action: string;
+}> = ({ headline, sub, action }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const pop = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 26 });
+  const act = spring({
+    frame: frame - 34,
+    fps,
+    config: { damping: 200 },
+    durationInFrames: 26,
+  });
+  return (
+    <Page>
+      <div style={{ textAlign: "center", maxWidth: 1400 }}>
+        <div
+          style={{
+            fontSize: 76,
+            fontWeight: 800,
+            opacity: pop,
+            transform: `translateY(${(1 - pop) * 30}px)`,
+          }}
+        >
+          {headline}
+        </div>
+        <div
+          style={{
+            fontSize: 38,
+            color: theme.dim,
+            marginTop: 28,
+            opacity: pop,
+          }}
+        >
+          {sub}
+        </div>
+        <div
+          style={{
+            display: "inline-block",
+            marginTop: 60,
+            fontSize: 34,
+            fontWeight: 700,
+            color: "#ffffff",
+            background: theme.accent,
+            borderRadius: 14,
+            padding: "22px 44px",
+            opacity: act,
+            transform: `scale(${0.9 + 0.1 * act})`,
+          }}
+        >
+          {action}
+        </div>
+      </div>
+    </Page>
+  );
+};
+
 export const OutroCard: React.FC<{ checks: string[]; footer: string }> = ({
   checks,
   footer,
