@@ -8,3 +8,6 @@ out
 
 # Raw Playwright captures; the transcoded copy lives in public/
 recordings
+
+# Console clips are served from the CDN; local copies are render inputs only
+public/galileo-*.mp4

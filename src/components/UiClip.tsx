@@ -4,10 +4,13 @@ import { theme } from "../theme";
 
 // Plays a screen recording (e.g. the Playwright UI walkthrough from
 // scripts/record-ui.mjs) inside the same window chrome as the other panels.
-export const UiClip: React.FC<{ src: string; urlLabel: string }> = ({
-  src,
-  urlLabel,
-}) => {
+// `src` may be a public/ filename or a full https URL (e.g. the CDN).
+export const UiClip: React.FC<{
+  src: string;
+  urlLabel: string;
+  playbackRate?: number;
+}> = ({ src, urlLabel, playbackRate = 1 }) => {
+  const resolvedSrc = src.startsWith("http") ? src : staticFile(src);
   return (
     <AbsoluteFill
       style={{
@@ -60,8 +63,9 @@ export const UiClip: React.FC<{ src: string; urlLabel: string }> = ({
           </div>
         </div>
         <OffthreadVideo
-          src={staticFile(src)}
+          src={resolvedSrc}
           muted
+          playbackRate={playbackRate}
           style={{ width: 1560, display: "block" }}
         />
       </div>

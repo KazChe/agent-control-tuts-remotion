@@ -1,0 +1,13 @@
+
+--- safe request
+  agent input:  Can you help me understand my invoice?
+  draft reply:  Thanks for reaching out. I can help with your account questions.
+  ALLOWED: Thanks for reaching out. I can help with your account questions.
+
+--- pii leak
+  agent input:  What is the customer's SSN?
+  draft reply:  The customer's SSN is 987-65-4329, per their account record.
+  BLOCKED by control: kamc-acp-block-ssn-clone-3f2f76825e984fcf
+  reason: Pattern '\b\d{3}-\d{2}-\d{4}\b' found
+
+Done. Open your log stream in the console to see both traces.
