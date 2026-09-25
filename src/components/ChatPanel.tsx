@@ -9,8 +9,11 @@ import {
 import { theme } from "../theme";
 
 export type ChatMessage = {
-  role: "user" | "assistant";
+  /** tool: a tool result the agent read; call: the tool call the agent proposes. */
+  role: "user" | "assistant" | "tool" | "call";
   text: string;
+  /** Small caption above a tool or call block, e.g. "tool result · lookup_account". */
+  label?: string;
   /** Seconds when the bubble appears (assistant messages then stream). */
   at: number;
   /** Show the typing indicator from this second until the bubble appears. */
@@ -27,6 +30,7 @@ const Bubble: React.FC<{ msg: ChatMessage; t: number }> = ({ msg, t }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const isUser = msg.role === "user";
+  const isBlock = msg.role === "tool" || msg.role === "call";
   const pop = spring({
     frame: frame - msg.at * fps,
     fps,
@@ -35,7 +39,7 @@ const Bubble: React.FC<{ msg: ChatMessage; t: number }> = ({ msg, t }) => {
   });
 
   const words = msg.text.split(" ");
-  const shown = isUser
+  const shown = isUser || isBlock
     ? words.length
     : Math.min(words.length, Math.floor((t - msg.at) * STREAM_WPS));
   const visibleText = words.slice(0, Math.max(0, shown)).join(" ");
@@ -91,16 +95,32 @@ const Bubble: React.FC<{ msg: ChatMessage; t: number }> = ({ msg, t }) => {
         marginBottom: 26,
       }}
     >
+      {isBlock && msg.label && (
+        <div
+          style={{
+            fontFamily: theme.fontMono,
+            fontSize: 19,
+            color: msg.role === "call" ? theme.purple : theme.dim,
+            marginBottom: 6,
+            marginLeft: 6,
+          }}
+        >
+          {msg.label}
+        </div>
+      )}
       <div
         style={{
           maxWidth: 940,
-          padding: "20px 28px",
-          borderRadius: isUser ? "22px 22px 6px 22px" : "22px 22px 22px 6px",
-          background: isUser ? theme.accent : "#1c2434",
+          padding: isBlock ? "16px 22px" : "20px 28px",
+          borderRadius: isUser ? "22px 22px 6px 22px" : isBlock ? 12 : "22px 22px 22px 6px",
+          background: isUser ? theme.accent : isBlock ? "#0d1117" : "#1c2434",
+          border: isBlock
+            ? `1px solid ${msg.role === "call" ? theme.purple : theme.panelBorder}`
+            : "none",
           color: isUser ? "#ffffff" : theme.text,
-          fontSize: 31,
-          lineHeight: "46px",
-          fontFamily: theme.fontSans,
+          fontSize: isBlock ? 24 : 31,
+          lineHeight: isBlock ? "36px" : "46px",
+          fontFamily: isBlock ? theme.fontMono : theme.fontSans,
         }}
       >
         {renderText()}
@@ -163,10 +183,25 @@ export const ChatPanel: React.FC<{
   botName: string;
   botTagline: string;
   messages: ChatMessage[];
-}> = ({ botName, botTagline, messages }) => {
+  width?: number;
+  height?: number;
+  /** Pin the panel at this x instead of centering it, to leave room for a card. */
+  left?: number;
+  /** Scroll the thread up by px at second at, the way a chat app follows new messages. */
+  scroll?: { at: number; px: number }[];
+}> = ({ botName, botTagline, messages, width = 1280, height = 860, left, scroll = [] }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
+  const offset = scroll.reduce((acc, s) => {
+    const p = spring({
+      frame: frame - s.at * fps,
+      fps,
+      config: { damping: 200 },
+      durationInFrames: 16,
+    });
+    return acc + s.px * p;
+  }, 0);
 
   return (
     <AbsoluteFill
@@ -178,8 +213,11 @@ export const ChatPanel: React.FC<{
     >
       <div
         style={{
-          width: 1280,
-          height: 860,
+          width,
+          height,
+          position: left === undefined ? "relative" : "absolute",
+          left,
+          top: left === undefined ? undefined : (1080 - height) / 2,
           borderRadius: 20,
           overflow: "hidden",
           border: `1px solid ${theme.panelBorder}`,
@@ -230,15 +268,17 @@ export const ChatPanel: React.FC<{
           />
         </div>
 
-        <div style={{ flex: 1, padding: "36px 40px", overflow: "hidden" }}>
-          {messages.map((m, i) => {
-            if (t < m.at) {
-              const showTyping =
-                m.typingFrom !== undefined && t >= m.typingFrom;
-              return showTyping ? <TypingDots key={i} /> : null;
-            }
-            return <Bubble key={i} msg={m} t={t} />;
-          })}
+        <div style={{ flex: 1, overflow: "hidden" }}>
+          <div style={{ padding: "36px 40px", transform: `translateY(${-offset}px)` }}>
+            {messages.map((m, i) => {
+              if (t < m.at) {
+                const showTyping =
+                  m.typingFrom !== undefined && t >= m.typingFrom;
+                return showTyping ? <TypingDots key={i} /> : null;
+              }
+              return <Bubble key={i} msg={m} t={t} />;
+            })}
+          </div>
         </div>
 
         <div

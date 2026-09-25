@@ -77,7 +77,11 @@ export const Terminal: React.FC<{
   entries: TermEntry[];
   history?: HistoryLine[];
   title?: string;
-}> = ({ entries, history = [], title = "gactl-tutorial - zsh" }) => {
+  /** Smaller text fits longer captured lines; the viewport keeps its height. */
+  fontSize?: number;
+}> = ({ entries, history = [], title = "gactl-tutorial - zsh", fontSize = FONT_SIZE }) => {
+  const lineHeight = Math.round((fontSize * LINE_HEIGHT) / FONT_SIZE);
+  const maxLines = Math.floor((MAX_LINES * LINE_HEIGHT) / lineHeight);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -91,7 +95,7 @@ export const Terminal: React.FC<{
     lineCount++;
     if (line.kind === "cmd") {
       rendered.push(
-        <div key={`h${i}`} style={{ height: LINE_HEIGHT, whiteSpace: "pre" }}>
+        <div key={`h${i}`} style={{ height: lineHeight, whiteSpace: "pre" }}>
           <span style={{ color: theme.accent, fontWeight: 700 }}>{"❯ "}</span>
           <span style={{ color: theme.text }}>{line.text}</span>
         </div>,
@@ -102,7 +106,7 @@ export const Terminal: React.FC<{
         <div
           key={`h${i}`}
           style={{
-            height: LINE_HEIGHT,
+            height: lineHeight,
             whiteSpace: "pre",
             color,
             fontWeight: bold ? 700 : 400,
@@ -125,10 +129,10 @@ export const Terminal: React.FC<{
       if (!done) anyTyping = true;
       lineCount++;
       rendered.push(
-        <div key={i} style={{ height: LINE_HEIGHT, whiteSpace: "pre" }}>
+        <div key={i} style={{ height: lineHeight, whiteSpace: "pre" }}>
           <span style={{ color: theme.accent, fontWeight: 700 }}>{"❯ "}</span>
           <span style={{ color: theme.text }}>{item.text.slice(0, chars)}</span>
-          {!done && <Cursor />}
+          {!done && <Cursor size={fontSize} />}
         </div>,
       );
     } else {
@@ -139,7 +143,7 @@ export const Terminal: React.FC<{
         <div
           key={i}
           style={{
-            height: LINE_HEIGHT,
+            height: lineHeight,
             whiteSpace: "pre",
             color,
             fontWeight: bold ? 700 : 400,
@@ -154,7 +158,7 @@ export const Terminal: React.FC<{
 
   const showIdlePrompt = !anyTyping && lineCount > 0;
   const totalLines = lineCount + (showIdlePrompt ? 1 : 0);
-  const scroll = Math.max(0, totalLines - MAX_LINES) * LINE_HEIGHT;
+  const scroll = Math.max(0, totalLines - maxLines) * lineHeight;
 
   return (
     <AbsoluteFill
@@ -207,20 +211,20 @@ export const Terminal: React.FC<{
             background: theme.panel,
             padding: "24px 36px",
             fontFamily: theme.fontMono,
-            fontSize: FONT_SIZE,
+            fontSize,
           }}
         >
           {/* Viewport clips at the content box, so a scrolled-off line can
               never bleed into the padding area above it. */}
-          <div style={{ height: MAX_LINES * LINE_HEIGHT, overflow: "hidden" }}>
+          <div style={{ height: maxLines * lineHeight, overflow: "hidden" }}>
             <div style={{ transform: `translateY(${-scroll}px)` }}>
               {rendered}
               {showIdlePrompt && (
-                <div style={{ height: LINE_HEIGHT }}>
+                <div style={{ height: lineHeight }}>
                   <span style={{ color: theme.accent, fontWeight: 700 }}>
                     {"❯ "}
                   </span>
-                  <Cursor />
+                  <Cursor size={fontSize} />
                 </div>
               )}
             </div>
@@ -231,7 +235,7 @@ export const Terminal: React.FC<{
   );
 };
 
-const Cursor: React.FC = () => {
+const Cursor: React.FC<{ size?: number }> = ({ size = FONT_SIZE }) => {
   const frame = useCurrentFrame();
   const visible = Math.floor(frame / 16) % 2 === 0;
   return (
@@ -239,7 +243,7 @@ const Cursor: React.FC = () => {
       style={{
         display: "inline-block",
         width: 16,
-        height: FONT_SIZE,
+        height: size,
         marginLeft: 2,
         verticalAlign: "text-bottom",
         background: visible ? theme.text : "transparent",

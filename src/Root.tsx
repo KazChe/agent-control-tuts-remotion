@@ -6,6 +6,8 @@ import { BEATS as BEATS03 } from "./modules/module03/data";
 import { Module03Teaser } from "./modules/module03/Teaser";
 import { BEATS as BEATS_ACP } from "./teasers/agent-control-pii/data";
 import { AgentControlPiiTeaser } from "./teasers/agent-control-pii/Teaser";
+import { BEATS as BEATS_TG } from "./teasers/tool-gate/data";
+import { ToolGateTeaser } from "./teasers/tool-gate/Teaser";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -31,6 +33,14 @@ export const RemotionRoot: React.FC = () => {
         component={AgentControlPiiTeaser}
         durationInFrames={BEATS_ACP.total}
         fps={BEATS_ACP.fps}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ToolGateTeaser"
+        component={ToolGateTeaser}
+        durationInFrames={BEATS_TG.total}
+        fps={BEATS_TG.fps}
         width={1920}
         height={1080}
       />

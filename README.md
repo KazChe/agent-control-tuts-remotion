@@ -56,6 +56,28 @@ To add a module: drop its captured stdout under `transcripts/moduleXX/`, create
 the composition in `Root.tsx`. Components stay shared and take everything
 module-specific as props.
 
+## tool-gate teaser
+
+`ToolGateTeaser` is the companion to the post "A typed judgment where the
+plane only had a score" (untounium.dev). It replays one steer round trip, the
+confirmed retry, and a planted instruction from
+[KazChe/tool-gate](https://github.com/KazChe/tool-gate), with every answer,
+rule, and sentence taken from a live `tg-demo` run:
+
+```console
+# in tool-gate, with TYPESAFE_API_KEY and a local Agent Control server
+uv run tg-demo --rows dw-01,dw-02,cs-08          # writes runs/demo.json
+# here
+node scripts/import-tool-gate.mjs ../git_clones/tool-gate/runs/demo.json
+npx remotion render ToolGateTeaser out/tool-gate-teaser.mp4
+```
+
+The import script refuses a dry-run artifact, so the video cannot show fake
+answers. `src/teasers/tool-gate/data.ts` says which two assistant replies are
+scripted (the eval has no live agent) and everything else is captured.
+Components added for it: `JudgmentCard` (five answers, rules fired, action,
+message) and `tool` / `call` roles plus timed scrolling in `ChatPanel`.
+
 ## UI walkthrough recording
 
 The console footage in the video is not a manual screen recording: it is a
