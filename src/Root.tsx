@@ -12,6 +12,8 @@ import { BEATS as BEATS_EP01 } from "./episodes/ep01/data";
 import { Ep01WhyControlPlane } from "./episodes/ep01/Episode";
 import { BEATS as BEATS_EP02 } from "./episodes/ep02/data";
 import { Ep02AnatomyOfAControl } from "./episodes/ep02/Episode";
+import { BEATS as BEATS_EP03 } from "./episodes/ep03/data";
+import { Ep03RequestFlow } from "./episodes/ep03/Episode";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -61,6 +63,14 @@ export const RemotionRoot: React.FC = () => {
         component={Ep02AnatomyOfAControl}
         durationInFrames={BEATS_EP02.total}
         fps={BEATS_EP02.fps}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Ep03RequestFlow"
+        component={Ep03RequestFlow}
+        durationInFrames={BEATS_EP03.total}
+        fps={BEATS_EP03.fps}
         width={1920}
         height={1080}
       />
