@@ -1,0 +1,1624 @@
+{
+  "voice": "speechify jack (simba-3.2)",
+  "clips": [
+    {
+      "scene": 1,
+      "title": "Cold open",
+      "file": "narration/ep01/01.mp3",
+      "seconds": 10.39,
+      "words": 32,
+      "timings": [
+        {
+          "value": "A",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "customer",
+          "start": 0.256,
+          "end": 0.725
+        },
+        {
+          "value": "asks",
+          "start": 0.725,
+          "end": 1.067
+        },
+        {
+          "value": "a",
+          "start": 1.067,
+          "end": 1.237
+        },
+        {
+          "value": "support",
+          "start": 1.237,
+          "end": 1.579
+        },
+        {
+          "value": "assistant",
+          "start": 1.579,
+          "end": 2.091
+        },
+        {
+          "value": "for",
+          "start": 2.091,
+          "end": 2.219
+        },
+        {
+          "value": "the",
+          "start": 2.219,
+          "end": 2.389
+        },
+        {
+          "value": "social",
+          "start": 2.389,
+          "end": 2.816
+        },
+        {
+          "value": "security",
+          "start": 2.816,
+          "end": 3.328
+        },
+        {
+          "value": "number",
+          "start": 3.328,
+          "end": 3.669
+        },
+        {
+          "value": "on",
+          "start": 3.669,
+          "end": 3.797
+        },
+        {
+          "value": "their",
+          "start": 3.797,
+          "end": 3.925
+        },
+        {
+          "value": "file.",
+          "start": 3.925,
+          "end": 4.651
+        },
+        {
+          "value": "The",
+          "start": 4.651,
+          "end": 4.864
+        },
+        {
+          "value": "assistant",
+          "start": 4.864,
+          "end": 5.376
+        },
+        {
+          "value": "looks",
+          "start": 5.376,
+          "end": 5.589
+        },
+        {
+          "value": "it",
+          "start": 5.589,
+          "end": 5.76
+        },
+        {
+          "value": "up",
+          "start": 5.76,
+          "end": 5.931
+        },
+        {
+          "value": "and",
+          "start": 5.931,
+          "end": 6.059
+        },
+        {
+          "value": "reads",
+          "start": 6.059,
+          "end": 6.357
+        },
+        {
+          "value": "it",
+          "start": 6.357,
+          "end": 6.485
+        },
+        {
+          "value": "back.",
+          "start": 6.485,
+          "end": 7.125
+        },
+        {
+          "value": "Nothing",
+          "start": 7.125,
+          "end": 7.637
+        },
+        {
+          "value": "stopped",
+          "start": 7.637,
+          "end": 7.936
+        },
+        {
+          "value": "it.",
+          "start": 7.936,
+          "end": 8.363
+        },
+        {
+          "value": "Nothing",
+          "start": 8.363,
+          "end": 8.832
+        },
+        {
+          "value": "was",
+          "start": 8.832,
+          "end": 9.088
+        },
+        {
+          "value": "there",
+          "start": 9.088,
+          "end": 9.344
+        },
+        {
+          "value": "to",
+          "start": 9.344,
+          "end": 9.557
+        },
+        {
+          "value": "stop",
+          "start": 9.557,
+          "end": 9.813
+        },
+        {
+          "value": "it.",
+          "start": 9.813,
+          "end": 10.33
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "Three agents",
+      "file": "narration/ep01/02.mp3",
+      "seconds": 21.14,
+      "words": 64,
+      "timings": [
+        {
+          "value": "Most",
+          "start": 0.0,
+          "end": 0.469
+        },
+        {
+          "value": "teams",
+          "start": 0.469,
+          "end": 0.811
+        },
+        {
+          "value": "fix",
+          "start": 0.811,
+          "end": 1.024
+        },
+        {
+          "value": "this",
+          "start": 1.024,
+          "end": 1.195
+        },
+        {
+          "value": "the",
+          "start": 1.195,
+          "end": 1.408
+        },
+        {
+          "value": "obvious",
+          "start": 1.408,
+          "end": 1.877
+        },
+        {
+          "value": "way.",
+          "start": 1.877,
+          "end": 2.389
+        },
+        {
+          "value": "They",
+          "start": 2.389,
+          "end": 2.603
+        },
+        {
+          "value": "write",
+          "start": 2.603,
+          "end": 2.731
+        },
+        {
+          "value": "a",
+          "start": 2.731,
+          "end": 2.901
+        },
+        {
+          "value": "check",
+          "start": 2.901,
+          "end": 3.115
+        },
+        {
+          "value": "into",
+          "start": 3.115,
+          "end": 3.285
+        },
+        {
+          "value": "the",
+          "start": 3.285,
+          "end": 3.499
+        },
+        {
+          "value": "agent.",
+          "start": 3.499,
+          "end": 4.096
+        },
+        {
+          "value": "Then",
+          "start": 4.096,
+          "end": 4.352
+        },
+        {
+          "value": "the",
+          "start": 4.352,
+          "end": 4.48
+        },
+        {
+          "value": "coding",
+          "start": 4.48,
+          "end": 4.864
+        },
+        {
+          "value": "agent",
+          "start": 4.864,
+          "end": 5.248
+        },
+        {
+          "value": "needs",
+          "start": 5.248,
+          "end": 5.547
+        },
+        {
+          "value": "one,",
+          "start": 5.547,
+          "end": 5.973
+        },
+        {
+          "value": "so",
+          "start": 5.973,
+          "end": 6.187
+        },
+        {
+          "value": "its",
+          "start": 6.187,
+          "end": 6.4
+        },
+        {
+          "value": "team",
+          "start": 6.4,
+          "end": 6.699
+        },
+        {
+          "value": "writes",
+          "start": 6.699,
+          "end": 6.955
+        },
+        {
+          "value": "their",
+          "start": 6.955,
+          "end": 7.168
+        },
+        {
+          "value": "own.",
+          "start": 7.168,
+          "end": 7.808
+        },
+        {
+          "value": "Then",
+          "start": 7.808,
+          "end": 8.021
+        },
+        {
+          "value": "billing.",
+          "start": 8.021,
+          "end": 8.704
+        },
+        {
+          "value": "Now",
+          "start": 8.704,
+          "end": 8.917
+        },
+        {
+          "value": "the",
+          "start": 8.917,
+          "end": 9.088
+        },
+        {
+          "value": "same",
+          "start": 9.088,
+          "end": 9.344
+        },
+        {
+          "value": "rule",
+          "start": 9.344,
+          "end": 9.6
+        },
+        {
+          "value": "lives",
+          "start": 9.6,
+          "end": 9.941
+        },
+        {
+          "value": "in",
+          "start": 9.941,
+          "end": 10.112
+        },
+        {
+          "value": "three",
+          "start": 10.112,
+          "end": 10.411
+        },
+        {
+          "value": "codebases,",
+          "start": 10.411,
+          "end": 11.307
+        },
+        {
+          "value": "written",
+          "start": 11.307,
+          "end": 11.648
+        },
+        {
+          "value": "three",
+          "start": 11.648,
+          "end": 11.861
+        },
+        {
+          "value": "ways,",
+          "start": 11.861,
+          "end": 12.373
+        },
+        {
+          "value": "and",
+          "start": 12.373,
+          "end": 12.501
+        },
+        {
+          "value": "when",
+          "start": 12.501,
+          "end": 12.629
+        },
+        {
+          "value": "the",
+          "start": 12.629,
+          "end": 12.8
+        },
+        {
+          "value": "rule",
+          "start": 12.8,
+          "end": 13.056
+        },
+        {
+          "value": "changes,",
+          "start": 13.056,
+          "end": 13.739
+        },
+        {
+          "value": "all",
+          "start": 13.739,
+          "end": 14.123
+        },
+        {
+          "value": "three",
+          "start": 14.123,
+          "end": 14.421
+        },
+        {
+          "value": "ship",
+          "start": 14.421,
+          "end": 14.677
+        },
+        {
+          "value": "a",
+          "start": 14.677,
+          "end": 14.763
+        },
+        {
+          "value": "deploy.",
+          "start": 14.763,
+          "end": 15.531
+        },
+        {
+          "value": "Nobody",
+          "start": 15.531,
+          "end": 16.0
+        },
+        {
+          "value": "can",
+          "start": 16.0,
+          "end": 16.128
+        },
+        {
+          "value": "say",
+          "start": 16.128,
+          "end": 16.384
+        },
+        {
+          "value": "which",
+          "start": 16.384,
+          "end": 16.597
+        },
+        {
+          "value": "agent",
+          "start": 16.597,
+          "end": 17.024
+        },
+        {
+          "value": "enforces",
+          "start": 17.024,
+          "end": 17.536
+        },
+        {
+          "value": "what,",
+          "start": 17.536,
+          "end": 18.048
+        },
+        {
+          "value": "and",
+          "start": 18.048,
+          "end": 18.219
+        },
+        {
+          "value": "nothing",
+          "start": 18.219,
+          "end": 18.517
+        },
+        {
+          "value": "records",
+          "start": 18.517,
+          "end": 19.072
+        },
+        {
+          "value": "why",
+          "start": 19.072,
+          "end": 19.371
+        },
+        {
+          "value": "a",
+          "start": 19.371,
+          "end": 19.499
+        },
+        {
+          "value": "request",
+          "start": 19.499,
+          "end": 19.925
+        },
+        {
+          "value": "was",
+          "start": 19.925,
+          "end": 20.096
+        },
+        {
+          "value": "refused.",
+          "start": 20.096,
+          "end": 21.08
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "The lift",
+      "file": "narration/ep01/03.mp3",
+      "seconds": 16.01,
+      "words": 48,
+      "timings": [
+        {
+          "value": "Take",
+          "start": 0.0,
+          "end": 0.341
+        },
+        {
+          "value": "the",
+          "start": 0.341,
+          "end": 0.512
+        },
+        {
+          "value": "checks",
+          "start": 0.512,
+          "end": 0.853
+        },
+        {
+          "value": "out",
+          "start": 0.853,
+          "end": 0.939
+        },
+        {
+          "value": "of",
+          "start": 0.939,
+          "end": 1.067
+        },
+        {
+          "value": "the",
+          "start": 1.067,
+          "end": 1.237
+        },
+        {
+          "value": "agents.",
+          "start": 1.237,
+          "end": 2.005
+        },
+        {
+          "value": "Put",
+          "start": 2.005,
+          "end": 2.133
+        },
+        {
+          "value": "them",
+          "start": 2.133,
+          "end": 2.304
+        },
+        {
+          "value": "in",
+          "start": 2.304,
+          "end": 2.432
+        },
+        {
+          "value": "one",
+          "start": 2.432,
+          "end": 2.731
+        },
+        {
+          "value": "place",
+          "start": 2.731,
+          "end": 3.072
+        },
+        {
+          "value": "the",
+          "start": 3.072,
+          "end": 3.243
+        },
+        {
+          "value": "agents",
+          "start": 3.243,
+          "end": 3.627
+        },
+        {
+          "value": "ask",
+          "start": 3.627,
+          "end": 4.011
+        },
+        {
+          "value": "before",
+          "start": 4.011,
+          "end": 4.437
+        },
+        {
+          "value": "they",
+          "start": 4.437,
+          "end": 4.651
+        },
+        {
+          "value": "act.",
+          "start": 4.651,
+          "end": 5.419
+        },
+        {
+          "value": "The",
+          "start": 5.419,
+          "end": 5.675
+        },
+        {
+          "value": "rule",
+          "start": 5.675,
+          "end": 5.931
+        },
+        {
+          "value": "is",
+          "start": 5.931,
+          "end": 6.101
+        },
+        {
+          "value": "written",
+          "start": 6.101,
+          "end": 6.4
+        },
+        {
+          "value": "once,",
+          "start": 6.4,
+          "end": 7.083
+        },
+        {
+          "value": "in",
+          "start": 7.083,
+          "end": 7.253
+        },
+        {
+          "value": "configuration,",
+          "start": 7.253,
+          "end": 8.32
+        },
+        {
+          "value": "and",
+          "start": 8.32,
+          "end": 8.533
+        },
+        {
+          "value": "changing",
+          "start": 8.533,
+          "end": 9.003
+        },
+        {
+          "value": "it",
+          "start": 9.003,
+          "end": 9.216
+        },
+        {
+          "value": "is",
+          "start": 9.216,
+          "end": 9.301
+        },
+        {
+          "value": "an",
+          "start": 9.301,
+          "end": 9.472
+        },
+        {
+          "value": "edit,",
+          "start": 9.472,
+          "end": 10.069
+        },
+        {
+          "value": "not",
+          "start": 10.069,
+          "end": 10.325
+        },
+        {
+          "value": "a",
+          "start": 10.325,
+          "end": 10.453
+        },
+        {
+          "value": "release.",
+          "start": 10.453,
+          "end": 11.435
+        },
+        {
+          "value": "The",
+          "start": 11.435,
+          "end": 11.563
+        },
+        {
+          "value": "agents",
+          "start": 11.563,
+          "end": 12.032
+        },
+        {
+          "value": "keep",
+          "start": 12.032,
+          "end": 12.203
+        },
+        {
+          "value": "their",
+          "start": 12.203,
+          "end": 12.373
+        },
+        {
+          "value": "code.",
+          "start": 12.373,
+          "end": 13.227
+        },
+        {
+          "value": "They",
+          "start": 13.227,
+          "end": 13.44
+        },
+        {
+          "value": "lose",
+          "start": 13.44,
+          "end": 13.739
+        },
+        {
+          "value": "the",
+          "start": 13.739,
+          "end": 13.867
+        },
+        {
+          "value": "policy,",
+          "start": 13.867,
+          "end": 14.72
+        },
+        {
+          "value": "and",
+          "start": 14.72,
+          "end": 14.891
+        },
+        {
+          "value": "that",
+          "start": 14.891,
+          "end": 15.061
+        },
+        {
+          "value": "is",
+          "start": 15.061,
+          "end": 15.189
+        },
+        {
+          "value": "the",
+          "start": 15.189,
+          "end": 15.317
+        },
+        {
+          "value": "point.",
+          "start": 15.317,
+          "end": 15.96
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "Two planes",
+      "file": "narration/ep01/04.mp3",
+      "seconds": 14.28,
+      "words": 40,
+      "timings": [
+        {
+          "value": "That",
+          "start": 0.0,
+          "end": 0.299
+        },
+        {
+          "value": "gives",
+          "start": 0.299,
+          "end": 0.555
+        },
+        {
+          "value": "you",
+          "start": 0.555,
+          "end": 0.683
+        },
+        {
+          "value": "two",
+          "start": 0.683,
+          "end": 0.896
+        },
+        {
+          "value": "layers.",
+          "start": 0.896,
+          "end": 1.664
+        },
+        {
+          "value": "Below,",
+          "start": 1.664,
+          "end": 2.475
+        },
+        {
+          "value": "the",
+          "start": 2.475,
+          "end": 2.688
+        },
+        {
+          "value": "agents",
+          "start": 2.688,
+          "end": 3.072
+        },
+        {
+          "value": "doing",
+          "start": 3.072,
+          "end": 3.371
+        },
+        {
+          "value": "the",
+          "start": 3.371,
+          "end": 3.541
+        },
+        {
+          "value": "work,",
+          "start": 3.541,
+          "end": 4.053
+        },
+        {
+          "value": "calling",
+          "start": 4.053,
+          "end": 4.437
+        },
+        {
+          "value": "models",
+          "start": 4.437,
+          "end": 4.864
+        },
+        {
+          "value": "and",
+          "start": 4.864,
+          "end": 5.035
+        },
+        {
+          "value": "tools.",
+          "start": 5.035,
+          "end": 5.717
+        },
+        {
+          "value": "That",
+          "start": 5.717,
+          "end": 5.931
+        },
+        {
+          "value": "is",
+          "start": 5.931,
+          "end": 6.101
+        },
+        {
+          "value": "the",
+          "start": 6.101,
+          "end": 6.229
+        },
+        {
+          "value": "data",
+          "start": 6.229,
+          "end": 6.571
+        },
+        {
+          "value": "plane.",
+          "start": 6.571,
+          "end": 7.253
+        },
+        {
+          "value": "Above",
+          "start": 7.253,
+          "end": 7.595
+        },
+        {
+          "value": "it,",
+          "start": 7.595,
+          "end": 8.021
+        },
+        {
+          "value": "a",
+          "start": 8.021,
+          "end": 8.192
+        },
+        {
+          "value": "layer",
+          "start": 8.192,
+          "end": 8.491
+        },
+        {
+          "value": "that",
+          "start": 8.491,
+          "end": 8.619
+        },
+        {
+          "value": "decides",
+          "start": 8.619,
+          "end": 9.173
+        },
+        {
+          "value": "before",
+          "start": 9.173,
+          "end": 9.557
+        },
+        {
+          "value": "the",
+          "start": 9.557,
+          "end": 9.771
+        },
+        {
+          "value": "work",
+          "start": 9.771,
+          "end": 9.984
+        },
+        {
+          "value": "happens",
+          "start": 9.984,
+          "end": 10.624
+        },
+        {
+          "value": "and",
+          "start": 10.624,
+          "end": 10.795
+        },
+        {
+          "value": "records",
+          "start": 10.795,
+          "end": 11.392
+        },
+        {
+          "value": "after",
+          "start": 11.392,
+          "end": 11.776
+        },
+        {
+          "value": "it",
+          "start": 11.776,
+          "end": 11.904
+        },
+        {
+          "value": "does.",
+          "start": 11.904,
+          "end": 12.587
+        },
+        {
+          "value": "That",
+          "start": 12.587,
+          "end": 12.757
+        },
+        {
+          "value": "is",
+          "start": 12.757,
+          "end": 12.885
+        },
+        {
+          "value": "the",
+          "start": 12.885,
+          "end": 13.056
+        },
+        {
+          "value": "control",
+          "start": 13.056,
+          "end": 13.525
+        },
+        {
+          "value": "plane.",
+          "start": 13.525,
+          "end": 14.21
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "Same code, different behavior",
+      "file": "narration/ep01/05.mp3",
+      "seconds": 32.06,
+      "words": 98,
+      "timings": [
+        {
+          "value": "Here",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "is",
+          "start": 0.256,
+          "end": 0.384
+        },
+        {
+          "value": "what",
+          "start": 0.384,
+          "end": 0.469
+        },
+        {
+          "value": "it",
+          "start": 0.469,
+          "end": 0.597
+        },
+        {
+          "value": "looks",
+          "start": 0.597,
+          "end": 0.896
+        },
+        {
+          "value": "like.",
+          "start": 0.896,
+          "end": 1.451
+        },
+        {
+          "value": "One",
+          "start": 1.451,
+          "end": 1.877
+        },
+        {
+          "value": "piece",
+          "start": 1.877,
+          "end": 2.219
+        },
+        {
+          "value": "lives",
+          "start": 2.219,
+          "end": 2.475
+        },
+        {
+          "value": "in",
+          "start": 2.475,
+          "end": 2.603
+        },
+        {
+          "value": "the",
+          "start": 2.603,
+          "end": 2.731
+        },
+        {
+          "value": "agent.",
+          "start": 2.731,
+          "end": 3.413
+        },
+        {
+          "value": "A",
+          "start": 3.413,
+          "end": 3.627
+        },
+        {
+          "value": "decorator",
+          "start": 3.627,
+          "end": 4.181
+        },
+        {
+          "value": "on",
+          "start": 4.181,
+          "end": 4.309
+        },
+        {
+          "value": "the",
+          "start": 4.309,
+          "end": 4.48
+        },
+        {
+          "value": "function",
+          "start": 4.48,
+          "end": 4.821
+        },
+        {
+          "value": "that",
+          "start": 4.821,
+          "end": 4.992
+        },
+        {
+          "value": "makes",
+          "start": 4.992,
+          "end": 5.248
+        },
+        {
+          "value": "the",
+          "start": 5.248,
+          "end": 5.419
+        },
+        {
+          "value": "call.",
+          "start": 5.419,
+          "end": 6.101
+        },
+        {
+          "value": "That",
+          "start": 6.101,
+          "end": 6.4
+        },
+        {
+          "value": "is",
+          "start": 6.4,
+          "end": 6.571
+        },
+        {
+          "value": "the",
+          "start": 6.571,
+          "end": 6.699
+        },
+        {
+          "value": "whole",
+          "start": 6.699,
+          "end": 6.997
+        },
+        {
+          "value": "integration,",
+          "start": 6.997,
+          "end": 7.979
+        },
+        {
+          "value": "and",
+          "start": 7.979,
+          "end": 8.107
+        },
+        {
+          "value": "it",
+          "start": 8.107,
+          "end": 8.235
+        },
+        {
+          "value": "asks",
+          "start": 8.235,
+          "end": 8.619
+        },
+        {
+          "value": "the",
+          "start": 8.619,
+          "end": 8.789
+        },
+        {
+          "value": "server",
+          "start": 8.789,
+          "end": 9.131
+        },
+        {
+          "value": "before",
+          "start": 9.131,
+          "end": 9.643
+        },
+        {
+          "value": "and",
+          "start": 9.643,
+          "end": 9.856
+        },
+        {
+          "value": "after",
+          "start": 9.856,
+          "end": 10.283
+        },
+        {
+          "value": "every",
+          "start": 10.283,
+          "end": 10.624
+        },
+        {
+          "value": "call.",
+          "start": 10.624,
+          "end": 11.392
+        },
+        {
+          "value": "Run",
+          "start": 11.392,
+          "end": 11.648
+        },
+        {
+          "value": "it",
+          "start": 11.648,
+          "end": 11.819
+        },
+        {
+          "value": "now,",
+          "start": 11.819,
+          "end": 12.288
+        },
+        {
+          "value": "with",
+          "start": 12.288,
+          "end": 12.544
+        },
+        {
+          "value": "no",
+          "start": 12.544,
+          "end": 12.8
+        },
+        {
+          "value": "control",
+          "start": 12.8,
+          "end": 13.312
+        },
+        {
+          "value": "configured,",
+          "start": 13.312,
+          "end": 13.995
+        },
+        {
+          "value": "and",
+          "start": 13.995,
+          "end": 14.165
+        },
+        {
+          "value": "the",
+          "start": 14.165,
+          "end": 14.336
+        },
+        {
+          "value": "agent",
+          "start": 14.336,
+          "end": 14.677
+        },
+        {
+          "value": "leaks",
+          "start": 14.677,
+          "end": 15.019
+        },
+        {
+          "value": "the",
+          "start": 15.019,
+          "end": 15.189
+        },
+        {
+          "value": "number.",
+          "start": 15.189,
+          "end": 15.787
+        },
+        {
+          "value": "The",
+          "start": 15.787,
+          "end": 16.043
+        },
+        {
+          "value": "other",
+          "start": 16.043,
+          "end": 16.213
+        },
+        {
+          "value": "piece",
+          "start": 16.213,
+          "end": 16.512
+        },
+        {
+          "value": "lives",
+          "start": 16.512,
+          "end": 16.725
+        },
+        {
+          "value": "on",
+          "start": 16.725,
+          "end": 16.853
+        },
+        {
+          "value": "the",
+          "start": 16.853,
+          "end": 16.981
+        },
+        {
+          "value": "server.",
+          "start": 16.981,
+          "end": 17.536
+        },
+        {
+          "value": "A",
+          "start": 17.536,
+          "end": 17.664
+        },
+        {
+          "value": "control.",
+          "start": 17.664,
+          "end": 18.389
+        },
+        {
+          "value": "Which",
+          "start": 18.389,
+          "end": 18.688
+        },
+        {
+          "value": "step,",
+          "start": 18.688,
+          "end": 19.029
+        },
+        {
+          "value": "which",
+          "start": 19.029,
+          "end": 19.285
+        },
+        {
+          "value": "stage,",
+          "start": 19.285,
+          "end": 19.84
+        },
+        {
+          "value": "what",
+          "start": 19.84,
+          "end": 20.053
+        },
+        {
+          "value": "to",
+          "start": 20.053,
+          "end": 20.181
+        },
+        {
+          "value": "check,",
+          "start": 20.181,
+          "end": 20.565
+        },
+        {
+          "value": "what",
+          "start": 20.565,
+          "end": 20.736
+        },
+        {
+          "value": "to",
+          "start": 20.736,
+          "end": 20.907
+        },
+        {
+          "value": "do.",
+          "start": 20.907,
+          "end": 21.461
+        },
+        {
+          "value": "Here,",
+          "start": 21.461,
+          "end": 21.888
+        },
+        {
+          "value": "the",
+          "start": 21.888,
+          "end": 22.059
+        },
+        {
+          "value": "reply,",
+          "start": 22.059,
+          "end": 22.741
+        },
+        {
+          "value": "after",
+          "start": 22.741,
+          "end": 22.997
+        },
+        {
+          "value": "the",
+          "start": 22.997,
+          "end": 23.168
+        },
+        {
+          "value": "call,",
+          "start": 23.168,
+          "end": 23.68
+        },
+        {
+          "value": "a",
+          "start": 23.68,
+          "end": 23.851
+        },
+        {
+          "value": "pattern",
+          "start": 23.851,
+          "end": 24.149
+        },
+        {
+          "value": "that",
+          "start": 24.149,
+          "end": 24.32
+        },
+        {
+          "value": "matches",
+          "start": 24.32,
+          "end": 24.747
+        },
+        {
+          "value": "a",
+          "start": 24.747,
+          "end": 24.875
+        },
+        {
+          "value": "social",
+          "start": 24.875,
+          "end": 25.259
+        },
+        {
+          "value": "security",
+          "start": 25.259,
+          "end": 25.728
+        },
+        {
+          "value": "number,",
+          "start": 25.728,
+          "end": 26.24
+        },
+        {
+          "value": "action",
+          "start": 26.24,
+          "end": 26.709
+        },
+        {
+          "value": "deny.",
+          "start": 26.709,
+          "end": 27.264
+        },
+        {
+          "value": "Run",
+          "start": 27.264,
+          "end": 27.477
+        },
+        {
+          "value": "the",
+          "start": 27.477,
+          "end": 27.648
+        },
+        {
+          "value": "same",
+          "start": 27.648,
+          "end": 27.904
+        },
+        {
+          "value": "agent",
+          "start": 27.904,
+          "end": 28.288
+        },
+        {
+          "value": "again.",
+          "start": 28.288,
+          "end": 28.8
+        },
+        {
+          "value": "The",
+          "start": 28.8,
+          "end": 29.184
+        },
+        {
+          "value": "reply",
+          "start": 29.184,
+          "end": 29.568
+        },
+        {
+          "value": "is",
+          "start": 29.568,
+          "end": 29.739
+        },
+        {
+          "value": "blocked,",
+          "start": 29.739,
+          "end": 30.464
+        },
+        {
+          "value": "and",
+          "start": 30.464,
+          "end": 30.635
+        },
+        {
+          "value": "the",
+          "start": 30.635,
+          "end": 30.763
+        },
+        {
+          "value": "code",
+          "start": 30.763,
+          "end": 31.104
+        },
+        {
+          "value": "never",
+          "start": 31.104,
+          "end": 31.317
+        },
+        {
+          "value": "moved.",
+          "start": 31.317,
+          "end": 32.0
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "Close",
+      "file": "narration/ep01/06.mp3",
+      "seconds": 14.18,
+      "words": 31,
+      "timings": [
+        {
+          "value": "Policy",
+          "start": 0.0,
+          "end": 0.597
+        },
+        {
+          "value": "authored",
+          "start": 0.597,
+          "end": 1.024
+        },
+        {
+          "value": "outside",
+          "start": 1.024,
+          "end": 1.664
+        },
+        {
+          "value": "the",
+          "start": 1.664,
+          "end": 1.835
+        },
+        {
+          "value": "agent.",
+          "start": 1.835,
+          "end": 2.56
+        },
+        {
+          "value": "Enforced",
+          "start": 2.56,
+          "end": 3.285
+        },
+        {
+          "value": "inside",
+          "start": 3.285,
+          "end": 3.797
+        },
+        {
+          "value": "the",
+          "start": 3.797,
+          "end": 3.968
+        },
+        {
+          "value": "request.",
+          "start": 3.968,
+          "end": 4.907
+        },
+        {
+          "value": "Proven",
+          "start": 4.907,
+          "end": 5.419
+        },
+        {
+          "value": "in",
+          "start": 5.419,
+          "end": 5.589
+        },
+        {
+          "value": "the",
+          "start": 5.589,
+          "end": 5.717
+        },
+        {
+          "value": "trace",
+          "start": 5.717,
+          "end": 6.059
+        },
+        {
+          "value": "afterwards.",
+          "start": 6.059,
+          "end": 7.168
+        },
+        {
+          "value": "That",
+          "start": 7.168,
+          "end": 7.381
+        },
+        {
+          "value": "is",
+          "start": 7.381,
+          "end": 7.509
+        },
+        {
+          "value": "Agent",
+          "start": 7.509,
+          "end": 7.808
+        },
+        {
+          "value": "Control,",
+          "start": 7.808,
+          "end": 8.619
+        },
+        {
+          "value": "an",
+          "start": 8.619,
+          "end": 8.917
+        },
+        {
+          "value": "open-source",
+          "start": 8.917,
+          "end": 9.6
+        },
+        {
+          "value": "control",
+          "start": 9.6,
+          "end": 10.069
+        },
+        {
+          "value": "plane",
+          "start": 10.069,
+          "end": 10.368
+        },
+        {
+          "value": "for",
+          "start": 10.368,
+          "end": 10.539
+        },
+        {
+          "value": "AI",
+          "start": 10.539,
+          "end": 10.923
+        },
+        {
+          "value": "agents.",
+          "start": 10.923,
+          "end": 11.648
+        },
+        {
+          "value": "Next,",
+          "start": 11.648,
+          "end": 12.331
+        },
+        {
+          "value": "the",
+          "start": 12.331,
+          "end": 12.501
+        },
+        {
+          "value": "anatomy",
+          "start": 12.501,
+          "end": 13.141
+        },
+        {
+          "value": "of",
+          "start": 13.141,
+          "end": 13.269
+        },
+        {
+          "value": "a",
+          "start": 13.269,
+          "end": 13.355
+        },
+        {
+          "value": "control.",
+          "start": 13.355,
+          "end": 14.12
+        }
+      ]
+    }
+  ]
+}

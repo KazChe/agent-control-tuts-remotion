@@ -36,6 +36,8 @@ export const ConditionCard: React.FC<{
   /** Footer + border when a checkpoint has fired: true. */
   firedText: string;
   firedColor?: string;
+  right?: number;
+  width?: number;
 }> = ({
   title,
   meta,
@@ -46,6 +48,8 @@ export const ConditionCard: React.FC<{
   checkpoints,
   firedText,
   firedColor = theme.red,
+  right = 130,
+  width = 660,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -73,8 +77,8 @@ export const ConditionCard: React.FC<{
       style={{
         position: "absolute",
         top: 120,
-        right: 130,
-        width: 660,
+        right,
+        width,
         opacity: inS * out,
         transform: `translateY(${(1 - inS) * 24}px)`,
         background: "rgba(13, 17, 23, 0.94)",

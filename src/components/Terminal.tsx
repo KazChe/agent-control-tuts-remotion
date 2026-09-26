@@ -79,7 +79,17 @@ export const Terminal: React.FC<{
   title?: string;
   /** Smaller text fits longer captured lines; the viewport keeps its height. */
   fontSize?: number;
-}> = ({ entries, history = [], title = "gactl-tutorial - zsh", fontSize = FONT_SIZE }) => {
+  width?: number;
+  /** Pin the window at this x instead of centering it, to leave room for cards. */
+  left?: number;
+}> = ({
+  entries,
+  history = [],
+  title = "gactl-tutorial - zsh",
+  fontSize = FONT_SIZE,
+  width = 1560,
+  left,
+}) => {
   const lineHeight = Math.round((fontSize * LINE_HEIGHT) / FONT_SIZE);
   const maxLines = Math.floor((MAX_LINES * LINE_HEIGHT) / lineHeight);
   const frame = useCurrentFrame();
@@ -170,7 +180,9 @@ export const Terminal: React.FC<{
     >
       <div
         style={{
-          width: 1560,
+          width,
+          position: left === undefined ? "relative" : "absolute",
+          left,
           borderRadius: 16,
           overflow: "hidden",
           border: `1px solid ${theme.panelBorder}`,
