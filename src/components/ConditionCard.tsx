@@ -38,6 +38,7 @@ export const ConditionCard: React.FC<{
   firedColor?: string;
   right?: number;
   width?: number;
+  top?: number;
 }> = ({
   title,
   meta,
@@ -50,6 +51,7 @@ export const ConditionCard: React.FC<{
   firedColor = theme.red,
   right = 130,
   width = 660,
+  top = 120,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -76,7 +78,7 @@ export const ConditionCard: React.FC<{
     <div
       style={{
         position: "absolute",
-        top: 120,
+        top,
         right,
         width,
         opacity: inS * out,

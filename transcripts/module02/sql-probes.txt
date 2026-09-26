@@ -1,0 +1,9 @@
+agent registered: kam7f-eval-lab
+created control: kam7f-dangerous-sql (17)
+  attached to kam7f-eval-lab
+
+--- 4a. read query
+  ALLOWED: query ran: SELECT id, status FROM orders WHERE id = 9 LIMIT 1
+
+--- 4b. destructive query
+  BLOCKED by control: kam7f-dangerous-sql

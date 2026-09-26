@@ -1,5 +1,5 @@
 import React from "react";
-import { spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { theme } from "../theme";
 
 // A pinned code snippet with an optional badge, for "the code never changed".
@@ -8,6 +8,8 @@ export const CodeCard: React.FC<{
   lines: string[];
   badge?: { text: string; at: number; color?: string };
   appearAt?: number;
+  /** frame at which the card fades out */
+  hideAt?: number;
   top?: number;
   right?: number;
   left?: number;
@@ -15,10 +17,14 @@ export const CodeCard: React.FC<{
   fontSize?: number;
   /** line index -> frame at which that line gets a highlight */
   highlights?: Record<number, { at: number; color?: string }>;
-}> = ({ title, lines, badge, appearAt = 0, top = 420, right = 130, left, width = 660, fontSize = 19, highlights = {} }) => {
+}> = ({ title, lines, badge, appearAt = 0, hideAt, top = 420, right = 130, left, width = 660, fontSize = 19, highlights = {} }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const inS = spring({ frame: frame - appearAt, fps, config: { damping: 200 }, durationInFrames: 24 });
+  const out =
+    hideAt === undefined
+      ? 1
+      : interpolate(frame, [hideAt - 12, hideAt], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const badgeS = badge
     ? spring({ frame: frame - badge.at, fps, config: { damping: 200 }, durationInFrames: 18 })
     : 0;
@@ -30,7 +36,7 @@ export const CodeCard: React.FC<{
         right: left === undefined ? right : undefined,
         left,
         width,
-        opacity: inS,
+        opacity: inS * out,
         transform: `translateY(${(1 - inS) * 24}px)`,
         background: "rgba(13, 17, 23, 0.94)",
         border: `2px solid ${theme.panelBorder}`,
