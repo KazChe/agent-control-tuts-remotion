@@ -1,0 +1,8 @@
+agent registered: kam7f-exemption-lab
+created control: kam7f-refund-limit-exempt (15)
+  attached to kam7f-exemption-lab
+created control: kam7f-draft-limit-exempt-broken (16)
+  attached to kam7f-exemption-lab
+
+Exempt users in these controls: ['supervisor-1', 'auditor-7']
+Setup complete. Now run: python exemption_agent.py

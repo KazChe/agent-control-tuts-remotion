@@ -1,0 +1,30 @@
+==================================================================
+  GROUP A: tool step. The exemption can see who is calling.
+==================================================================
+
+--- A1. normal user, small refund
+  ALLOWED: Refunded $250.00 for order ORD-1 (requested by agent-42).
+
+--- A2. normal user, large refund
+  BLOCKED by control: kam7f-refund-limit-exempt
+
+--- A3. EXEMPT user, large refund
+  ALLOWED: Refunded $5,000.00 for order ORD-1 (requested by supervisor-1).
+
+==================================================================
+  GROUP B: llm step. The exemption cannot see who is calling.
+==================================================================
+
+--- B1. normal user, mentions refund
+  ALLOWED: Here is what I can do about that: I want a refund
+
+--- B2. EXEMPT user, mentions refund
+  ALLOWED: Here is what I can do about that: I want a refund
+
+--- B3. normal user, unrelated
+  ALLOWED: Here is what I can do about that: what are your hours
+
+==================================================================
+Compare A2 with B1. Both are non-exempt users doing the thing
+the control was written to stop. Only one of them was stopped.
+The README explains what happened, and how to see it in the span.

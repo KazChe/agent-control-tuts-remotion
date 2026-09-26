@@ -10,8 +10,12 @@ export const CodeCard: React.FC<{
   appearAt?: number;
   top?: number;
   right?: number;
+  left?: number;
   width?: number;
-}> = ({ title, lines, badge, appearAt = 0, top = 420, right = 130, width = 660 }) => {
+  fontSize?: number;
+  /** line index -> frame at which that line gets a highlight */
+  highlights?: Record<number, { at: number; color?: string }>;
+}> = ({ title, lines, badge, appearAt = 0, top = 420, right = 130, left, width = 660, fontSize = 19, highlights = {} }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const inS = spring({ frame: frame - appearAt, fps, config: { damping: 200 }, durationInFrames: 24 });
@@ -23,7 +27,8 @@ export const CodeCard: React.FC<{
       style={{
         position: "absolute",
         top,
-        right,
+        right: left === undefined ? right : undefined,
+        left,
         width,
         opacity: inS,
         transform: `translateY(${(1 - inS) * 24}px)`,
@@ -54,11 +59,29 @@ export const CodeCard: React.FC<{
           </div>
         )}
       </div>
-      {lines.map((l, i) => (
-        <div key={i} style={{ color: theme.text, fontSize: 19, lineHeight: "30px", whiteSpace: "pre" }}>
-          {l}
-        </div>
-      ))}
+      {lines.map((l, i) => {
+        const h = highlights[i];
+        const hs = h ? spring({ frame: frame - h.at, fps, config: { damping: 200 }, durationInFrames: 16 }) : 0;
+        const color = h?.color ?? theme.cyan;
+        return (
+          <div
+            key={i}
+            style={{
+              color: theme.text,
+              fontSize,
+              lineHeight: `${Math.round(fontSize * 1.58)}px`,
+              whiteSpace: "pre",
+              background: hs > 0.01 ? `${color}22` : "transparent",
+              borderLeft: `4px solid ${hs > 0.01 ? color : "transparent"}`,
+              paddingLeft: 10,
+              marginLeft: -14,
+              borderRadius: 4,
+            }}
+          >
+            {l}
+          </div>
+        );
+      })}
     </div>
   );
 };

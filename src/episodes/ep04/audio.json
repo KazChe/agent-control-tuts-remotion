@@ -1,0 +1,2719 @@
+{
+  "voice": "speechify jack (simba-3.2)",
+  "clips": [
+    {
+      "scene": 1,
+      "title": "The step",
+      "file": "narration/ep04/01.mp3",
+      "seconds": 28.44,
+      "words": 98,
+      "timings": [
+        {
+          "value": "Every",
+          "start": 0.0,
+          "end": 0.427
+        },
+        {
+          "value": "control",
+          "start": 0.427,
+          "end": 0.939
+        },
+        {
+          "value": "looks",
+          "start": 0.939,
+          "end": 1.152
+        },
+        {
+          "value": "at",
+          "start": 1.152,
+          "end": 1.28
+        },
+        {
+          "value": "one",
+          "start": 1.28,
+          "end": 1.579
+        },
+        {
+          "value": "thing.",
+          "start": 1.579,
+          "end": 2.091
+        },
+        {
+          "value": "The",
+          "start": 2.091,
+          "end": 2.389
+        },
+        {
+          "value": "step.",
+          "start": 2.389,
+          "end": 2.901
+        },
+        {
+          "value": "When",
+          "start": 2.901,
+          "end": 2.987
+        },
+        {
+          "value": "a",
+          "start": 2.987,
+          "end": 3.157
+        },
+        {
+          "value": "decorated",
+          "start": 3.157,
+          "end": 3.669
+        },
+        {
+          "value": "function",
+          "start": 3.669,
+          "end": 4.053
+        },
+        {
+          "value": "is",
+          "start": 4.053,
+          "end": 4.224
+        },
+        {
+          "value": "called,",
+          "start": 4.224,
+          "end": 4.779
+        },
+        {
+          "value": "the",
+          "start": 4.779,
+          "end": 4.949
+        },
+        {
+          "value": "SDK",
+          "start": 4.949,
+          "end": 5.675
+        },
+        {
+          "value": "builds",
+          "start": 5.675,
+          "end": 6.016
+        },
+        {
+          "value": "this",
+          "start": 6.016,
+          "end": 6.229
+        },
+        {
+          "value": "object",
+          "start": 6.229,
+          "end": 6.656
+        },
+        {
+          "value": "from",
+          "start": 6.656,
+          "end": 6.827
+        },
+        {
+          "value": "that",
+          "start": 6.827,
+          "end": 6.997
+        },
+        {
+          "value": "one",
+          "start": 6.997,
+          "end": 7.296
+        },
+        {
+          "value": "call",
+          "start": 7.296,
+          "end": 7.808
+        },
+        {
+          "value": "and",
+          "start": 7.808,
+          "end": 7.979
+        },
+        {
+          "value": "sends",
+          "start": 7.979,
+          "end": 8.235
+        },
+        {
+          "value": "it",
+          "start": 8.235,
+          "end": 8.32
+        },
+        {
+          "value": "to",
+          "start": 8.32,
+          "end": 8.448
+        },
+        {
+          "value": "the",
+          "start": 8.448,
+          "end": 8.576
+        },
+        {
+          "value": "server",
+          "start": 8.576,
+          "end": 8.917
+        },
+        {
+          "value": "to",
+          "start": 8.917,
+          "end": 9.045
+        },
+        {
+          "value": "be",
+          "start": 9.045,
+          "end": 9.173
+        },
+        {
+          "value": "judged.",
+          "start": 9.173,
+          "end": 9.856
+        },
+        {
+          "value": "It",
+          "start": 9.856,
+          "end": 10.027
+        },
+        {
+          "value": "is",
+          "start": 10.027,
+          "end": 10.197
+        },
+        {
+          "value": "not",
+          "start": 10.197,
+          "end": 10.325
+        },
+        {
+          "value": "a",
+          "start": 10.325,
+          "end": 10.496
+        },
+        {
+          "value": "trace,",
+          "start": 10.496,
+          "end": 11.093
+        },
+        {
+          "value": "and",
+          "start": 11.093,
+          "end": 11.221
+        },
+        {
+          "value": "it",
+          "start": 11.221,
+          "end": 11.307
+        },
+        {
+          "value": "is",
+          "start": 11.307,
+          "end": 11.477
+        },
+        {
+          "value": "not",
+          "start": 11.477,
+          "end": 11.691
+        },
+        {
+          "value": "the",
+          "start": 11.691,
+          "end": 11.861
+        },
+        {
+          "value": "model.",
+          "start": 11.861,
+          "end": 12.587
+        },
+        {
+          "value": "A",
+          "start": 12.587,
+          "end": 12.8
+        },
+        {
+          "value": "step",
+          "start": 12.8,
+          "end": 13.056
+        },
+        {
+          "value": "has",
+          "start": 13.056,
+          "end": 13.227
+        },
+        {
+          "value": "a",
+          "start": 13.227,
+          "end": 13.312
+        },
+        {
+          "value": "type,",
+          "start": 13.312,
+          "end": 13.781
+        },
+        {
+          "value": "a",
+          "start": 13.781,
+          "end": 13.952
+        },
+        {
+          "value": "model",
+          "start": 13.952,
+          "end": 14.293
+        },
+        {
+          "value": "call",
+          "start": 14.293,
+          "end": 14.763
+        },
+        {
+          "value": "or",
+          "start": 14.763,
+          "end": 14.933
+        },
+        {
+          "value": "a",
+          "start": 14.933,
+          "end": 15.061
+        },
+        {
+          "value": "tool",
+          "start": 15.061,
+          "end": 15.403
+        },
+        {
+          "value": "call.",
+          "start": 15.403,
+          "end": 15.957
+        },
+        {
+          "value": "A",
+          "start": 15.957,
+          "end": 16.128
+        },
+        {
+          "value": "name.",
+          "start": 16.128,
+          "end": 16.725
+        },
+        {
+          "value": "An",
+          "start": 16.725,
+          "end": 16.896
+        },
+        {
+          "value": "input,",
+          "start": 16.896,
+          "end": 17.493
+        },
+        {
+          "value": "an",
+          "start": 17.493,
+          "end": 17.749
+        },
+        {
+          "value": "output",
+          "start": 17.749,
+          "end": 18.133
+        },
+        {
+          "value": "once",
+          "start": 18.133,
+          "end": 18.432
+        },
+        {
+          "value": "the",
+          "start": 18.432,
+          "end": 18.603
+        },
+        {
+          "value": "function",
+          "start": 18.603,
+          "end": 18.987
+        },
+        {
+          "value": "has",
+          "start": 18.987,
+          "end": 19.2
+        },
+        {
+          "value": "run,",
+          "start": 19.2,
+          "end": 19.669
+        },
+        {
+          "value": "and",
+          "start": 19.669,
+          "end": 19.797
+        },
+        {
+          "value": "an",
+          "start": 19.797,
+          "end": 19.968
+        },
+        {
+          "value": "optional",
+          "start": 19.968,
+          "end": 20.48
+        },
+        {
+          "value": "context.",
+          "start": 20.48,
+          "end": 21.333
+        },
+        {
+          "value": "That",
+          "start": 21.333,
+          "end": 21.504
+        },
+        {
+          "value": "is",
+          "start": 21.504,
+          "end": 21.632
+        },
+        {
+          "value": "the",
+          "start": 21.632,
+          "end": 21.845
+        },
+        {
+          "value": "whole",
+          "start": 21.845,
+          "end": 22.059
+        },
+        {
+          "value": "object.",
+          "start": 22.059,
+          "end": 22.912
+        },
+        {
+          "value": "A",
+          "start": 22.912,
+          "end": 23.083
+        },
+        {
+          "value": "selector",
+          "start": 23.083,
+          "end": 23.552
+        },
+        {
+          "value": "can",
+          "start": 23.552,
+          "end": 23.723
+        },
+        {
+          "value": "only",
+          "start": 23.723,
+          "end": 24.064
+        },
+        {
+          "value": "reach",
+          "start": 24.064,
+          "end": 24.32
+        },
+        {
+          "value": "what",
+          "start": 24.32,
+          "end": 24.448
+        },
+        {
+          "value": "is",
+          "start": 24.448,
+          "end": 24.661
+        },
+        {
+          "value": "in",
+          "start": 24.661,
+          "end": 24.747
+        },
+        {
+          "value": "it,",
+          "start": 24.747,
+          "end": 25.088
+        },
+        {
+          "value": "so",
+          "start": 25.088,
+          "end": 25.301
+        },
+        {
+          "value": "what",
+          "start": 25.301,
+          "end": 25.515
+        },
+        {
+          "value": "ends",
+          "start": 25.515,
+          "end": 25.685
+        },
+        {
+          "value": "up",
+          "start": 25.685,
+          "end": 25.771
+        },
+        {
+          "value": "in",
+          "start": 25.771,
+          "end": 25.856
+        },
+        {
+          "value": "a",
+          "start": 25.856,
+          "end": 26.027
+        },
+        {
+          "value": "step",
+          "start": 26.027,
+          "end": 26.283
+        },
+        {
+          "value": "decides",
+          "start": 26.283,
+          "end": 26.752
+        },
+        {
+          "value": "what",
+          "start": 26.752,
+          "end": 26.88
+        },
+        {
+          "value": "a",
+          "start": 26.88,
+          "end": 27.008
+        },
+        {
+          "value": "control",
+          "start": 27.008,
+          "end": 27.435
+        },
+        {
+          "value": "can",
+          "start": 27.435,
+          "end": 27.605
+        },
+        {
+          "value": "ever",
+          "start": 27.605,
+          "end": 27.776
+        },
+        {
+          "value": "check.",
+          "start": 27.776,
+          "end": 28.37
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "How a function becomes a step",
+      "file": "narration/ep04/02.mp3",
+      "seconds": 39.02,
+      "words": 124,
+      "timings": [
+        {
+          "value": "The",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "decorator",
+          "start": 0.256,
+          "end": 0.768
+        },
+        {
+          "value": "builds",
+          "start": 0.768,
+          "end": 1.024
+        },
+        {
+          "value": "the",
+          "start": 1.024,
+          "end": 1.237
+        },
+        {
+          "value": "step",
+          "start": 1.237,
+          "end": 1.408
+        },
+        {
+          "value": "from",
+          "start": 1.408,
+          "end": 1.579
+        },
+        {
+          "value": "your",
+          "start": 1.579,
+          "end": 1.707
+        },
+        {
+          "value": "function.",
+          "start": 1.707,
+          "end": 2.347
+        },
+        {
+          "value": "A",
+          "start": 2.347,
+          "end": 2.517
+        },
+        {
+          "value": "plain",
+          "start": 2.517,
+          "end": 2.901
+        },
+        {
+          "value": "decorated",
+          "start": 2.901,
+          "end": 3.456
+        },
+        {
+          "value": "function",
+          "start": 3.456,
+          "end": 3.883
+        },
+        {
+          "value": "becomes",
+          "start": 3.883,
+          "end": 4.181
+        },
+        {
+          "value": "a",
+          "start": 4.181,
+          "end": 4.309
+        },
+        {
+          "value": "model",
+          "start": 4.309,
+          "end": 4.779
+        },
+        {
+          "value": "step,",
+          "start": 4.779,
+          "end": 5.163
+        },
+        {
+          "value": "named",
+          "start": 5.163,
+          "end": 5.504
+        },
+        {
+          "value": "after",
+          "start": 5.504,
+          "end": 5.675
+        },
+        {
+          "value": "the",
+          "start": 5.675,
+          "end": 5.845
+        },
+        {
+          "value": "function.",
+          "start": 5.845,
+          "end": 6.528
+        },
+        {
+          "value": "To",
+          "start": 6.528,
+          "end": 6.741
+        },
+        {
+          "value": "make",
+          "start": 6.741,
+          "end": 6.869
+        },
+        {
+          "value": "a",
+          "start": 6.869,
+          "end": 6.955
+        },
+        {
+          "value": "tool",
+          "start": 6.955,
+          "end": 7.253
+        },
+        {
+          "value": "step,",
+          "start": 7.253,
+          "end": 7.637
+        },
+        {
+          "value": "the",
+          "start": 7.637,
+          "end": 7.808
+        },
+        {
+          "value": "function",
+          "start": 7.808,
+          "end": 8.192
+        },
+        {
+          "value": "carries",
+          "start": 8.192,
+          "end": 8.491
+        },
+        {
+          "value": "a",
+          "start": 8.491,
+          "end": 8.661
+        },
+        {
+          "value": "name",
+          "start": 8.661,
+          "end": 8.96
+        },
+        {
+          "value": "attribute,",
+          "start": 8.96,
+          "end": 9.728
+        },
+        {
+          "value": "name",
+          "start": 9.728,
+          "end": 10.027
+        },
+        {
+          "value": "or",
+          "start": 10.027,
+          "end": 10.197
+        },
+        {
+          "value": "tool",
+          "start": 10.197,
+          "end": 10.496
+        },
+        {
+          "value": "name,",
+          "start": 10.496,
+          "end": 10.923
+        },
+        {
+          "value": "and",
+          "start": 10.923,
+          "end": 11.051
+        },
+        {
+          "value": "the",
+          "start": 11.051,
+          "end": 11.179
+        },
+        {
+          "value": "decorator",
+          "start": 11.179,
+          "end": 11.733
+        },
+        {
+          "value": "sees",
+          "start": 11.733,
+          "end": 12.032
+        },
+        {
+          "value": "it.",
+          "start": 12.032,
+          "end": 12.459
+        },
+        {
+          "value": "That",
+          "start": 12.459,
+          "end": 12.672
+        },
+        {
+          "value": "is",
+          "start": 12.672,
+          "end": 12.843
+        },
+        {
+          "value": "also",
+          "start": 12.843,
+          "end": 13.099
+        },
+        {
+          "value": "how",
+          "start": 13.099,
+          "end": 13.312
+        },
+        {
+          "value": "framework",
+          "start": 13.312,
+          "end": 13.781
+        },
+        {
+          "value": "decorators",
+          "start": 13.781,
+          "end": 14.379
+        },
+        {
+          "value": "fit.",
+          "start": 14.379,
+          "end": 14.848
+        },
+        {
+          "value": "LangChain's",
+          "start": 14.848,
+          "end": 15.531
+        },
+        {
+          "value": "tool",
+          "start": 15.531,
+          "end": 15.787
+        },
+        {
+          "value": "decorator,",
+          "start": 15.787,
+          "end": 16.512
+        },
+        {
+          "value": "Google",
+          "start": 16.512,
+          "end": 16.896
+        },
+        {
+          "value": "ADK's",
+          "start": 16.896,
+          "end": 17.621
+        },
+        {
+          "value": "tool",
+          "start": 17.621,
+          "end": 17.877
+        },
+        {
+          "value": "wrappers,",
+          "start": 17.877,
+          "end": 18.603
+        },
+        {
+          "value": "CrewAI",
+          "start": 18.603,
+          "end": 19.456
+        },
+        {
+          "value": "tools.",
+          "start": 19.456,
+          "end": 20.053
+        },
+        {
+          "value": "They",
+          "start": 20.053,
+          "end": 20.267
+        },
+        {
+          "value": "set",
+          "start": 20.267,
+          "end": 20.395
+        },
+        {
+          "value": "a",
+          "start": 20.395,
+          "end": 20.523
+        },
+        {
+          "value": "name",
+          "start": 20.523,
+          "end": 20.736
+        },
+        {
+          "value": "on",
+          "start": 20.736,
+          "end": 20.864
+        },
+        {
+          "value": "the",
+          "start": 20.864,
+          "end": 20.992
+        },
+        {
+          "value": "function,",
+          "start": 20.992,
+          "end": 21.632
+        },
+        {
+          "value": "so",
+          "start": 21.632,
+          "end": 21.803
+        },
+        {
+          "value": "you",
+          "start": 21.803,
+          "end": 21.931
+        },
+        {
+          "value": "apply",
+          "start": 21.931,
+          "end": 22.315
+        },
+        {
+          "value": "them",
+          "start": 22.315,
+          "end": 22.528
+        },
+        {
+          "value": "first,",
+          "start": 22.528,
+          "end": 22.955
+        },
+        {
+          "value": "on",
+          "start": 22.955,
+          "end": 23.083
+        },
+        {
+          "value": "the",
+          "start": 23.083,
+          "end": 23.211
+        },
+        {
+          "value": "inside,",
+          "start": 23.211,
+          "end": 23.979
+        },
+        {
+          "value": "and",
+          "start": 23.979,
+          "end": 24.107
+        },
+        {
+          "value": "the",
+          "start": 24.107,
+          "end": 24.235
+        },
+        {
+          "value": "Agent",
+          "start": 24.235,
+          "end": 24.619
+        },
+        {
+          "value": "Control",
+          "start": 24.619,
+          "end": 24.96
+        },
+        {
+          "value": "decorator",
+          "start": 24.96,
+          "end": 25.472
+        },
+        {
+          "value": "on",
+          "start": 25.472,
+          "end": 25.6
+        },
+        {
+          "value": "the",
+          "start": 25.6,
+          "end": 25.728
+        },
+        {
+          "value": "outside,",
+          "start": 25.728,
+          "end": 26.368
+        },
+        {
+          "value": "and",
+          "start": 26.368,
+          "end": 26.453
+        },
+        {
+          "value": "the",
+          "start": 26.453,
+          "end": 26.581
+        },
+        {
+          "value": "step",
+          "start": 26.581,
+          "end": 26.795
+        },
+        {
+          "value": "registers",
+          "start": 26.795,
+          "end": 27.307
+        },
+        {
+          "value": "as",
+          "start": 27.307,
+          "end": 27.392
+        },
+        {
+          "value": "a",
+          "start": 27.392,
+          "end": 27.563
+        },
+        {
+          "value": "tool",
+          "start": 27.563,
+          "end": 27.861
+        },
+        {
+          "value": "under",
+          "start": 27.861,
+          "end": 27.989
+        },
+        {
+          "value": "the",
+          "start": 27.989,
+          "end": 28.16
+        },
+        {
+          "value": "framework's",
+          "start": 28.16,
+          "end": 28.587
+        },
+        {
+          "value": "name.",
+          "start": 28.587,
+          "end": 29.056
+        },
+        {
+          "value": "The",
+          "start": 29.056,
+          "end": 29.269
+        },
+        {
+          "value": "other",
+          "start": 29.269,
+          "end": 29.483
+        },
+        {
+          "value": "way",
+          "start": 29.483,
+          "end": 29.696
+        },
+        {
+          "value": "round,",
+          "start": 29.696,
+          "end": 30.123
+        },
+        {
+          "value": "the",
+          "start": 30.123,
+          "end": 30.251
+        },
+        {
+          "value": "decorator",
+          "start": 30.251,
+          "end": 30.805
+        },
+        {
+          "value": "sees",
+          "start": 30.805,
+          "end": 30.976
+        },
+        {
+          "value": "a",
+          "start": 30.976,
+          "end": 31.147
+        },
+        {
+          "value": "plain",
+          "start": 31.147,
+          "end": 31.445
+        },
+        {
+          "value": "function",
+          "start": 31.445,
+          "end": 32.043
+        },
+        {
+          "value": "and",
+          "start": 32.043,
+          "end": 32.171
+        },
+        {
+          "value": "you",
+          "start": 32.171,
+          "end": 32.299
+        },
+        {
+          "value": "get",
+          "start": 32.299,
+          "end": 32.384
+        },
+        {
+          "value": "a",
+          "start": 32.384,
+          "end": 32.512
+        },
+        {
+          "value": "model",
+          "start": 32.512,
+          "end": 32.896
+        },
+        {
+          "value": "step.",
+          "start": 32.896,
+          "end": 33.323
+        },
+        {
+          "value": "The",
+          "start": 33.323,
+          "end": 33.579
+        },
+        {
+          "value": "latest",
+          "start": 33.579,
+          "end": 33.835
+        },
+        {
+          "value": "SDK",
+          "start": 33.835,
+          "end": 34.517
+        },
+        {
+          "value": "also",
+          "start": 34.517,
+          "end": 34.859
+        },
+        {
+          "value": "lets",
+          "start": 34.859,
+          "end": 35.029
+        },
+        {
+          "value": "you",
+          "start": 35.029,
+          "end": 35.157
+        },
+        {
+          "value": "state",
+          "start": 35.157,
+          "end": 35.413
+        },
+        {
+          "value": "the",
+          "start": 35.413,
+          "end": 35.584
+        },
+        {
+          "value": "type",
+          "start": 35.584,
+          "end": 35.84
+        },
+        {
+          "value": "outright,",
+          "start": 35.84,
+          "end": 36.48
+        },
+        {
+          "value": "with",
+          "start": 36.48,
+          "end": 36.608
+        },
+        {
+          "value": "a",
+          "start": 36.608,
+          "end": 36.821
+        },
+        {
+          "value": "step",
+          "start": 36.821,
+          "end": 36.992
+        },
+        {
+          "value": "type",
+          "start": 36.992,
+          "end": 37.248
+        },
+        {
+          "value": "parameter",
+          "start": 37.248,
+          "end": 37.76
+        },
+        {
+          "value": "on",
+          "start": 37.76,
+          "end": 37.888
+        },
+        {
+          "value": "the",
+          "start": 37.888,
+          "end": 38.016
+        },
+        {
+          "value": "decorator.",
+          "start": 38.016,
+          "end": 38.963
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "What input looks like",
+      "file": "narration/ep04/03.mp3",
+      "seconds": 32.35,
+      "words": 92,
+      "timings": [
+        {
+          "value": "Here",
+          "start": 0.0,
+          "end": 0.341
+        },
+        {
+          "value": "is",
+          "start": 0.341,
+          "end": 0.469
+        },
+        {
+          "value": "where",
+          "start": 0.469,
+          "end": 0.597
+        },
+        {
+          "value": "the",
+          "start": 0.597,
+          "end": 0.768
+        },
+        {
+          "value": "two",
+          "start": 0.768,
+          "end": 1.024
+        },
+        {
+          "value": "step",
+          "start": 1.024,
+          "end": 1.28
+        },
+        {
+          "value": "types",
+          "start": 1.28,
+          "end": 1.621
+        },
+        {
+          "value": "differ,",
+          "start": 1.621,
+          "end": 2.176
+        },
+        {
+          "value": "and",
+          "start": 2.176,
+          "end": 2.304
+        },
+        {
+          "value": "it",
+          "start": 2.304,
+          "end": 2.475
+        },
+        {
+          "value": "matters.",
+          "start": 2.475,
+          "end": 3.243
+        },
+        {
+          "value": "For",
+          "start": 3.243,
+          "end": 3.371
+        },
+        {
+          "value": "a",
+          "start": 3.371,
+          "end": 3.499
+        },
+        {
+          "value": "model",
+          "start": 3.499,
+          "end": 3.925
+        },
+        {
+          "value": "step,",
+          "start": 3.925,
+          "end": 4.395
+        },
+        {
+          "value": "the",
+          "start": 4.395,
+          "end": 4.565
+        },
+        {
+          "value": "SDK",
+          "start": 4.565,
+          "end": 5.333
+        },
+        {
+          "value": "picks",
+          "start": 5.333,
+          "end": 5.632
+        },
+        {
+          "value": "one",
+          "start": 5.632,
+          "end": 5.973
+        },
+        {
+          "value": "string",
+          "start": 5.973,
+          "end": 6.272
+        },
+        {
+          "value": "out",
+          "start": 6.272,
+          "end": 6.357
+        },
+        {
+          "value": "of",
+          "start": 6.357,
+          "end": 6.485
+        },
+        {
+          "value": "your",
+          "start": 6.485,
+          "end": 6.613
+        },
+        {
+          "value": "arguments.",
+          "start": 6.613,
+          "end": 7.424
+        },
+        {
+          "value": "It",
+          "start": 7.424,
+          "end": 7.595
+        },
+        {
+          "value": "looks",
+          "start": 7.595,
+          "end": 7.851
+        },
+        {
+          "value": "for",
+          "start": 7.851,
+          "end": 7.979
+        },
+        {
+          "value": "a",
+          "start": 7.979,
+          "end": 8.107
+        },
+        {
+          "value": "parameter",
+          "start": 8.107,
+          "end": 8.619
+        },
+        {
+          "value": "named",
+          "start": 8.619,
+          "end": 8.96
+        },
+        {
+          "value": "input,",
+          "start": 8.96,
+          "end": 9.643
+        },
+        {
+          "value": "message,",
+          "start": 9.643,
+          "end": 10.283
+        },
+        {
+          "value": "query,",
+          "start": 10.283,
+          "end": 10.837
+        },
+        {
+          "value": "text,",
+          "start": 10.837,
+          "end": 11.563
+        },
+        {
+          "value": "prompt,",
+          "start": 11.563,
+          "end": 12.16
+        },
+        {
+          "value": "content,",
+          "start": 12.16,
+          "end": 12.757
+        },
+        {
+          "value": "or",
+          "start": 12.757,
+          "end": 13.013
+        },
+        {
+          "value": "user",
+          "start": 13.013,
+          "end": 13.397
+        },
+        {
+          "value": "input,",
+          "start": 13.397,
+          "end": 14.037
+        },
+        {
+          "value": "and",
+          "start": 14.037,
+          "end": 14.208
+        },
+        {
+          "value": "takes",
+          "start": 14.208,
+          "end": 14.421
+        },
+        {
+          "value": "the",
+          "start": 14.421,
+          "end": 14.592
+        },
+        {
+          "value": "first",
+          "start": 14.592,
+          "end": 14.848
+        },
+        {
+          "value": "one",
+          "start": 14.848,
+          "end": 14.976
+        },
+        {
+          "value": "it",
+          "start": 14.976,
+          "end": 15.104
+        },
+        {
+          "value": "finds.",
+          "start": 15.104,
+          "end": 15.957
+        },
+        {
+          "value": "Failing",
+          "start": 15.957,
+          "end": 16.299
+        },
+        {
+          "value": "that,",
+          "start": 16.299,
+          "end": 16.811
+        },
+        {
+          "value": "the",
+          "start": 16.811,
+          "end": 16.981
+        },
+        {
+          "value": "first",
+          "start": 16.981,
+          "end": 17.323
+        },
+        {
+          "value": "string",
+          "start": 17.323,
+          "end": 17.579
+        },
+        {
+          "value": "argument.",
+          "start": 17.579,
+          "end": 18.347
+        },
+        {
+          "value": "Everything",
+          "start": 18.347,
+          "end": 18.773
+        },
+        {
+          "value": "else",
+          "start": 18.773,
+          "end": 19.072
+        },
+        {
+          "value": "is",
+          "start": 19.072,
+          "end": 19.285
+        },
+        {
+          "value": "dropped",
+          "start": 19.285,
+          "end": 19.669
+        },
+        {
+          "value": "before",
+          "start": 19.669,
+          "end": 20.011
+        },
+        {
+          "value": "the",
+          "start": 20.011,
+          "end": 20.139
+        },
+        {
+          "value": "control",
+          "start": 20.139,
+          "end": 20.608
+        },
+        {
+          "value": "sees",
+          "start": 20.608,
+          "end": 20.821
+        },
+        {
+          "value": "it.",
+          "start": 20.821,
+          "end": 21.589
+        },
+        {
+          "value": "For",
+          "start": 21.589,
+          "end": 21.803
+        },
+        {
+          "value": "a",
+          "start": 21.803,
+          "end": 21.888
+        },
+        {
+          "value": "tool",
+          "start": 21.888,
+          "end": 22.229
+        },
+        {
+          "value": "step,",
+          "start": 22.229,
+          "end": 22.571
+        },
+        {
+          "value": "the",
+          "start": 22.571,
+          "end": 22.699
+        },
+        {
+          "value": "input",
+          "start": 22.699,
+          "end": 23.04
+        },
+        {
+          "value": "is",
+          "start": 23.04,
+          "end": 23.168
+        },
+        {
+          "value": "the",
+          "start": 23.168,
+          "end": 23.381
+        },
+        {
+          "value": "whole",
+          "start": 23.381,
+          "end": 23.595
+        },
+        {
+          "value": "argument",
+          "start": 23.595,
+          "end": 24.021
+        },
+        {
+          "value": "dictionary,",
+          "start": 24.021,
+          "end": 24.832
+        },
+        {
+          "value": "every",
+          "start": 24.832,
+          "end": 25.173
+        },
+        {
+          "value": "parameter",
+          "start": 25.173,
+          "end": 25.643
+        },
+        {
+          "value": "by",
+          "start": 25.643,
+          "end": 25.856
+        },
+        {
+          "value": "name,",
+          "start": 25.856,
+          "end": 26.453
+        },
+        {
+          "value": "so",
+          "start": 26.453,
+          "end": 26.624
+        },
+        {
+          "value": "a",
+          "start": 26.624,
+          "end": 26.752
+        },
+        {
+          "value": "selector",
+          "start": 26.752,
+          "end": 27.264
+        },
+        {
+          "value": "can",
+          "start": 27.264,
+          "end": 27.435
+        },
+        {
+          "value": "reach",
+          "start": 27.435,
+          "end": 27.691
+        },
+        {
+          "value": "any",
+          "start": 27.691,
+          "end": 27.989
+        },
+        {
+          "value": "field",
+          "start": 27.989,
+          "end": 28.331
+        },
+        {
+          "value": "by",
+          "start": 28.331,
+          "end": 28.501
+        },
+        {
+          "value": "path.",
+          "start": 28.501,
+          "end": 29.184
+        },
+        {
+          "value": "Same",
+          "start": 29.184,
+          "end": 29.568
+        },
+        {
+          "value": "function",
+          "start": 29.568,
+          "end": 29.952
+        },
+        {
+          "value": "shape,",
+          "start": 29.952,
+          "end": 30.421
+        },
+        {
+          "value": "two",
+          "start": 30.421,
+          "end": 30.763
+        },
+        {
+          "value": "very",
+          "start": 30.763,
+          "end": 31.019
+        },
+        {
+          "value": "different",
+          "start": 31.019,
+          "end": 31.488
+        },
+        {
+          "value": "steps.",
+          "start": 31.488,
+          "end": 32.3
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "The trap",
+      "file": "narration/ep04/04.mp3",
+      "seconds": 32.4,
+      "words": 100,
+      "timings": [
+        {
+          "value": "Now",
+          "start": 0.0,
+          "end": 0.299
+        },
+        {
+          "value": "the",
+          "start": 0.299,
+          "end": 0.469
+        },
+        {
+          "value": "trap",
+          "start": 0.469,
+          "end": 0.683
+        },
+        {
+          "value": "this",
+          "start": 0.683,
+          "end": 0.896
+        },
+        {
+          "value": "creates.",
+          "start": 0.896,
+          "end": 1.707
+        },
+        {
+          "value": "The",
+          "start": 1.707,
+          "end": 1.792
+        },
+        {
+          "value": "tutorials",
+          "start": 1.792,
+          "end": 2.432
+        },
+        {
+          "value": "have",
+          "start": 2.432,
+          "end": 2.56
+        },
+        {
+          "value": "a",
+          "start": 2.56,
+          "end": 2.731
+        },
+        {
+          "value": "refund",
+          "start": 2.731,
+          "end": 3.157
+        },
+        {
+          "value": "limit",
+          "start": 3.157,
+          "end": 3.456
+        },
+        {
+          "value": "with",
+          "start": 3.456,
+          "end": 3.627
+        },
+        {
+          "value": "an",
+          "start": 3.627,
+          "end": 3.755
+        },
+        {
+          "value": "exemption.",
+          "start": 3.755,
+          "end": 4.523
+        },
+        {
+          "value": "Supervisors",
+          "start": 4.523,
+          "end": 5.291
+        },
+        {
+          "value": "may",
+          "start": 5.291,
+          "end": 5.461
+        },
+        {
+          "value": "exceed",
+          "start": 5.461,
+          "end": 5.803
+        },
+        {
+          "value": "it.",
+          "start": 5.803,
+          "end": 6.229
+        },
+        {
+          "value": "Written",
+          "start": 6.229,
+          "end": 6.485
+        },
+        {
+          "value": "on",
+          "start": 6.485,
+          "end": 6.613
+        },
+        {
+          "value": "a",
+          "start": 6.613,
+          "end": 6.741
+        },
+        {
+          "value": "tool",
+          "start": 6.741,
+          "end": 7.083
+        },
+        {
+          "value": "step,",
+          "start": 7.083,
+          "end": 7.509
+        },
+        {
+          "value": "the",
+          "start": 7.509,
+          "end": 7.637
+        },
+        {
+          "value": "selector",
+          "start": 7.637,
+          "end": 8.107
+        },
+        {
+          "value": "reads",
+          "start": 8.107,
+          "end": 8.363
+        },
+        {
+          "value": "user",
+          "start": 8.363,
+          "end": 8.704
+        },
+        {
+          "value": "id",
+          "start": 8.704,
+          "end": 9.088
+        },
+        {
+          "value": "from",
+          "start": 9.088,
+          "end": 9.216
+        },
+        {
+          "value": "the",
+          "start": 9.216,
+          "end": 9.344
+        },
+        {
+          "value": "input,",
+          "start": 9.344,
+          "end": 9.899
+        },
+        {
+          "value": "the",
+          "start": 9.899,
+          "end": 10.027
+        },
+        {
+          "value": "not",
+          "start": 10.027,
+          "end": 10.24
+        },
+        {
+          "value": "node",
+          "start": 10.24,
+          "end": 10.581
+        },
+        {
+          "value": "inverts",
+          "start": 10.581,
+          "end": 10.923
+        },
+        {
+          "value": "the",
+          "start": 10.923,
+          "end": 11.093
+        },
+        {
+          "value": "match,",
+          "start": 11.093,
+          "end": 11.605
+        },
+        {
+          "value": "and",
+          "start": 11.605,
+          "end": 11.733
+        },
+        {
+          "value": "the",
+          "start": 11.733,
+          "end": 11.861
+        },
+        {
+          "value": "supervisor",
+          "start": 11.861,
+          "end": 12.501
+        },
+        {
+          "value": "gets",
+          "start": 12.501,
+          "end": 12.757
+        },
+        {
+          "value": "through",
+          "start": 12.757,
+          "end": 13.099
+        },
+        {
+          "value": "while",
+          "start": 13.099,
+          "end": 13.355
+        },
+        {
+          "value": "everyone",
+          "start": 13.355,
+          "end": 13.824
+        },
+        {
+          "value": "else",
+          "start": 13.824,
+          "end": 14.037
+        },
+        {
+          "value": "is",
+          "start": 14.037,
+          "end": 14.251
+        },
+        {
+          "value": "stopped.",
+          "start": 14.251,
+          "end": 14.933
+        },
+        {
+          "value": "The",
+          "start": 14.933,
+          "end": 15.104
+        },
+        {
+          "value": "same",
+          "start": 15.104,
+          "end": 15.317
+        },
+        {
+          "value": "intent",
+          "start": 15.317,
+          "end": 15.659
+        },
+        {
+          "value": "written",
+          "start": 15.659,
+          "end": 15.915
+        },
+        {
+          "value": "on",
+          "start": 15.915,
+          "end": 16.043
+        },
+        {
+          "value": "a",
+          "start": 16.043,
+          "end": 16.171
+        },
+        {
+          "value": "model",
+          "start": 16.171,
+          "end": 16.512
+        },
+        {
+          "value": "step",
+          "start": 16.512,
+          "end": 16.725
+        },
+        {
+          "value": "never",
+          "start": 16.725,
+          "end": 17.237
+        },
+        {
+          "value": "sees",
+          "start": 17.237,
+          "end": 17.493
+        },
+        {
+          "value": "user",
+          "start": 17.493,
+          "end": 17.835
+        },
+        {
+          "value": "id",
+          "start": 17.835,
+          "end": 18.005
+        },
+        {
+          "value": "at",
+          "start": 18.005,
+          "end": 18.176
+        },
+        {
+          "value": "all.",
+          "start": 18.176,
+          "end": 18.688
+        },
+        {
+          "value": "The",
+          "start": 18.688,
+          "end": 18.773
+        },
+        {
+          "value": "list",
+          "start": 18.773,
+          "end": 19.029
+        },
+        {
+          "value": "evaluator",
+          "start": 19.029,
+          "end": 19.712
+        },
+        {
+          "value": "gets",
+          "start": 19.712,
+          "end": 19.883
+        },
+        {
+          "value": "an",
+          "start": 19.883,
+          "end": 20.011
+        },
+        {
+          "value": "empty",
+          "start": 20.011,
+          "end": 20.352
+        },
+        {
+          "value": "value",
+          "start": 20.352,
+          "end": 20.736
+        },
+        {
+          "value": "and",
+          "start": 20.736,
+          "end": 20.907
+        },
+        {
+          "value": "answers,",
+          "start": 20.907,
+          "end": 21.504
+        },
+        {
+          "value": "empty",
+          "start": 21.504,
+          "end": 21.845
+        },
+        {
+          "value": "input,",
+          "start": 21.845,
+          "end": 22.357
+        },
+        {
+          "value": "control",
+          "start": 22.357,
+          "end": 22.827
+        },
+        {
+          "value": "ignored.",
+          "start": 22.827,
+          "end": 23.509
+        },
+        {
+          "value": "The",
+          "start": 23.509,
+          "end": 23.723
+        },
+        {
+          "value": "and",
+          "start": 23.723,
+          "end": 23.893
+        },
+        {
+          "value": "never",
+          "start": 23.893,
+          "end": 24.107
+        },
+        {
+          "value": "fires.",
+          "start": 24.107,
+          "end": 24.917
+        },
+        {
+          "value": "Nobody",
+          "start": 24.917,
+          "end": 25.429
+        },
+        {
+          "value": "is",
+          "start": 25.429,
+          "end": 25.6
+        },
+        {
+          "value": "stopped,",
+          "start": 25.6,
+          "end": 26.027
+        },
+        {
+          "value": "the",
+          "start": 26.027,
+          "end": 26.24
+        },
+        {
+          "value": "supervisor",
+          "start": 26.24,
+          "end": 26.752
+        },
+        {
+          "value": "included,",
+          "start": 26.752,
+          "end": 27.435
+        },
+        {
+          "value": "and",
+          "start": 27.435,
+          "end": 27.563
+        },
+        {
+          "value": "the",
+          "start": 27.563,
+          "end": 27.648
+        },
+        {
+          "value": "control",
+          "start": 27.648,
+          "end": 28.075
+        },
+        {
+          "value": "sits",
+          "start": 28.075,
+          "end": 28.331
+        },
+        {
+          "value": "enabled",
+          "start": 28.331,
+          "end": 28.757
+        },
+        {
+          "value": "and",
+          "start": 28.757,
+          "end": 28.971
+        },
+        {
+          "value": "green",
+          "start": 28.971,
+          "end": 29.269
+        },
+        {
+          "value": "the",
+          "start": 29.269,
+          "end": 29.397
+        },
+        {
+          "value": "whole",
+          "start": 29.397,
+          "end": 29.696
+        },
+        {
+          "value": "time.",
+          "start": 29.696,
+          "end": 30.336
+        },
+        {
+          "value": "Here",
+          "start": 30.336,
+          "end": 30.549
+        },
+        {
+          "value": "are",
+          "start": 30.549,
+          "end": 30.677
+        },
+        {
+          "value": "both,",
+          "start": 30.677,
+          "end": 31.232
+        },
+        {
+          "value": "run",
+          "start": 31.232,
+          "end": 31.531
+        },
+        {
+          "value": "for",
+          "start": 31.531,
+          "end": 31.701
+        },
+        {
+          "value": "real.",
+          "start": 31.701,
+          "end": 32.34
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "Context",
+      "file": "narration/ep04/05.mp3",
+      "seconds": 27.41,
+      "words": 79,
+      "timings": [
+        {
+          "value": "There",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "is",
+          "start": 0.256,
+          "end": 0.427
+        },
+        {
+          "value": "a",
+          "start": 0.427,
+          "end": 0.512
+        },
+        {
+          "value": "way",
+          "start": 0.512,
+          "end": 0.768
+        },
+        {
+          "value": "to",
+          "start": 0.768,
+          "end": 0.939
+        },
+        {
+          "value": "hand",
+          "start": 0.939,
+          "end": 1.195
+        },
+        {
+          "value": "a",
+          "start": 1.195,
+          "end": 1.323
+        },
+        {
+          "value": "control",
+          "start": 1.323,
+          "end": 1.92
+        },
+        {
+          "value": "what",
+          "start": 1.92,
+          "end": 2.091
+        },
+        {
+          "value": "the",
+          "start": 2.091,
+          "end": 2.219
+        },
+        {
+          "value": "decorator",
+          "start": 2.219,
+          "end": 2.816
+        },
+        {
+          "value": "cannot",
+          "start": 2.816,
+          "end": 3.2
+        },
+        {
+          "value": "see.",
+          "start": 3.2,
+          "end": 3.84
+        },
+        {
+          "value": "Instead",
+          "start": 3.84,
+          "end": 4.267
+        },
+        {
+          "value": "of",
+          "start": 4.267,
+          "end": 4.395
+        },
+        {
+          "value": "decorating,",
+          "start": 4.395,
+          "end": 5.205
+        },
+        {
+          "value": "call",
+          "start": 5.205,
+          "end": 5.461
+        },
+        {
+          "value": "the",
+          "start": 5.461,
+          "end": 5.589
+        },
+        {
+          "value": "evaluation",
+          "start": 5.589,
+          "end": 6.272
+        },
+        {
+          "value": "yourself",
+          "start": 6.272,
+          "end": 6.955
+        },
+        {
+          "value": "and",
+          "start": 6.955,
+          "end": 7.211
+        },
+        {
+          "value": "pass",
+          "start": 7.211,
+          "end": 7.467
+        },
+        {
+          "value": "a",
+          "start": 7.467,
+          "end": 7.637
+        },
+        {
+          "value": "context",
+          "start": 7.637,
+          "end": 8.149
+        },
+        {
+          "value": "object.",
+          "start": 8.149,
+          "end": 9.003
+        },
+        {
+          "value": "Whatever",
+          "start": 9.003,
+          "end": 9.472
+        },
+        {
+          "value": "you",
+          "start": 9.472,
+          "end": 9.685
+        },
+        {
+          "value": "put",
+          "start": 9.685,
+          "end": 9.856
+        },
+        {
+          "value": "in",
+          "start": 9.856,
+          "end": 9.984
+        },
+        {
+          "value": "it,",
+          "start": 9.984,
+          "end": 10.368
+        },
+        {
+          "value": "the",
+          "start": 10.368,
+          "end": 10.539
+        },
+        {
+          "value": "caller's",
+          "start": 10.539,
+          "end": 10.965
+        },
+        {
+          "value": "id,",
+          "start": 10.965,
+          "end": 11.563
+        },
+        {
+          "value": "the",
+          "start": 11.563,
+          "end": 11.733
+        },
+        {
+          "value": "conversation",
+          "start": 11.733,
+          "end": 12.459
+        },
+        {
+          "value": "so",
+          "start": 12.459,
+          "end": 12.8
+        },
+        {
+          "value": "far,",
+          "start": 12.8,
+          "end": 13.269
+        },
+        {
+          "value": "a",
+          "start": 13.269,
+          "end": 13.483
+        },
+        {
+          "value": "risk",
+          "start": 13.483,
+          "end": 13.739
+        },
+        {
+          "value": "level,",
+          "start": 13.739,
+          "end": 14.336
+        },
+        {
+          "value": "becomes",
+          "start": 14.336,
+          "end": 14.848
+        },
+        {
+          "value": "part",
+          "start": 14.848,
+          "end": 15.104
+        },
+        {
+          "value": "of",
+          "start": 15.104,
+          "end": 15.189
+        },
+        {
+          "value": "the",
+          "start": 15.189,
+          "end": 15.403
+        },
+        {
+          "value": "step,",
+          "start": 15.403,
+          "end": 16.0
+        },
+        {
+          "value": "and",
+          "start": 16.0,
+          "end": 16.128
+        },
+        {
+          "value": "a",
+          "start": 16.128,
+          "end": 16.299
+        },
+        {
+          "value": "selector",
+          "start": 16.299,
+          "end": 16.896
+        },
+        {
+          "value": "reaches",
+          "start": 16.896,
+          "end": 17.28
+        },
+        {
+          "value": "it",
+          "start": 17.28,
+          "end": 17.408
+        },
+        {
+          "value": "by",
+          "start": 17.408,
+          "end": 17.621
+        },
+        {
+          "value": "path,",
+          "start": 17.621,
+          "end": 18.219
+        },
+        {
+          "value": "context",
+          "start": 18.219,
+          "end": 18.773
+        },
+        {
+          "value": "dot",
+          "start": 18.773,
+          "end": 19.072
+        },
+        {
+          "value": "user",
+          "start": 19.072,
+          "end": 19.413
+        },
+        {
+          "value": "id.",
+          "start": 19.413,
+          "end": 20.139
+        },
+        {
+          "value": "The",
+          "start": 20.139,
+          "end": 20.309
+        },
+        {
+          "value": "exemption",
+          "start": 20.309,
+          "end": 20.779
+        },
+        {
+          "value": "works",
+          "start": 20.779,
+          "end": 21.077
+        },
+        {
+          "value": "on",
+          "start": 21.077,
+          "end": 21.291
+        },
+        {
+          "value": "any",
+          "start": 21.291,
+          "end": 21.589
+        },
+        {
+          "value": "step",
+          "start": 21.589,
+          "end": 21.845
+        },
+        {
+          "value": "type",
+          "start": 21.845,
+          "end": 22.059
+        },
+        {
+          "value": "that",
+          "start": 22.059,
+          "end": 22.315
+        },
+        {
+          "value": "way.",
+          "start": 22.315,
+          "end": 22.912
+        },
+        {
+          "value": "It",
+          "start": 22.912,
+          "end": 23.04
+        },
+        {
+          "value": "is",
+          "start": 23.04,
+          "end": 23.253
+        },
+        {
+          "value": "also",
+          "start": 23.253,
+          "end": 23.595
+        },
+        {
+          "value": "how",
+          "start": 23.595,
+          "end": 23.765
+        },
+        {
+          "value": "you",
+          "start": 23.765,
+          "end": 23.936
+        },
+        {
+          "value": "give",
+          "start": 23.936,
+          "end": 24.021
+        },
+        {
+          "value": "a",
+          "start": 24.021,
+          "end": 24.192
+        },
+        {
+          "value": "model-backed",
+          "start": 24.192,
+          "end": 24.789
+        },
+        {
+          "value": "evaluator",
+          "start": 24.789,
+          "end": 25.344
+        },
+        {
+          "value": "the",
+          "start": 25.344,
+          "end": 25.515
+        },
+        {
+          "value": "whole",
+          "start": 25.515,
+          "end": 25.728
+        },
+        {
+          "value": "conversation",
+          "start": 25.728,
+          "end": 26.496
+        },
+        {
+          "value": "to",
+          "start": 26.496,
+          "end": 26.624
+        },
+        {
+          "value": "judge.",
+          "start": 26.624,
+          "end": 27.35
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "Close",
+      "file": "narration/ep04/06.mp3",
+      "seconds": 16.32,
+      "words": 39,
+      "timings": [
+        {
+          "value": "A",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "control",
+          "start": 0.256,
+          "end": 0.811
+        },
+        {
+          "value": "sees",
+          "start": 0.811,
+          "end": 1.152
+        },
+        {
+          "value": "exactly",
+          "start": 1.152,
+          "end": 1.707
+        },
+        {
+          "value": "what",
+          "start": 1.707,
+          "end": 1.877
+        },
+        {
+          "value": "the",
+          "start": 1.877,
+          "end": 2.048
+        },
+        {
+          "value": "step",
+          "start": 2.048,
+          "end": 2.304
+        },
+        {
+          "value": "carries,",
+          "start": 2.304,
+          "end": 3.072
+        },
+        {
+          "value": "nothing",
+          "start": 3.072,
+          "end": 3.541
+        },
+        {
+          "value": "more.",
+          "start": 3.541,
+          "end": 4.565
+        },
+        {
+          "value": "Choose",
+          "start": 4.565,
+          "end": 4.907
+        },
+        {
+          "value": "the",
+          "start": 4.907,
+          "end": 5.163
+        },
+        {
+          "value": "step",
+          "start": 5.163,
+          "end": 5.333
+        },
+        {
+          "value": "type",
+          "start": 5.333,
+          "end": 5.632
+        },
+        {
+          "value": "on",
+          "start": 5.632,
+          "end": 5.845
+        },
+        {
+          "value": "purpose.",
+          "start": 5.845,
+          "end": 6.784
+        },
+        {
+          "value": "Put",
+          "start": 6.784,
+          "end": 7.04
+        },
+        {
+          "value": "identity",
+          "start": 7.04,
+          "end": 7.68
+        },
+        {
+          "value": "where",
+          "start": 7.68,
+          "end": 7.851
+        },
+        {
+          "value": "a",
+          "start": 7.851,
+          "end": 8.021
+        },
+        {
+          "value": "selector",
+          "start": 8.021,
+          "end": 8.491
+        },
+        {
+          "value": "can",
+          "start": 8.491,
+          "end": 8.661
+        },
+        {
+          "value": "reach",
+          "start": 8.661,
+          "end": 8.917
+        },
+        {
+          "value": "it.",
+          "start": 8.917,
+          "end": 9.472
+        },
+        {
+          "value": "And",
+          "start": 9.472,
+          "end": 9.6
+        },
+        {
+          "value": "when",
+          "start": 9.6,
+          "end": 9.728
+        },
+        {
+          "value": "the",
+          "start": 9.728,
+          "end": 9.856
+        },
+        {
+          "value": "decorator",
+          "start": 9.856,
+          "end": 10.496
+        },
+        {
+          "value": "cannot",
+          "start": 10.496,
+          "end": 10.88
+        },
+        {
+          "value": "see",
+          "start": 10.88,
+          "end": 11.179
+        },
+        {
+          "value": "something,",
+          "start": 11.179,
+          "end": 11.819
+        },
+        {
+          "value": "pass",
+          "start": 11.819,
+          "end": 12.16
+        },
+        {
+          "value": "it",
+          "start": 12.16,
+          "end": 12.288
+        },
+        {
+          "value": "as",
+          "start": 12.288,
+          "end": 12.459
+        },
+        {
+          "value": "context.",
+          "start": 12.459,
+          "end": 13.525
+        },
+        {
+          "value": "Next,",
+          "start": 13.525,
+          "end": 14.293
+        },
+        {
+          "value": "the",
+          "start": 14.293,
+          "end": 14.464
+        },
+        {
+          "value": "evaluators",
+          "start": 14.464,
+          "end": 15.189
+        },
+        {
+          "value": "themselves.",
+          "start": 15.189,
+          "end": 16.26
+        }
+      ]
+    }
+  ]
+}
