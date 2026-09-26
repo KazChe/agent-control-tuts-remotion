@@ -126,7 +126,7 @@ export const Ep05Evaluators: React.FC = () => {
           <Badge text="case_sensitive: false" color={theme.amber} at={S2.caseToggle} hideAt={S2.run} left={1260} top={750} />
         </Page>
         <Sequence from={f(S2.run)}>
-          <Terminal entries={competitorRun} title="gactl-tutorial - zsh" fontSize={22} width={1180} left={70} />
+          <Terminal entries={competitorRun} title="gactl-tutorial - zsh" fontSize={22} width={1180} left={70} top={290} maxLines={11} />
         </Sequence>
         <ConditionCard
           {...competitorCard}
@@ -136,9 +136,7 @@ export const Ep05Evaluators: React.FC = () => {
           width={600}
           top={290}
         />
-        <Sequence durationInFrames={f(S2.run)}>
-          <SceneHeading eyebrow="EVALUATORS" title="Regex and list" intent="The two text evaluators. Both match when something is found." />
-        </Sequence>
+        <SceneHeading eyebrow="EVALUATORS" title="Regex and list" intent="The two text evaluators. Both match when something is found." />
         <Callout appearAt={f(S2.denied)} text="1b denied at pre. The model never ran." />
       </Sequence>
 
@@ -165,7 +163,7 @@ export const Ep05Evaluators: React.FC = () => {
           <Chip text="json · sql  match when a rule is BROKEN" color={theme.amber} at={S4.polarityBroken} left={140} top={520} width={900} />
         </Page>
         <Sequence from={f(S4_mount)}>
-          <Terminal entries={ruleRuns} title="gactl-tutorial - zsh" fontSize={20} width={1100} left={70} />
+          <Terminal entries={ruleRuns} title="gactl-tutorial - zsh" fontSize={20} width={1100} left={70} top={290} maxLines={16} />
         </Sequence>
         <CodeCard title="json" lines={CODE_JSON} right={60} top={280} width={660} appearAt={f(S4.jsonCard)} hideAt={f(S4.sql)} fontSize={17} highlights={{ 6: { at: f(S4.limit), color: theme.amber } }} />
         <Badge text="also: required_fields · field_types · constraints · patterns" color={theme.dim} at={S4.required} hideAt={S4.sql} left={1200} top={690} fontSize={17} />
@@ -192,9 +190,7 @@ export const Ep05Evaluators: React.FC = () => {
           width={660}
           top={620}
         />
-        <Sequence durationInFrames={f(S4_mount)}>
-          <SceneHeading eyebrow="EVALUATORS" title="JSON and SQL, the rule breakers" intent="The config describes what is allowed. The evaluator matches when the data breaks it." />
-        </Sequence>
+        <SceneHeading eyebrow="EVALUATORS" title="JSON and SQL, the rule breakers" intent="The config describes what is allowed. The evaluator matches when the data breaks it." />
       </Sequence>
 
       <Sequence from={s5.from} durationInFrames={s5.duration}>

@@ -82,6 +82,10 @@ export const Terminal: React.FC<{
   width?: number;
   /** Pin the window at this x instead of centering it, to leave room for cards. */
   left?: number;
+  /** Pin the window at this y instead of centering it, to leave room for a heading. */
+  top?: number;
+  /** Visible lines in the viewport; fewer lines make a shorter window. */
+  maxLines?: number;
 }> = ({
   entries,
   history = [],
@@ -89,9 +93,11 @@ export const Terminal: React.FC<{
   fontSize = FONT_SIZE,
   width = 1560,
   left,
+  top,
+  maxLines: maxLinesProp,
 }) => {
   const lineHeight = Math.round((fontSize * LINE_HEIGHT) / FONT_SIZE);
-  const maxLines = Math.floor((MAX_LINES * LINE_HEIGHT) / lineHeight);
+  const maxLines = maxLinesProp ?? Math.floor((MAX_LINES * LINE_HEIGHT) / lineHeight);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -181,8 +187,9 @@ export const Terminal: React.FC<{
       <div
         style={{
           width,
-          position: left === undefined ? "relative" : "absolute",
+          position: left === undefined && top === undefined ? "relative" : "absolute",
           left,
+          top,
           borderRadius: 16,
           overflow: "hidden",
           border: `1px solid ${theme.panelBorder}`,

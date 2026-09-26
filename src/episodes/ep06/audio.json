@@ -1,0 +1,3394 @@
+{
+  "voice": "speechify jack (simba-3.2)",
+  "clips": [
+    {
+      "scene": 1,
+      "title": "One match, three outcomes",
+      "file": "narration/ep06/01.mp3",
+      "seconds": 32.69,
+      "words": 99,
+      "timings": [
+        {
+          "value": "A",
+          "start": 0.0,
+          "end": 0.256
+        },
+        {
+          "value": "condition",
+          "start": 0.256,
+          "end": 0.768
+        },
+        {
+          "value": "matched.",
+          "start": 0.768,
+          "end": 1.451
+        },
+        {
+          "value": "Now",
+          "start": 1.451,
+          "end": 1.749
+        },
+        {
+          "value": "what.",
+          "start": 1.749,
+          "end": 2.347
+        },
+        {
+          "value": "That",
+          "start": 2.347,
+          "end": 2.688
+        },
+        {
+          "value": "is",
+          "start": 2.688,
+          "end": 2.816
+        },
+        {
+          "value": "the",
+          "start": 2.816,
+          "end": 2.987
+        },
+        {
+          "value": "action,",
+          "start": 2.987,
+          "end": 3.584
+        },
+        {
+          "value": "and",
+          "start": 3.584,
+          "end": 3.712
+        },
+        {
+          "value": "there",
+          "start": 3.712,
+          "end": 3.84
+        },
+        {
+          "value": "are",
+          "start": 3.84,
+          "end": 4.011
+        },
+        {
+          "value": "exactly",
+          "start": 4.011,
+          "end": 4.608
+        },
+        {
+          "value": "three.",
+          "start": 4.608,
+          "end": 5.12
+        },
+        {
+          "value": "Observe",
+          "start": 5.12,
+          "end": 5.675
+        },
+        {
+          "value": "records",
+          "start": 5.675,
+          "end": 6.059
+        },
+        {
+          "value": "the",
+          "start": 6.059,
+          "end": 6.229
+        },
+        {
+          "value": "match",
+          "start": 6.229,
+          "end": 6.528
+        },
+        {
+          "value": "and",
+          "start": 6.528,
+          "end": 6.699
+        },
+        {
+          "value": "lets",
+          "start": 6.699,
+          "end": 6.955
+        },
+        {
+          "value": "the",
+          "start": 6.955,
+          "end": 7.083
+        },
+        {
+          "value": "request",
+          "start": 7.083,
+          "end": 7.595
+        },
+        {
+          "value": "through.",
+          "start": 7.595,
+          "end": 8.149
+        },
+        {
+          "value": "Deny",
+          "start": 8.149,
+          "end": 8.576
+        },
+        {
+          "value": "stops",
+          "start": 8.576,
+          "end": 8.875
+        },
+        {
+          "value": "it.",
+          "start": 8.875,
+          "end": 9.259
+        },
+        {
+          "value": "Steer",
+          "start": 9.259,
+          "end": 9.728
+        },
+        {
+          "value": "stops",
+          "start": 9.728,
+          "end": 10.027
+        },
+        {
+          "value": "it",
+          "start": 10.027,
+          "end": 10.197
+        },
+        {
+          "value": "too,",
+          "start": 10.197,
+          "end": 10.752
+        },
+        {
+          "value": "but",
+          "start": 10.752,
+          "end": 10.965
+        },
+        {
+          "value": "hands",
+          "start": 10.965,
+          "end": 11.221
+        },
+        {
+          "value": "the",
+          "start": 11.221,
+          "end": 11.392
+        },
+        {
+          "value": "agent",
+          "start": 11.392,
+          "end": 11.691
+        },
+        {
+          "value": "a",
+          "start": 11.691,
+          "end": 11.819
+        },
+        {
+          "value": "message",
+          "start": 11.819,
+          "end": 12.203
+        },
+        {
+          "value": "about",
+          "start": 12.203,
+          "end": 12.416
+        },
+        {
+          "value": "what",
+          "start": 12.416,
+          "end": 12.587
+        },
+        {
+          "value": "to",
+          "start": 12.587,
+          "end": 12.757
+        },
+        {
+          "value": "fix,",
+          "start": 12.757,
+          "end": 13.269
+        },
+        {
+          "value": "so",
+          "start": 13.269,
+          "end": 13.44
+        },
+        {
+          "value": "it",
+          "start": 13.44,
+          "end": 13.568
+        },
+        {
+          "value": "can",
+          "start": 13.568,
+          "end": 13.739
+        },
+        {
+          "value": "correct",
+          "start": 13.739,
+          "end": 14.123
+        },
+        {
+          "value": "the",
+          "start": 14.123,
+          "end": 14.251
+        },
+        {
+          "value": "request",
+          "start": 14.251,
+          "end": 14.763
+        },
+        {
+          "value": "and",
+          "start": 14.763,
+          "end": 14.933
+        },
+        {
+          "value": "try",
+          "start": 14.933,
+          "end": 15.275
+        },
+        {
+          "value": "again.",
+          "start": 15.275,
+          "end": 15.957
+        },
+        {
+          "value": "When",
+          "start": 15.957,
+          "end": 16.171
+        },
+        {
+          "value": "several",
+          "start": 16.171,
+          "end": 16.555
+        },
+        {
+          "value": "controls",
+          "start": 16.555,
+          "end": 17.067
+        },
+        {
+          "value": "match",
+          "start": 17.067,
+          "end": 17.323
+        },
+        {
+          "value": "on",
+          "start": 17.323,
+          "end": 17.451
+        },
+        {
+          "value": "the",
+          "start": 17.451,
+          "end": 17.621
+        },
+        {
+          "value": "same",
+          "start": 17.621,
+          "end": 17.877
+        },
+        {
+          "value": "step,",
+          "start": 17.877,
+          "end": 18.432
+        },
+        {
+          "value": "the",
+          "start": 18.432,
+          "end": 18.603
+        },
+        {
+          "value": "SDK",
+          "start": 18.603,
+          "end": 19.243
+        },
+        {
+          "value": "reads",
+          "start": 19.243,
+          "end": 19.541
+        },
+        {
+          "value": "them",
+          "start": 19.541,
+          "end": 19.669
+        },
+        {
+          "value": "in",
+          "start": 19.669,
+          "end": 19.755
+        },
+        {
+          "value": "a",
+          "start": 19.755,
+          "end": 19.883
+        },
+        {
+          "value": "fixed",
+          "start": 19.883,
+          "end": 20.181
+        },
+        {
+          "value": "order.",
+          "start": 20.181,
+          "end": 20.864
+        },
+        {
+          "value": "A",
+          "start": 20.864,
+          "end": 21.035
+        },
+        {
+          "value": "deny",
+          "start": 21.035,
+          "end": 21.419
+        },
+        {
+          "value": "wins",
+          "start": 21.419,
+          "end": 21.76
+        },
+        {
+          "value": "over",
+          "start": 21.76,
+          "end": 22.059
+        },
+        {
+          "value": "everything.",
+          "start": 22.059,
+          "end": 22.955
+        },
+        {
+          "value": "Then",
+          "start": 22.955,
+          "end": 23.211
+        },
+        {
+          "value": "steer.",
+          "start": 23.211,
+          "end": 23.936
+        },
+        {
+          "value": "Observe",
+          "start": 23.936,
+          "end": 24.448
+        },
+        {
+          "value": "matches",
+          "start": 24.448,
+          "end": 24.832
+        },
+        {
+          "value": "are",
+          "start": 24.832,
+          "end": 25.045
+        },
+        {
+          "value": "only",
+          "start": 25.045,
+          "end": 25.301
+        },
+        {
+          "value": "written",
+          "start": 25.301,
+          "end": 25.6
+        },
+        {
+          "value": "down.",
+          "start": 25.6,
+          "end": 26.155
+        },
+        {
+          "value": "And",
+          "start": 26.155,
+          "end": 26.283
+        },
+        {
+          "value": "if",
+          "start": 26.283,
+          "end": 26.453
+        },
+        {
+          "value": "any",
+          "start": 26.453,
+          "end": 26.667
+        },
+        {
+          "value": "control",
+          "start": 26.667,
+          "end": 27.136
+        },
+        {
+          "value": "failed",
+          "start": 27.136,
+          "end": 27.349
+        },
+        {
+          "value": "to",
+          "start": 27.349,
+          "end": 27.52
+        },
+        {
+          "value": "evaluate",
+          "start": 27.52,
+          "end": 28.032
+        },
+        {
+          "value": "at",
+          "start": 28.032,
+          "end": 28.203
+        },
+        {
+          "value": "all,",
+          "start": 28.203,
+          "end": 28.715
+        },
+        {
+          "value": "nothing",
+          "start": 28.715,
+          "end": 29.141
+        },
+        {
+          "value": "runs.",
+          "start": 29.141,
+          "end": 29.824
+        },
+        {
+          "value": "That",
+          "start": 29.824,
+          "end": 30.08
+        },
+        {
+          "value": "order",
+          "start": 30.08,
+          "end": 30.336
+        },
+        {
+          "value": "is",
+          "start": 30.336,
+          "end": 30.464
+        },
+        {
+          "value": "the",
+          "start": 30.464,
+          "end": 30.677
+        },
+        {
+          "value": "whole",
+          "start": 30.677,
+          "end": 30.933
+        },
+        {
+          "value": "policy",
+          "start": 30.933,
+          "end": 31.403
+        },
+        {
+          "value": "of",
+          "start": 31.403,
+          "end": 31.531
+        },
+        {
+          "value": "the",
+          "start": 31.531,
+          "end": 31.659
+        },
+        {
+          "value": "action",
+          "start": 31.659,
+          "end": 32.0
+        },
+        {
+          "value": "layer.",
+          "start": 32.0,
+          "end": 32.64
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "One tool, three controls",
+      "file": "narration/ep06/02.mp3",
+      "seconds": 38.59,
+      "words": 120,
+      "timings": [
+        {
+          "value": "The",
+          "start": 0.0,
+          "end": 0.213
+        },
+        {
+          "value": "tutorial's",
+          "start": 0.213,
+          "end": 0.853
+        },
+        {
+          "value": "banking",
+          "start": 0.853,
+          "end": 1.237
+        },
+        {
+          "value": "agent",
+          "start": 1.237,
+          "end": 1.579
+        },
+        {
+          "value": "has",
+          "start": 1.579,
+          "end": 1.749
+        },
+        {
+          "value": "one",
+          "start": 1.749,
+          "end": 2.048
+        },
+        {
+          "value": "tool,",
+          "start": 2.048,
+          "end": 2.731
+        },
+        {
+          "value": "process",
+          "start": 2.731,
+          "end": 3.2
+        },
+        {
+          "value": "wire",
+          "start": 3.2,
+          "end": 3.541
+        },
+        {
+          "value": "transfer,",
+          "start": 3.541,
+          "end": 4.352
+        },
+        {
+          "value": "and",
+          "start": 4.352,
+          "end": 4.565
+        },
+        {
+          "value": "three",
+          "start": 4.565,
+          "end": 4.821
+        },
+        {
+          "value": "controls",
+          "start": 4.821,
+          "end": 5.291
+        },
+        {
+          "value": "on",
+          "start": 5.291,
+          "end": 5.419
+        },
+        {
+          "value": "it,",
+          "start": 5.419,
+          "end": 5.717
+        },
+        {
+          "value": "all",
+          "start": 5.717,
+          "end": 6.016
+        },
+        {
+          "value": "before",
+          "start": 6.016,
+          "end": 6.272
+        },
+        {
+          "value": "the",
+          "start": 6.272,
+          "end": 6.4
+        },
+        {
+          "value": "call.",
+          "start": 6.4,
+          "end": 6.997
+        },
+        {
+          "value": "The",
+          "start": 6.997,
+          "end": 7.125
+        },
+        {
+          "value": "first",
+          "start": 7.125,
+          "end": 7.424
+        },
+        {
+          "value": "is",
+          "start": 7.424,
+          "end": 7.552
+        },
+        {
+          "value": "observe.",
+          "start": 7.552,
+          "end": 8.32
+        },
+        {
+          "value": "A",
+          "start": 8.32,
+          "end": 8.448
+        },
+        {
+          "value": "list",
+          "start": 8.448,
+          "end": 8.661
+        },
+        {
+          "value": "evaluator",
+          "start": 8.661,
+          "end": 9.301
+        },
+        {
+          "value": "on",
+          "start": 9.301,
+          "end": 9.429
+        },
+        {
+          "value": "the",
+          "start": 9.429,
+          "end": 9.515
+        },
+        {
+          "value": "recipient",
+          "start": 9.515,
+          "end": 9.984
+        },
+        {
+          "value": "name,",
+          "start": 9.984,
+          "end": 10.539
+        },
+        {
+          "value": "turned",
+          "start": 10.539,
+          "end": 10.88
+        },
+        {
+          "value": "around",
+          "start": 10.88,
+          "end": 11.179
+        },
+        {
+          "value": "with",
+          "start": 11.179,
+          "end": 11.349
+        },
+        {
+          "value": "match",
+          "start": 11.349,
+          "end": 11.648
+        },
+        {
+          "value": "on",
+          "start": 11.648,
+          "end": 11.819
+        },
+        {
+          "value": "no",
+          "start": 11.819,
+          "end": 12.032
+        },
+        {
+          "value": "match,",
+          "start": 12.032,
+          "end": 12.501
+        },
+        {
+          "value": "so",
+          "start": 12.501,
+          "end": 12.757
+        },
+        {
+          "value": "it",
+          "start": 12.757,
+          "end": 12.885
+        },
+        {
+          "value": "fires",
+          "start": 12.885,
+          "end": 13.269
+        },
+        {
+          "value": "for",
+          "start": 13.269,
+          "end": 13.44
+        },
+        {
+          "value": "anyone",
+          "start": 13.44,
+          "end": 13.909
+        },
+        {
+          "value": "not",
+          "start": 13.909,
+          "end": 14.08
+        },
+        {
+          "value": "on",
+          "start": 14.08,
+          "end": 14.208
+        },
+        {
+          "value": "the",
+          "start": 14.208,
+          "end": 14.336
+        },
+        {
+          "value": "known",
+          "start": 14.336,
+          "end": 14.549
+        },
+        {
+          "value": "list.",
+          "start": 14.549,
+          "end": 15.232
+        },
+        {
+          "value": "The",
+          "start": 15.232,
+          "end": 15.36
+        },
+        {
+          "value": "second",
+          "start": 15.36,
+          "end": 15.659
+        },
+        {
+          "value": "is",
+          "start": 15.659,
+          "end": 15.829
+        },
+        {
+          "value": "deny.",
+          "start": 15.829,
+          "end": 16.384
+        },
+        {
+          "value": "A",
+          "start": 16.384,
+          "end": 16.725
+        },
+        {
+          "value": "list",
+          "start": 16.725,
+          "end": 16.896
+        },
+        {
+          "value": "of",
+          "start": 16.896,
+          "end": 17.109
+        },
+        {
+          "value": "sanctioned",
+          "start": 17.109,
+          "end": 17.536
+        },
+        {
+          "value": "countries",
+          "start": 17.536,
+          "end": 17.963
+        },
+        {
+          "value": "on",
+          "start": 17.963,
+          "end": 18.048
+        },
+        {
+          "value": "the",
+          "start": 18.048,
+          "end": 18.133
+        },
+        {
+          "value": "destination.",
+          "start": 18.133,
+          "end": 19.029
+        },
+        {
+          "value": "The",
+          "start": 19.029,
+          "end": 19.157
+        },
+        {
+          "value": "third",
+          "start": 19.157,
+          "end": 19.413
+        },
+        {
+          "value": "is",
+          "start": 19.413,
+          "end": 19.627
+        },
+        {
+          "value": "steer.",
+          "start": 19.627,
+          "end": 20.352
+        },
+        {
+          "value": "A",
+          "start": 20.352,
+          "end": 20.523
+        },
+        {
+          "value": "JSON",
+          "start": 20.523,
+          "end": 20.992
+        },
+        {
+          "value": "schema",
+          "start": 20.992,
+          "end": 21.333
+        },
+        {
+          "value": "that",
+          "start": 21.333,
+          "end": 21.461
+        },
+        {
+          "value": "allows",
+          "start": 21.461,
+          "end": 21.803
+        },
+        {
+          "value": "a",
+          "start": 21.803,
+          "end": 21.973
+        },
+        {
+          "value": "small",
+          "start": 21.973,
+          "end": 22.229
+        },
+        {
+          "value": "transfer,",
+          "start": 22.229,
+          "end": 22.955
+        },
+        {
+          "value": "or",
+          "start": 22.955,
+          "end": 23.168
+        },
+        {
+          "value": "a",
+          "start": 23.168,
+          "end": 23.296
+        },
+        {
+          "value": "large",
+          "start": 23.296,
+          "end": 23.637
+        },
+        {
+          "value": "one",
+          "start": 23.637,
+          "end": 23.851
+        },
+        {
+          "value": "carrying",
+          "start": 23.851,
+          "end": 24.235
+        },
+        {
+          "value": "a",
+          "start": 24.235,
+          "end": 24.363
+        },
+        {
+          "value": "verified",
+          "start": 24.363,
+          "end": 24.917
+        },
+        {
+          "value": "two",
+          "start": 24.917,
+          "end": 25.173
+        },
+        {
+          "value": "factor",
+          "start": 25.173,
+          "end": 25.557
+        },
+        {
+          "value": "flag.",
+          "start": 25.557,
+          "end": 26.112
+        },
+        {
+          "value": "Anything",
+          "start": 26.112,
+          "end": 26.411
+        },
+        {
+          "value": "else",
+          "start": 26.411,
+          "end": 26.667
+        },
+        {
+          "value": "breaks",
+          "start": 26.667,
+          "end": 26.923
+        },
+        {
+          "value": "the",
+          "start": 26.923,
+          "end": 27.093
+        },
+        {
+          "value": "schema,",
+          "start": 27.093,
+          "end": 27.648
+        },
+        {
+          "value": "and",
+          "start": 27.648,
+          "end": 27.776
+        },
+        {
+          "value": "the",
+          "start": 27.776,
+          "end": 27.904
+        },
+        {
+          "value": "action",
+          "start": 27.904,
+          "end": 28.245
+        },
+        {
+          "value": "carries",
+          "start": 28.245,
+          "end": 28.501
+        },
+        {
+          "value": "a",
+          "start": 28.501,
+          "end": 28.629
+        },
+        {
+          "value": "steering",
+          "start": 28.629,
+          "end": 28.971
+        },
+        {
+          "value": "context,",
+          "start": 28.971,
+          "end": 29.696
+        },
+        {
+          "value": "a",
+          "start": 29.696,
+          "end": 29.824
+        },
+        {
+          "value": "message",
+          "start": 29.824,
+          "end": 30.251
+        },
+        {
+          "value": "the",
+          "start": 30.251,
+          "end": 30.379
+        },
+        {
+          "value": "agent",
+          "start": 30.379,
+          "end": 30.677
+        },
+        {
+          "value": "will",
+          "start": 30.677,
+          "end": 30.848
+        },
+        {
+          "value": "read.",
+          "start": 30.848,
+          "end": 31.403
+        },
+        {
+          "value": "Notice",
+          "start": 31.403,
+          "end": 31.787
+        },
+        {
+          "value": "what",
+          "start": 31.787,
+          "end": 31.915
+        },
+        {
+          "value": "the",
+          "start": 31.915,
+          "end": 32.043
+        },
+        {
+          "value": "agent's",
+          "start": 32.043,
+          "end": 32.384
+        },
+        {
+          "value": "code",
+          "start": 32.384,
+          "end": 32.725
+        },
+        {
+          "value": "contains.",
+          "start": 32.725,
+          "end": 33.408
+        },
+        {
+          "value": "No",
+          "start": 33.408,
+          "end": 33.749
+        },
+        {
+          "value": "threshold,",
+          "start": 33.749,
+          "end": 34.517
+        },
+        {
+          "value": "no",
+          "start": 34.517,
+          "end": 34.731
+        },
+        {
+          "value": "country",
+          "start": 34.731,
+          "end": 35.115
+        },
+        {
+          "value": "list,",
+          "start": 35.115,
+          "end": 35.627
+        },
+        {
+          "value": "no",
+          "start": 35.627,
+          "end": 35.797
+        },
+        {
+          "value": "verification",
+          "start": 35.797,
+          "end": 36.437
+        },
+        {
+          "value": "rule.",
+          "start": 36.437,
+          "end": 36.992
+        },
+        {
+          "value": "All",
+          "start": 36.992,
+          "end": 37.205
+        },
+        {
+          "value": "of",
+          "start": 37.205,
+          "end": 37.333
+        },
+        {
+          "value": "that",
+          "start": 37.333,
+          "end": 37.504
+        },
+        {
+          "value": "lives",
+          "start": 37.504,
+          "end": 37.717
+        },
+        {
+          "value": "on",
+          "start": 37.717,
+          "end": 37.845
+        },
+        {
+          "value": "the",
+          "start": 37.845,
+          "end": 37.973
+        },
+        {
+          "value": "server.",
+          "start": 37.973,
+          "end": 38.54
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "Observe, then deny",
+      "file": "narration/ep06/03.mp3",
+      "seconds": 29.16,
+      "words": 85,
+      "timings": [
+        {
+          "value": "Three",
+          "start": 0.0,
+          "end": 0.384
+        },
+        {
+          "value": "transfers.",
+          "start": 0.384,
+          "end": 1.323
+        },
+        {
+          "value": "Five",
+          "start": 1.323,
+          "end": 1.536
+        },
+        {
+          "value": "hundred",
+          "start": 1.536,
+          "end": 1.792
+        },
+        {
+          "value": "dollars",
+          "start": 1.792,
+          "end": 2.176
+        },
+        {
+          "value": "to",
+          "start": 2.176,
+          "end": 2.304
+        },
+        {
+          "value": "a",
+          "start": 2.304,
+          "end": 2.432
+        },
+        {
+          "value": "new",
+          "start": 2.432,
+          "end": 2.56
+        },
+        {
+          "value": "recipient.",
+          "start": 2.56,
+          "end": 3.499
+        },
+        {
+          "value": "The",
+          "start": 3.499,
+          "end": 3.627
+        },
+        {
+          "value": "observe",
+          "start": 3.627,
+          "end": 4.011
+        },
+        {
+          "value": "control",
+          "start": 4.011,
+          "end": 4.437
+        },
+        {
+          "value": "matched,",
+          "start": 4.437,
+          "end": 5.035
+        },
+        {
+          "value": "and",
+          "start": 5.035,
+          "end": 5.163
+        },
+        {
+          "value": "the",
+          "start": 5.163,
+          "end": 5.333
+        },
+        {
+          "value": "run",
+          "start": 5.333,
+          "end": 5.547
+        },
+        {
+          "value": "shows",
+          "start": 5.547,
+          "end": 5.845
+        },
+        {
+          "value": "no",
+          "start": 5.845,
+          "end": 6.144
+        },
+        {
+          "value": "sign",
+          "start": 6.144,
+          "end": 6.4
+        },
+        {
+          "value": "of",
+          "start": 6.4,
+          "end": 6.528
+        },
+        {
+          "value": "it.",
+          "start": 6.528,
+          "end": 6.997
+        },
+        {
+          "value": "Completed,",
+          "start": 6.997,
+          "end": 7.723
+        },
+        {
+          "value": "nothing",
+          "start": 7.723,
+          "end": 8.064
+        },
+        {
+          "value": "else.",
+          "start": 8.064,
+          "end": 8.576
+        },
+        {
+          "value": "The",
+          "start": 8.576,
+          "end": 8.96
+        },
+        {
+          "value": "match",
+          "start": 8.96,
+          "end": 9.216
+        },
+        {
+          "value": "is",
+          "start": 9.216,
+          "end": 9.387
+        },
+        {
+          "value": "recorded",
+          "start": 9.387,
+          "end": 9.856
+        },
+        {
+          "value": "on",
+          "start": 9.856,
+          "end": 9.941
+        },
+        {
+          "value": "the",
+          "start": 9.941,
+          "end": 10.069
+        },
+        {
+          "value": "server,",
+          "start": 10.069,
+          "end": 10.667
+        },
+        {
+          "value": "which",
+          "start": 10.667,
+          "end": 10.837
+        },
+        {
+          "value": "is",
+          "start": 10.837,
+          "end": 10.923
+        },
+        {
+          "value": "the",
+          "start": 10.923,
+          "end": 11.051
+        },
+        {
+          "value": "point",
+          "start": 11.051,
+          "end": 11.264
+        },
+        {
+          "value": "of",
+          "start": 11.264,
+          "end": 11.392
+        },
+        {
+          "value": "observe,",
+          "start": 11.392,
+          "end": 12.075
+        },
+        {
+          "value": "and",
+          "start": 12.075,
+          "end": 12.288
+        },
+        {
+          "value": "reading",
+          "start": 12.288,
+          "end": 12.587
+        },
+        {
+          "value": "that",
+          "start": 12.587,
+          "end": 12.8
+        },
+        {
+          "value": "record",
+          "start": 12.8,
+          "end": 13.141
+        },
+        {
+          "value": "is",
+          "start": 13.141,
+          "end": 13.312
+        },
+        {
+          "value": "the",
+          "start": 13.312,
+          "end": 13.44
+        },
+        {
+          "value": "evidence",
+          "start": 13.44,
+          "end": 13.867
+        },
+        {
+          "value": "section",
+          "start": 13.867,
+          "end": 14.293
+        },
+        {
+          "value": "later",
+          "start": 14.293,
+          "end": 14.592
+        },
+        {
+          "value": "on.",
+          "start": 14.592,
+          "end": 15.445
+        },
+        {
+          "value": "Five",
+          "start": 15.445,
+          "end": 15.787
+        },
+        {
+          "value": "thousand",
+          "start": 15.787,
+          "end": 16.085
+        },
+        {
+          "value": "dollars",
+          "start": 16.085,
+          "end": 16.512
+        },
+        {
+          "value": "to",
+          "start": 16.512,
+          "end": 16.64
+        },
+        {
+          "value": "a",
+          "start": 16.64,
+          "end": 16.768
+        },
+        {
+          "value": "sanctioned",
+          "start": 16.768,
+          "end": 17.195
+        },
+        {
+          "value": "country.",
+          "start": 17.195,
+          "end": 17.835
+        },
+        {
+          "value": "Denied.",
+          "start": 17.835,
+          "end": 18.773
+        },
+        {
+          "value": "The",
+          "start": 18.773,
+          "end": 18.901
+        },
+        {
+          "value": "tool",
+          "start": 18.901,
+          "end": 19.2
+        },
+        {
+          "value": "never",
+          "start": 19.2,
+          "end": 19.456
+        },
+        {
+          "value": "ran,",
+          "start": 19.456,
+          "end": 20.011
+        },
+        {
+          "value": "and",
+          "start": 20.011,
+          "end": 20.181
+        },
+        {
+          "value": "the",
+          "start": 20.181,
+          "end": 20.309
+        },
+        {
+          "value": "reason",
+          "start": 20.309,
+          "end": 20.693
+        },
+        {
+          "value": "printed",
+          "start": 20.693,
+          "end": 21.077
+        },
+        {
+          "value": "is",
+          "start": 21.077,
+          "end": 21.248
+        },
+        {
+          "value": "the",
+          "start": 21.248,
+          "end": 21.419
+        },
+        {
+          "value": "evaluator's",
+          "start": 21.419,
+          "end": 22.059
+        },
+        {
+          "value": "own",
+          "start": 22.059,
+          "end": 22.272
+        },
+        {
+          "value": "message,",
+          "start": 22.272,
+          "end": 22.955
+        },
+        {
+          "value": "the",
+          "start": 22.955,
+          "end": 23.083
+        },
+        {
+          "value": "value",
+          "start": 23.083,
+          "end": 23.467
+        },
+        {
+          "value": "it",
+          "start": 23.467,
+          "end": 23.595
+        },
+        {
+          "value": "matched.",
+          "start": 23.595,
+          "end": 24.619
+        },
+        {
+          "value": "The",
+          "start": 24.619,
+          "end": 24.875
+        },
+        {
+          "value": "observe",
+          "start": 24.875,
+          "end": 25.259
+        },
+        {
+          "value": "control",
+          "start": 25.259,
+          "end": 25.643
+        },
+        {
+          "value": "matched",
+          "start": 25.643,
+          "end": 25.941
+        },
+        {
+          "value": "here",
+          "start": 25.941,
+          "end": 26.155
+        },
+        {
+          "value": "too,",
+          "start": 26.155,
+          "end": 26.667
+        },
+        {
+          "value": "but",
+          "start": 26.667,
+          "end": 26.837
+        },
+        {
+          "value": "deny",
+          "start": 26.837,
+          "end": 27.221
+        },
+        {
+          "value": "wins,",
+          "start": 27.221,
+          "end": 27.776
+        },
+        {
+          "value": "and",
+          "start": 27.776,
+          "end": 27.904
+        },
+        {
+          "value": "the",
+          "start": 27.904,
+          "end": 28.032
+        },
+        {
+          "value": "run",
+          "start": 28.032,
+          "end": 28.245
+        },
+        {
+          "value": "stops.",
+          "start": 28.245,
+          "end": 29.1
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "Steer, the loop",
+      "file": "narration/ep06/04.mp3",
+      "seconds": 46.85,
+      "words": 136,
+      "timings": [
+        {
+          "value": "Fifteen",
+          "start": 0.0,
+          "end": 0.469
+        },
+        {
+          "value": "thousand",
+          "start": 0.469,
+          "end": 0.853
+        },
+        {
+          "value": "dollars,",
+          "start": 0.853,
+          "end": 1.365
+        },
+        {
+          "value": "no",
+          "start": 1.365,
+          "end": 1.664
+        },
+        {
+          "value": "verification",
+          "start": 1.664,
+          "end": 2.389
+        },
+        {
+          "value": "yet.",
+          "start": 2.389,
+          "end": 2.816
+        },
+        {
+          "value": "The",
+          "start": 2.816,
+          "end": 3.029
+        },
+        {
+          "value": "schema",
+          "start": 3.029,
+          "end": 3.371
+        },
+        {
+          "value": "breaks,",
+          "start": 3.371,
+          "end": 3.925
+        },
+        {
+          "value": "the",
+          "start": 3.925,
+          "end": 4.053
+        },
+        {
+          "value": "steer",
+          "start": 4.053,
+          "end": 4.267
+        },
+        {
+          "value": "control",
+          "start": 4.267,
+          "end": 4.651
+        },
+        {
+          "value": "fires,",
+          "start": 4.651,
+          "end": 5.248
+        },
+        {
+          "value": "and",
+          "start": 5.248,
+          "end": 5.419
+        },
+        {
+          "value": "the",
+          "start": 5.419,
+          "end": 5.547
+        },
+        {
+          "value": "SDK",
+          "start": 5.547,
+          "end": 6.229
+        },
+        {
+          "value": "raises",
+          "start": 6.229,
+          "end": 6.528
+        },
+        {
+          "value": "a",
+          "start": 6.528,
+          "end": 6.741
+        },
+        {
+          "value": "steer",
+          "start": 6.741,
+          "end": 6.997
+        },
+        {
+          "value": "error",
+          "start": 6.997,
+          "end": 7.296
+        },
+        {
+          "value": "with",
+          "start": 7.296,
+          "end": 7.424
+        },
+        {
+          "value": "the",
+          "start": 7.424,
+          "end": 7.595
+        },
+        {
+          "value": "steering",
+          "start": 7.595,
+          "end": 7.936
+        },
+        {
+          "value": "context",
+          "start": 7.936,
+          "end": 8.448
+        },
+        {
+          "value": "inside",
+          "start": 8.448,
+          "end": 8.832
+        },
+        {
+          "value": "it.",
+          "start": 8.832,
+          "end": 9.216
+        },
+        {
+          "value": "Now",
+          "start": 9.216,
+          "end": 9.515
+        },
+        {
+          "value": "the",
+          "start": 9.515,
+          "end": 9.685
+        },
+        {
+          "value": "agent",
+          "start": 9.685,
+          "end": 10.027
+        },
+        {
+          "value": "does",
+          "start": 10.027,
+          "end": 10.325
+        },
+        {
+          "value": "the",
+          "start": 10.325,
+          "end": 10.453
+        },
+        {
+          "value": "work.",
+          "start": 10.453,
+          "end": 10.837
+        },
+        {
+          "value": "It",
+          "start": 10.837,
+          "end": 11.008
+        },
+        {
+          "value": "parses",
+          "start": 11.008,
+          "end": 11.435
+        },
+        {
+          "value": "the",
+          "start": 11.435,
+          "end": 11.52
+        },
+        {
+          "value": "message,",
+          "start": 11.52,
+          "end": 12.16
+        },
+        {
+          "value": "sees",
+          "start": 12.16,
+          "end": 12.501
+        },
+        {
+          "value": "the",
+          "start": 12.501,
+          "end": 12.629
+        },
+        {
+          "value": "required",
+          "start": 12.629,
+          "end": 13.099
+        },
+        {
+          "value": "action,",
+          "start": 13.099,
+          "end": 13.696
+        },
+        {
+          "value": "verify",
+          "start": 13.696,
+          "end": 14.336
+        },
+        {
+          "value": "two",
+          "start": 14.336,
+          "end": 14.592
+        },
+        {
+          "value": "factor",
+          "start": 14.592,
+          "end": 14.976
+        },
+        {
+          "value": "authentication,",
+          "start": 14.976,
+          "end": 15.957
+        },
+        {
+          "value": "collects",
+          "start": 15.957,
+          "end": 16.341
+        },
+        {
+          "value": "the",
+          "start": 16.341,
+          "end": 16.512
+        },
+        {
+          "value": "code,",
+          "start": 16.512,
+          "end": 16.981
+        },
+        {
+          "value": "applies",
+          "start": 16.981,
+          "end": 17.451
+        },
+        {
+          "value": "the",
+          "start": 17.451,
+          "end": 17.579
+        },
+        {
+          "value": "retry",
+          "start": 17.579,
+          "end": 18.048
+        },
+        {
+          "value": "flags",
+          "start": 18.048,
+          "end": 18.389
+        },
+        {
+          "value": "the",
+          "start": 18.389,
+          "end": 18.517
+        },
+        {
+          "value": "control",
+          "start": 18.517,
+          "end": 18.901
+        },
+        {
+          "value": "asked",
+          "start": 18.901,
+          "end": 19.2
+        },
+        {
+          "value": "for,",
+          "start": 19.2,
+          "end": 19.584
+        },
+        {
+          "value": "and",
+          "start": 19.584,
+          "end": 19.797
+        },
+        {
+          "value": "calls",
+          "start": 19.797,
+          "end": 20.011
+        },
+        {
+          "value": "the",
+          "start": 20.011,
+          "end": 20.181
+        },
+        {
+          "value": "tool",
+          "start": 20.181,
+          "end": 20.437
+        },
+        {
+          "value": "again.",
+          "start": 20.437,
+          "end": 20.949
+        },
+        {
+          "value": "The",
+          "start": 20.949,
+          "end": 21.163
+        },
+        {
+          "value": "retry",
+          "start": 21.163,
+          "end": 21.461
+        },
+        {
+          "value": "goes",
+          "start": 21.461,
+          "end": 21.717
+        },
+        {
+          "value": "through",
+          "start": 21.717,
+          "end": 21.888
+        },
+        {
+          "value": "every",
+          "start": 21.888,
+          "end": 22.144
+        },
+        {
+          "value": "control",
+          "start": 22.144,
+          "end": 22.613
+        },
+        {
+          "value": "again,",
+          "start": 22.613,
+          "end": 22.955
+        },
+        {
+          "value": "all",
+          "start": 22.955,
+          "end": 23.253
+        },
+        {
+          "value": "three.",
+          "start": 23.253,
+          "end": 23.765
+        },
+        {
+          "value": "The",
+          "start": 23.765,
+          "end": 23.893
+        },
+        {
+          "value": "schema",
+          "start": 23.893,
+          "end": 24.235
+        },
+        {
+          "value": "is",
+          "start": 24.235,
+          "end": 24.405
+        },
+        {
+          "value": "satisfied",
+          "start": 24.405,
+          "end": 25.003
+        },
+        {
+          "value": "now,",
+          "start": 25.003,
+          "end": 25.301
+        },
+        {
+          "value": "nothing",
+          "start": 25.301,
+          "end": 25.643
+        },
+        {
+          "value": "matches,",
+          "start": 25.643,
+          "end": 26.197
+        },
+        {
+          "value": "and",
+          "start": 26.197,
+          "end": 26.325
+        },
+        {
+          "value": "the",
+          "start": 26.325,
+          "end": 26.496
+        },
+        {
+          "value": "transfer",
+          "start": 26.496,
+          "end": 26.923
+        },
+        {
+          "value": "completes.",
+          "start": 26.923,
+          "end": 27.563
+        },
+        {
+          "value": "One",
+          "start": 27.563,
+          "end": 27.819
+        },
+        {
+          "value": "thing",
+          "start": 27.819,
+          "end": 27.989
+        },
+        {
+          "value": "to",
+          "start": 27.989,
+          "end": 28.117
+        },
+        {
+          "value": "be",
+          "start": 28.117,
+          "end": 28.245
+        },
+        {
+          "value": "clear",
+          "start": 28.245,
+          "end": 28.459
+        },
+        {
+          "value": "about.",
+          "start": 28.459,
+          "end": 28.843
+        },
+        {
+          "value": "The",
+          "start": 28.843,
+          "end": 29.013
+        },
+        {
+          "value": "platform",
+          "start": 29.013,
+          "end": 29.44
+        },
+        {
+          "value": "defines",
+          "start": 29.44,
+          "end": 29.867
+        },
+        {
+          "value": "the",
+          "start": 29.867,
+          "end": 30.037
+        },
+        {
+          "value": "steering",
+          "start": 30.037,
+          "end": 30.336
+        },
+        {
+          "value": "context",
+          "start": 30.336,
+          "end": 30.891
+        },
+        {
+          "value": "as",
+          "start": 30.891,
+          "end": 31.104
+        },
+        {
+          "value": "one",
+          "start": 31.104,
+          "end": 31.403
+        },
+        {
+          "value": "string,",
+          "start": 31.403,
+          "end": 31.787
+        },
+        {
+          "value": "a",
+          "start": 31.787,
+          "end": 31.915
+        },
+        {
+          "value": "message.",
+          "start": 31.915,
+          "end": 32.512
+        },
+        {
+          "value": "The",
+          "start": 32.512,
+          "end": 32.811
+        },
+        {
+          "value": "JSON",
+          "start": 32.811,
+          "end": 33.408
+        },
+        {
+          "value": "structure",
+          "start": 33.408,
+          "end": 33.792
+        },
+        {
+          "value": "inside",
+          "start": 33.792,
+          "end": 34.133
+        },
+        {
+          "value": "it,",
+          "start": 34.133,
+          "end": 34.517
+        },
+        {
+          "value": "required",
+          "start": 34.517,
+          "end": 34.987
+        },
+        {
+          "value": "actions",
+          "start": 34.987,
+          "end": 35.456
+        },
+        {
+          "value": "and",
+          "start": 35.456,
+          "end": 35.541
+        },
+        {
+          "value": "retry",
+          "start": 35.541,
+          "end": 35.925
+        },
+        {
+          "value": "flags,",
+          "start": 35.925,
+          "end": 36.48
+        },
+        {
+          "value": "is",
+          "start": 36.48,
+          "end": 36.608
+        },
+        {
+          "value": "a",
+          "start": 36.608,
+          "end": 36.736
+        },
+        {
+          "value": "convention",
+          "start": 36.736,
+          "end": 37.291
+        },
+        {
+          "value": "between",
+          "start": 37.291,
+          "end": 37.504
+        },
+        {
+          "value": "whoever",
+          "start": 37.504,
+          "end": 37.845
+        },
+        {
+          "value": "writes",
+          "start": 37.845,
+          "end": 38.144
+        },
+        {
+          "value": "the",
+          "start": 38.144,
+          "end": 38.315
+        },
+        {
+          "value": "policy",
+          "start": 38.315,
+          "end": 38.912
+        },
+        {
+          "value": "and",
+          "start": 38.912,
+          "end": 38.997
+        },
+        {
+          "value": "whoever",
+          "start": 38.997,
+          "end": 39.339
+        },
+        {
+          "value": "writes",
+          "start": 39.339,
+          "end": 39.595
+        },
+        {
+          "value": "the",
+          "start": 39.595,
+          "end": 39.765
+        },
+        {
+          "value": "agent.",
+          "start": 39.765,
+          "end": 40.25
+        },
+        {
+          "value": "And",
+          "start": 40.25,
+          "end": 40.463
+        },
+        {
+          "value": "the",
+          "start": 40.463,
+          "end": 40.677
+        },
+        {
+          "value": "agent",
+          "start": 40.677,
+          "end": 41.018
+        },
+        {
+          "value": "caps",
+          "start": 41.018,
+          "end": 41.359
+        },
+        {
+          "value": "its",
+          "start": 41.359,
+          "end": 41.573
+        },
+        {
+          "value": "retries.",
+          "start": 41.573,
+          "end": 42.853
+        },
+        {
+          "value": "A",
+          "start": 42.853,
+          "end": 43.151
+        },
+        {
+          "value": "steer",
+          "start": 43.151,
+          "end": 43.493
+        },
+        {
+          "value": "that",
+          "start": 43.493,
+          "end": 43.621
+        },
+        {
+          "value": "is",
+          "start": 43.621,
+          "end": 43.877
+        },
+        {
+          "value": "never",
+          "start": 43.877,
+          "end": 44.133
+        },
+        {
+          "value": "satisfied",
+          "start": 44.133,
+          "end": 45.029
+        },
+        {
+          "value": "must",
+          "start": 45.029,
+          "end": 45.37
+        },
+        {
+          "value": "not",
+          "start": 45.37,
+          "end": 45.583
+        },
+        {
+          "value": "loop",
+          "start": 45.583,
+          "end": 45.925
+        },
+        {
+          "value": "forever.",
+          "start": 45.925,
+          "end": 46.78
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "Steer inside a framework",
+      "file": "narration/ep06/05.mp3",
+      "seconds": 54.72,
+      "words": 175,
+      "timings": [
+        {
+          "value": "If",
+          "start": 0.0,
+          "end": 0.213
+        },
+        {
+          "value": "you",
+          "start": 0.213,
+          "end": 0.384
+        },
+        {
+          "value": "build",
+          "start": 0.384,
+          "end": 0.597
+        },
+        {
+          "value": "on",
+          "start": 0.597,
+          "end": 0.683
+        },
+        {
+          "value": "a",
+          "start": 0.683,
+          "end": 0.811
+        },
+        {
+          "value": "framework",
+          "start": 0.811,
+          "end": 1.195
+        },
+        {
+          "value": "integration,",
+          "start": 1.195,
+          "end": 2.005
+        },
+        {
+          "value": "the",
+          "start": 2.005,
+          "end": 2.176
+        },
+        {
+          "value": "loop",
+          "start": 2.176,
+          "end": 2.347
+        },
+        {
+          "value": "is",
+          "start": 2.347,
+          "end": 2.517
+        },
+        {
+          "value": "handled",
+          "start": 2.517,
+          "end": 2.859
+        },
+        {
+          "value": "for",
+          "start": 2.859,
+          "end": 3.072
+        },
+        {
+          "value": "you.",
+          "start": 3.072,
+          "end": 3.499
+        },
+        {
+          "value": "The",
+          "start": 3.499,
+          "end": 3.712
+        },
+        {
+          "value": "Google",
+          "start": 3.712,
+          "end": 4.011
+        },
+        {
+          "value": "agent",
+          "start": 4.011,
+          "end": 4.267
+        },
+        {
+          "value": "development",
+          "start": 4.267,
+          "end": 4.821
+        },
+        {
+          "value": "kit",
+          "start": 4.821,
+          "end": 5.035
+        },
+        {
+          "value": "plugin",
+          "start": 5.035,
+          "end": 5.504
+        },
+        {
+          "value": "takes",
+          "start": 5.504,
+          "end": 5.76
+        },
+        {
+          "value": "a",
+          "start": 5.76,
+          "end": 5.931
+        },
+        {
+          "value": "steer",
+          "start": 5.931,
+          "end": 6.144
+        },
+        {
+          "value": "on",
+          "start": 6.144,
+          "end": 6.229
+        },
+        {
+          "value": "a",
+          "start": 6.229,
+          "end": 6.357
+        },
+        {
+          "value": "model",
+          "start": 6.357,
+          "end": 6.741
+        },
+        {
+          "value": "step",
+          "start": 6.741,
+          "end": 7.125
+        },
+        {
+          "value": "and",
+          "start": 7.125,
+          "end": 7.296
+        },
+        {
+          "value": "injects",
+          "start": 7.296,
+          "end": 7.637
+        },
+        {
+          "value": "the",
+          "start": 7.637,
+          "end": 7.765
+        },
+        {
+          "value": "guidance",
+          "start": 7.765,
+          "end": 8.107
+        },
+        {
+          "value": "into",
+          "start": 8.107,
+          "end": 8.32
+        },
+        {
+          "value": "the",
+          "start": 8.32,
+          "end": 8.448
+        },
+        {
+          "value": "model's",
+          "start": 8.448,
+          "end": 8.789
+        },
+        {
+          "value": "instructions,",
+          "start": 8.789,
+          "end": 9.813
+        },
+        {
+          "value": "prefixed",
+          "start": 9.813,
+          "end": 10.283
+        },
+        {
+          "value": "Agent",
+          "start": 10.283,
+          "end": 10.624
+        },
+        {
+          "value": "Control",
+          "start": 10.624,
+          "end": 11.051
+        },
+        {
+          "value": "guidance,",
+          "start": 11.051,
+          "end": 11.648
+        },
+        {
+          "value": "so",
+          "start": 11.648,
+          "end": 11.819
+        },
+        {
+          "value": "the",
+          "start": 11.819,
+          "end": 11.947
+        },
+        {
+          "value": "next",
+          "start": 11.947,
+          "end": 12.16
+        },
+        {
+          "value": "generation",
+          "start": 12.16,
+          "end": 12.672
+        },
+        {
+          "value": "sees",
+          "start": 12.672,
+          "end": 12.928
+        },
+        {
+          "value": "it.",
+          "start": 12.928,
+          "end": 13.355
+        },
+        {
+          "value": "On",
+          "start": 13.355,
+          "end": 13.44
+        },
+        {
+          "value": "a",
+          "start": 13.44,
+          "end": 13.568
+        },
+        {
+          "value": "tool",
+          "start": 13.568,
+          "end": 13.867
+        },
+        {
+          "value": "step",
+          "start": 13.867,
+          "end": 14.251
+        },
+        {
+          "value": "it",
+          "start": 14.251,
+          "end": 14.379
+        },
+        {
+          "value": "returns",
+          "start": 14.379,
+          "end": 14.805
+        },
+        {
+          "value": "the",
+          "start": 14.805,
+          "end": 14.933
+        },
+        {
+          "value": "guidance",
+          "start": 14.933,
+          "end": 15.275
+        },
+        {
+          "value": "as",
+          "start": 15.275,
+          "end": 15.488
+        },
+        {
+          "value": "the",
+          "start": 15.488,
+          "end": 15.616
+        },
+        {
+          "value": "tool's",
+          "start": 15.616,
+          "end": 15.915
+        },
+        {
+          "value": "response,",
+          "start": 15.915,
+          "end": 16.64
+        },
+        {
+          "value": "so",
+          "start": 16.64,
+          "end": 16.811
+        },
+        {
+          "value": "the",
+          "start": 16.811,
+          "end": 16.896
+        },
+        {
+          "value": "model",
+          "start": 16.896,
+          "end": 17.237
+        },
+        {
+          "value": "reads",
+          "start": 17.237,
+          "end": 17.493
+        },
+        {
+          "value": "it",
+          "start": 17.493,
+          "end": 17.621
+        },
+        {
+          "value": "and",
+          "start": 17.621,
+          "end": 17.792
+        },
+        {
+          "value": "decides",
+          "start": 17.792,
+          "end": 18.176
+        },
+        {
+          "value": "what",
+          "start": 18.176,
+          "end": 18.347
+        },
+        {
+          "value": "to",
+          "start": 18.347,
+          "end": 18.475
+        },
+        {
+          "value": "do",
+          "start": 18.475,
+          "end": 18.645
+        },
+        {
+          "value": "next.",
+          "start": 18.645,
+          "end": 19.328
+        },
+        {
+          "value": "The",
+          "start": 19.328,
+          "end": 19.456
+        },
+        {
+          "value": "AWS",
+          "start": 19.456,
+          "end": 20.096
+        },
+        {
+          "value": "Strands",
+          "start": 20.096,
+          "end": 20.523
+        },
+        {
+          "value": "handler",
+          "start": 20.523,
+          "end": 20.907
+        },
+        {
+          "value": "turns",
+          "start": 20.907,
+          "end": 21.12
+        },
+        {
+          "value": "a",
+          "start": 21.12,
+          "end": 21.291
+        },
+        {
+          "value": "steer",
+          "start": 21.291,
+          "end": 21.547
+        },
+        {
+          "value": "match",
+          "start": 21.547,
+          "end": 21.803
+        },
+        {
+          "value": "into",
+          "start": 21.803,
+          "end": 22.016
+        },
+        {
+          "value": "a",
+          "start": 22.016,
+          "end": 22.187
+        },
+        {
+          "value": "guide",
+          "start": 22.187,
+          "end": 22.443
+        },
+        {
+          "value": "action",
+          "start": 22.443,
+          "end": 22.741
+        },
+        {
+          "value": "in",
+          "start": 22.741,
+          "end": 22.827
+        },
+        {
+          "value": "the",
+          "start": 22.827,
+          "end": 22.955
+        },
+        {
+          "value": "framework's",
+          "start": 22.955,
+          "end": 23.381
+        },
+        {
+          "value": "own",
+          "start": 23.381,
+          "end": 23.637
+        },
+        {
+          "value": "steering",
+          "start": 23.637,
+          "end": 23.979
+        },
+        {
+          "value": "system.",
+          "start": 23.979,
+          "end": 24.576
+        },
+        {
+          "value": "LangChain",
+          "start": 24.576,
+          "end": 25.045
+        },
+        {
+          "value": "and",
+          "start": 25.045,
+          "end": 25.173
+        },
+        {
+          "value": "LangGraph",
+          "start": 25.173,
+          "end": 25.685
+        },
+        {
+          "value": "have",
+          "start": 25.685,
+          "end": 25.899
+        },
+        {
+          "value": "no",
+          "start": 25.899,
+          "end": 26.155
+        },
+        {
+          "value": "plugin,",
+          "start": 26.155,
+          "end": 26.667
+        },
+        {
+          "value": "and",
+          "start": 26.667,
+          "end": 26.795
+        },
+        {
+          "value": "the",
+          "start": 26.795,
+          "end": 26.88
+        },
+        {
+          "value": "docs",
+          "start": 26.88,
+          "end": 27.221
+        },
+        {
+          "value": "show",
+          "start": 27.221,
+          "end": 27.435
+        },
+        {
+          "value": "the",
+          "start": 27.435,
+          "end": 27.563
+        },
+        {
+          "value": "pattern",
+          "start": 27.563,
+          "end": 27.947
+        },
+        {
+          "value": "instead.",
+          "start": 27.947,
+          "end": 28.672
+        },
+        {
+          "value": "The",
+          "start": 28.672,
+          "end": 28.8
+        },
+        {
+          "value": "decorator",
+          "start": 28.8,
+          "end": 29.355
+        },
+        {
+          "value": "goes",
+          "start": 29.355,
+          "end": 29.525
+        },
+        {
+          "value": "on",
+          "start": 29.525,
+          "end": 29.653
+        },
+        {
+          "value": "a",
+          "start": 29.653,
+          "end": 29.781
+        },
+        {
+          "value": "helper",
+          "start": 29.781,
+          "end": 30.165
+        },
+        {
+          "value": "inside",
+          "start": 30.165,
+          "end": 30.592
+        },
+        {
+          "value": "your",
+          "start": 30.592,
+          "end": 30.763
+        },
+        {
+          "value": "tool.",
+          "start": 30.763,
+          "end": 31.317
+        },
+        {
+          "value": "The",
+          "start": 31.317,
+          "end": 31.445
+        },
+        {
+          "value": "tool",
+          "start": 31.445,
+          "end": 31.659
+        },
+        {
+          "value": "catches",
+          "start": 31.659,
+          "end": 32.0
+        },
+        {
+          "value": "the",
+          "start": 32.0,
+          "end": 32.128
+        },
+        {
+          "value": "control's",
+          "start": 32.128,
+          "end": 32.555
+        },
+        {
+          "value": "exception",
+          "start": 32.555,
+          "end": 33.067
+        },
+        {
+          "value": "and",
+          "start": 33.067,
+          "end": 33.237
+        },
+        {
+          "value": "returns",
+          "start": 33.237,
+          "end": 33.579
+        },
+        {
+          "value": "a",
+          "start": 33.579,
+          "end": 33.707
+        },
+        {
+          "value": "message",
+          "start": 33.707,
+          "end": 34.005
+        },
+        {
+          "value": "as",
+          "start": 34.005,
+          "end": 34.133
+        },
+        {
+          "value": "its",
+          "start": 34.133,
+          "end": 34.304
+        },
+        {
+          "value": "result,",
+          "start": 34.304,
+          "end": 34.816
+        },
+        {
+          "value": "so",
+          "start": 34.816,
+          "end": 34.987
+        },
+        {
+          "value": "the",
+          "start": 34.987,
+          "end": 35.115
+        },
+        {
+          "value": "model",
+          "start": 35.115,
+          "end": 35.413
+        },
+        {
+          "value": "reads",
+          "start": 35.413,
+          "end": 35.669
+        },
+        {
+          "value": "it",
+          "start": 35.669,
+          "end": 35.755
+        },
+        {
+          "value": "on",
+          "start": 35.755,
+          "end": 35.883
+        },
+        {
+          "value": "the",
+          "start": 35.883,
+          "end": 36.011
+        },
+        {
+          "value": "next",
+          "start": 36.011,
+          "end": 36.224
+        },
+        {
+          "value": "turn.",
+          "start": 36.224,
+          "end": 36.87
+        },
+        {
+          "value": "The",
+          "start": 36.87,
+          "end": 37.169
+        },
+        {
+          "value": "repo's",
+          "start": 37.169,
+          "end": 37.681
+        },
+        {
+          "value": "steer",
+          "start": 37.681,
+          "end": 37.937
+        },
+        {
+          "value": "demo",
+          "start": 37.937,
+          "end": 38.278
+        },
+        {
+          "value": "is",
+          "start": 38.278,
+          "end": 38.406
+        },
+        {
+          "value": "a",
+          "start": 38.406,
+          "end": 38.534
+        },
+        {
+          "value": "LangGraph",
+          "start": 38.534,
+          "end": 39.217
+        },
+        {
+          "value": "graph.",
+          "start": 39.217,
+          "end": 39.857
+        },
+        {
+          "value": "Its",
+          "start": 39.857,
+          "end": 40.113
+        },
+        {
+          "value": "node",
+          "start": 40.113,
+          "end": 40.497
+        },
+        {
+          "value": "catches",
+          "start": 40.497,
+          "end": 40.923
+        },
+        {
+          "value": "the",
+          "start": 40.923,
+          "end": 41.137
+        },
+        {
+          "value": "steer,",
+          "start": 41.137,
+          "end": 41.734
+        },
+        {
+          "value": "collects",
+          "start": 41.734,
+          "end": 42.246
+        },
+        {
+          "value": "the",
+          "start": 42.246,
+          "end": 42.374
+        },
+        {
+          "value": "verification,",
+          "start": 42.374,
+          "end": 43.441
+        },
+        {
+          "value": "writes",
+          "start": 43.441,
+          "end": 43.867
+        },
+        {
+          "value": "the",
+          "start": 43.867,
+          "end": 44.038
+        },
+        {
+          "value": "flag",
+          "start": 44.038,
+          "end": 44.379
+        },
+        {
+          "value": "into",
+          "start": 44.379,
+          "end": 44.55
+        },
+        {
+          "value": "the",
+          "start": 44.55,
+          "end": 44.721
+        },
+        {
+          "value": "graph",
+          "start": 44.721,
+          "end": 45.019
+        },
+        {
+          "value": "state,",
+          "start": 45.019,
+          "end": 45.617
+        },
+        {
+          "value": "and",
+          "start": 45.617,
+          "end": 45.787
+        },
+        {
+          "value": "a",
+          "start": 45.787,
+          "end": 45.915
+        },
+        {
+          "value": "conditional",
+          "start": 45.915,
+          "end": 46.598
+        },
+        {
+          "value": "edge",
+          "start": 46.598,
+          "end": 46.982
+        },
+        {
+          "value": "routes",
+          "start": 46.982,
+          "end": 47.323
+        },
+        {
+          "value": "back",
+          "start": 47.323,
+          "end": 47.622
+        },
+        {
+          "value": "to",
+          "start": 47.622,
+          "end": 47.75
+        },
+        {
+          "value": "the",
+          "start": 47.75,
+          "end": 47.963
+        },
+        {
+          "value": "same",
+          "start": 47.963,
+          "end": 48.177
+        },
+        {
+          "value": "node",
+          "start": 48.177,
+          "end": 48.518
+        },
+        {
+          "value": "for",
+          "start": 48.518,
+          "end": 48.646
+        },
+        {
+          "value": "the",
+          "start": 48.646,
+          "end": 48.774
+        },
+        {
+          "value": "retry.",
+          "start": 48.774,
+          "end": 49.713
+        },
+        {
+          "value": "Same",
+          "start": 49.713,
+          "end": 50.182
+        },
+        {
+          "value": "server,",
+          "start": 50.182,
+          "end": 50.694
+        },
+        {
+          "value": "same",
+          "start": 50.694,
+          "end": 51.035
+        },
+        {
+          "value": "control,",
+          "start": 51.035,
+          "end": 51.675
+        },
+        {
+          "value": "same",
+          "start": 51.675,
+          "end": 52.017
+        },
+        {
+          "value": "message.",
+          "start": 52.017,
+          "end": 52.827
+        },
+        {
+          "value": "Only",
+          "start": 52.827,
+          "end": 53.169
+        },
+        {
+          "value": "the",
+          "start": 53.169,
+          "end": 53.339
+        },
+        {
+          "value": "delivery",
+          "start": 53.339,
+          "end": 53.809
+        },
+        {
+          "value": "changes.",
+          "start": 53.809,
+          "end": 54.66
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "Close",
+      "file": "narration/ep06/06.mp3",
+      "seconds": 19.46,
+      "words": 52,
+      "timings": [
+        {
+          "value": "Observe",
+          "start": 0.0,
+          "end": 0.597
+        },
+        {
+          "value": "to",
+          "start": 0.597,
+          "end": 0.811
+        },
+        {
+          "value": "watch.",
+          "start": 0.811,
+          "end": 1.621
+        },
+        {
+          "value": "Deny",
+          "start": 1.621,
+          "end": 2.133
+        },
+        {
+          "value": "to",
+          "start": 2.133,
+          "end": 2.389
+        },
+        {
+          "value": "stop.",
+          "start": 2.389,
+          "end": 3.072
+        },
+        {
+          "value": "Steer",
+          "start": 3.072,
+          "end": 3.627
+        },
+        {
+          "value": "to",
+          "start": 3.627,
+          "end": 3.797
+        },
+        {
+          "value": "correct.",
+          "start": 3.797,
+          "end": 4.565
+        },
+        {
+          "value": "And",
+          "start": 4.565,
+          "end": 4.693
+        },
+        {
+          "value": "a",
+          "start": 4.693,
+          "end": 4.864
+        },
+        {
+          "value": "habit",
+          "start": 4.864,
+          "end": 5.12
+        },
+        {
+          "value": "worth",
+          "start": 5.12,
+          "end": 5.461
+        },
+        {
+          "value": "keeping.",
+          "start": 5.461,
+          "end": 6.315
+        },
+        {
+          "value": "Ship",
+          "start": 6.315,
+          "end": 6.571
+        },
+        {
+          "value": "a",
+          "start": 6.571,
+          "end": 6.741
+        },
+        {
+          "value": "new",
+          "start": 6.741,
+          "end": 6.912
+        },
+        {
+          "value": "control",
+          "start": 6.912,
+          "end": 7.424
+        },
+        {
+          "value": "as",
+          "start": 7.424,
+          "end": 7.595
+        },
+        {
+          "value": "observe",
+          "start": 7.595,
+          "end": 8.107
+        },
+        {
+          "value": "first,",
+          "start": 8.107,
+          "end": 8.661
+        },
+        {
+          "value": "read",
+          "start": 8.661,
+          "end": 9.045
+        },
+        {
+          "value": "what",
+          "start": 9.045,
+          "end": 9.173
+        },
+        {
+          "value": "it",
+          "start": 9.173,
+          "end": 9.301
+        },
+        {
+          "value": "would",
+          "start": 9.301,
+          "end": 9.472
+        },
+        {
+          "value": "have",
+          "start": 9.472,
+          "end": 9.6
+        },
+        {
+          "value": "done,",
+          "start": 9.6,
+          "end": 10.24
+        },
+        {
+          "value": "then",
+          "start": 10.24,
+          "end": 10.453
+        },
+        {
+          "value": "flip",
+          "start": 10.453,
+          "end": 10.752
+        },
+        {
+          "value": "it",
+          "start": 10.752,
+          "end": 10.923
+        },
+        {
+          "value": "to",
+          "start": 10.923,
+          "end": 11.051
+        },
+        {
+          "value": "deny",
+          "start": 11.051,
+          "end": 11.563
+        },
+        {
+          "value": "or",
+          "start": 11.563,
+          "end": 11.819
+        },
+        {
+          "value": "steer.",
+          "start": 11.819,
+          "end": 12.672
+        },
+        {
+          "value": "The",
+          "start": 12.672,
+          "end": 12.8
+        },
+        {
+          "value": "definition",
+          "start": 12.8,
+          "end": 13.397
+        },
+        {
+          "value": "changes",
+          "start": 13.397,
+          "end": 13.867
+        },
+        {
+          "value": "on",
+          "start": 13.867,
+          "end": 13.995
+        },
+        {
+          "value": "the",
+          "start": 13.995,
+          "end": 14.165
+        },
+        {
+          "value": "server,",
+          "start": 14.165,
+          "end": 14.72
+        },
+        {
+          "value": "the",
+          "start": 14.72,
+          "end": 14.933
+        },
+        {
+          "value": "agent's",
+          "start": 14.933,
+          "end": 15.36
+        },
+        {
+          "value": "code",
+          "start": 15.36,
+          "end": 15.744
+        },
+        {
+          "value": "does",
+          "start": 15.744,
+          "end": 15.957
+        },
+        {
+          "value": "not.",
+          "start": 15.957,
+          "end": 16.683
+        },
+        {
+          "value": "Next,",
+          "start": 16.683,
+          "end": 17.408
+        },
+        {
+          "value": "writing",
+          "start": 17.408,
+          "end": 17.835
+        },
+        {
+          "value": "an",
+          "start": 17.835,
+          "end": 17.963
+        },
+        {
+          "value": "evaluator",
+          "start": 17.963,
+          "end": 18.688
+        },
+        {
+          "value": "of",
+          "start": 18.688,
+          "end": 18.816
+        },
+        {
+          "value": "your",
+          "start": 18.816,
+          "end": 19.029
+        },
+        {
+          "value": "own.",
+          "start": 19.029,
+          "end": 19.413
+        }
+      ]
+    }
+  ]
+}

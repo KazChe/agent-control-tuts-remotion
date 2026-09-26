@@ -18,6 +18,8 @@ import { BEATS as BEATS_EP04 } from "./episodes/ep04/data";
 import { Ep04WhatAControlCanSee } from "./episodes/ep04/Episode";
 import { BEATS as BEATS_EP05 } from "./episodes/ep05/data";
 import { Ep05Evaluators } from "./episodes/ep05/Episode";
+import { BEATS as BEATS_EP06 } from "./episodes/ep06/data";
+import { Ep06Actions } from "./episodes/ep06/Episode";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -91,6 +93,14 @@ export const RemotionRoot: React.FC = () => {
         component={Ep05Evaluators}
         durationInFrames={BEATS_EP05.total}
         fps={BEATS_EP05.fps}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Ep06Actions"
+        component={Ep06Actions}
+        durationInFrames={BEATS_EP06.total}
+        fps={BEATS_EP06.fps}
         width={1920}
         height={1080}
       />
